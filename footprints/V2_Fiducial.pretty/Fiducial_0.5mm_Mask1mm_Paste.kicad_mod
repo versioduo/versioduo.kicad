@@ -1,0 +1,91 @@
+(footprint "Fiducial_0.5mm_Mask1mm_Paste"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+	(tags "fiducial")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b3f3be06-4b72-4196-aaff-3b0040c1a1e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fiducial_0.5mm_Mask1mm_Paste"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f523a847-5b55-49d9-911d-6f63f8bdad59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27039c5f-b759-4e1b-a611-2b757d052e98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab13b5f0-c29b-47fd-b7e4-330cabbc13f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c78e013-71f1-4909-a070-4cd089eaf3dd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bef66854-39df-4aca-8c72-c7bef9ecd307")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(property pad_prop_fiducial_glob)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.25)
+		(clearance 0.25)
+		(uuid "d9c4ce61-8eb7-423a-b180-a4997020369c")
+	)
+	(embedded_fonts no)
+)

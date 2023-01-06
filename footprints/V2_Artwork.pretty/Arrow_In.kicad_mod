@@ -1,0 +1,107 @@
+(footprint "Arrow_In"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Arrow_In"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21980209-6f6e-43c1-8a5b-e0636c26ade0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "334e360e-c364-4625-b680-60a185a77b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_arc
+		(start -0.9 -0.5)
+		(mid 1.029557 -0.003511)
+		(end -0.896569 0.506127)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "8e519d04-79c7-43f8-b5e2-aa263df6543b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 -0.1) (xy -1.1 0.1) (xy -0.4 0.1) (xy -0.4 0.4) (xy 0.1 0) (xy -0.4 -0.4) (xy -0.4 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "217b491d-9c0c-47ba-b7b8-bcf062ef717b")
+	)
+	(fp_arc
+		(start -0.9 -0.5)
+		(mid 1.029557 -0.003511)
+		(end -0.896569 0.506127)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Mask")
+		(uuid "2aff7f06-bd4a-45c4-9540-491467a9c4f6")
+	)
+	(fp_poly
+		(pts
+			(xy -1.099764 -0.1) (xy -1.099764 0.1) (xy -0.399764 0.1) (xy -0.399764 0.4) (xy 0.100236 0) (xy -0.399764 -0.4)
+			(xy -0.399764 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3e0ce2e5-3f72-40b2-a10c-17b0bfec81cf")
+	)
+	(embedded_fonts no)
+)

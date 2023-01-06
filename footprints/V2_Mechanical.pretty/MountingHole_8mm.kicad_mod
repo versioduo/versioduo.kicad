@@ -1,0 +1,71 @@
+(footprint "MountingHole_8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 10mm, no annular")
+	(tags "mounting hole 10mm no annular")
+	(property "Reference" "REF**"
+		(at -0.004 -5.726 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc13d8f8-cdd8-413f-9d1c-1ba20ac58a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_8mm"
+		(at 0 5.976 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ab88904-38da-4b6e-bbf9-97e3763bf498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea10dcac-9903-4844-8f52-35abce5d4873")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78743c01-7cb6-4391-a5a7-923d2d20c31a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "87d43f0d-0d4b-438b-91e8-001573a3507a")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,108 @@
+(footprint "Plus_Small"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Plus_Small"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "327e855a-3a10-4bcd-95c7-1f2e3a93ee5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f9c7680-fa00-4506-9464-8ae4ad589c68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "7504050b-fceb-4325-a482-968a0e84a645")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 -0.6) (xy 0.1 -0.6) (xy 0.1 -0.1) (xy 0.6 -0.1) (xy 0.6 0.1) (xy 0.1 0.1) (xy 0.1 0.6) (xy -0.1 0.6)
+			(xy -0.1 0.1) (xy -0.6 0.1) (xy -0.6 -0.1) (xy -0.1 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "8b9b48d9-e8ce-4618-9405-90bb760feeba")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "2ae7d50a-f92b-419b-838e-da25fe88caf7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 -0.6) (xy 0.1 -0.6) (xy 0.1 -0.1) (xy 0.6 -0.1) (xy 0.6 0.1) (xy 0.1 0.1) (xy 0.1 0.6) (xy -0.1 0.6)
+			(xy -0.1 0.1) (xy -0.6 0.1) (xy -0.6 -0.1) (xy -0.1 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c21b7e44-1017-4f2a-a899-8470804e8c4d")
+	)
+	(embedded_fonts no)
+)

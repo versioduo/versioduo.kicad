@@ -1,0 +1,118 @@
+(footprint "2604-1101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.400002 -13.550001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12e18002-4b9f-46f6-a6c0-f8b3c9b54f5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2604-1101"
+		(at -0.400002 -10.800001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb4208f1-1721-4a8d-ba79-0799b998c275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -8.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f99affb3-7e28-43f1-a838-081e00320d72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -8.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d08771-54e5-4bc1-8050-e81fe6d4dbd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_line
+		(start -4 3.75)
+		(end -4 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "104d23bb-78ee-4068-9740-7dbead0a2a6d")
+	)
+	(fp_line
+		(start 3.4 -8.15)
+		(end 3.4 8.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9680efb2-9898-4151-b48c-f4cdcff3a968")
+	)
+	(fp_rect
+		(start -3.1 -8.15)
+		(end 1.9 8.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bd7b41d0-6618-46c8-8be2-69cef8114ed4")
+	)
+	(pad "1" thru_hole circle
+		(at -0.4 -5.25)
+		(size 2.3 2.3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "f485349c-f699-44ff-9b9d-38df7a71af31")
+	)
+	(pad "1" thru_hole circle
+		(at -0.4 2.95)
+		(size 2.3 2.3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "51f791d1-284d-4444-a775-9b7095b2aea3")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2604-1101.stp"
+		(offset
+			(xyz 1.9 -2.95 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

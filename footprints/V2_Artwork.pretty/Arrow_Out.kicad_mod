@@ -1,0 +1,106 @@
+(footprint "Arrow_Out"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Arrow_Out"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21980209-6f6e-43c1-8a5b-e0636c26ade0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "334e360e-c364-4625-b680-60a185a77b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_arc
+		(start 0.9 0.5)
+		(mid -1.029557 0.003511)
+		(end 0.896569 -0.506127)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "8820a462-8dd6-4b41-84d8-a377e95e6e13")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 -0.1) (xy -0.1 0.1) (xy 0.6 0.1) (xy 0.6 0.4) (xy 1.1 0) (xy 0.6 -0.4) (xy 0.6 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "4b3c6162-36cc-4c1e-99cd-016e55374009")
+	)
+	(fp_arc
+		(start 0.9 0.5)
+		(mid -1.029557 0.003511)
+		(end 0.896569 -0.506127)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Mask")
+		(uuid "bdf27aaa-539f-430f-9b06-aae6a1b28cb5")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 -0.1) (xy -0.1 0.1) (xy 0.6 0.1) (xy 0.6 0.4) (xy 1.1 0) (xy 0.6 -0.4) (xy 0.6 -0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "cf60bf93-1672-4396-912e-048ce1568565")
+	)
+	(embedded_fonts no)
+)
