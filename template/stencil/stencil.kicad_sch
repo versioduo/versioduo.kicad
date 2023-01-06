@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6c8448b4-b04d-47e1-934e-e40cbe27a7be)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "stencil")
+    (date "2023-01-03")
+    (company "Versio Duo")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
