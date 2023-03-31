@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid 6c8448b4-b04d-47e1-934e-e40cbe27a7be)
 
@@ -6,7 +6,7 @@
 
   (title_block
     (title "stencil")
-    (date "2023-01-03")
+    (date "2023-01-11")
     (company "Versio Duo")
   )
 

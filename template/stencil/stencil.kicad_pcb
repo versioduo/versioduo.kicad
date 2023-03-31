@@ -1,12 +1,12 @@
-(kicad_pcb (version 20211014) (generator pcbnew)
+(kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
     (thickness 1.6062)
   )
 
-  (paper "A4" portrait)
+  (paper "User" 224.993 315.011)
   (title_block
-    (date "2023-01-03")
+    (date "2023-01-11")
   )
 
   (layers
@@ -27,9 +27,9 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White") (color "White"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (color "Black") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 0.2104) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In1.Cu" (type "copper") (thickness 0.0152))
@@ -37,22 +37,23 @@
       (layer "In2.Cu" (type "copper") (thickness 0.0152))
       (layer "dielectric 3" (type "core") (thickness 0.2104) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (color "Black") (thickness 0.01))
       (copper_finish "HAL lead-free")
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 0 297)
+    (grid_origin 0 315)
     (pcbplotparams
       (layerselection 0x00010e8_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (svguseinch false)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
       (svgprecision 6)
-      (excludeedgelayer true)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -80,13 +81,19 @@
 
   (net 0 "")
 
-  (gr_line (start 0 -17) (end 0 296) (layer "Edge.Cuts") (width 0.05) (tstamp 5f5b5c74-4538-4ce6-9877-e6051dd1e9e5))
-  (gr_line (start 1 -18) (end 224 -18) (layer "Edge.Cuts") (width 0.05) (tstamp 781e9210-fb78-4c74-8009-42614b626542))
-  (gr_line (start 225 -17) (end 225 296) (layer "Edge.Cuts") (width 0.05) (tstamp bcc6de3c-9438-4f23-a9db-04070d3d2f8a))
-  (gr_arc (start 1 297) (mid 0.292893 296.707107) (end 0 296) (layer "Edge.Cuts") (width 0.05) (tstamp d35ceb07-996f-436a-8bdf-75d18216a73c))
-  (gr_arc (start 225 296) (mid 224.707107 296.707107) (end 224 297) (layer "Edge.Cuts") (width 0.05) (tstamp db2e5211-7e6a-42a9-b2df-00728afba574))
-  (gr_arc (start 0 -17) (mid 0.292893 -17.707107) (end 1 -18) (layer "Edge.Cuts") (width 0.05) (tstamp ea7611d1-a8fc-4a96-a4f9-68f051a76626))
-  (gr_arc (start 224 -18) (mid 224.707107 -17.707107) (end 225 -17) (layer "Edge.Cuts") (width 0.05) (tstamp f02c980d-a3c1-4ba1-a448-fb3e14753a73))
-  (gr_line (start 1 297) (end 224 297) (layer "Edge.Cuts") (width 0.05) (tstamp f5a4bab0-e4db-44b9-b196-4e680a91cf47))
+  (gr_rect locked (start 0 0) (end 225 315)
+    (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp bcc814fb-8a4f-4597-b3f1-c736100f5b80))
+  (gr_line locked (start 112.5 302.5) (end 112.5 12.5)
+    (stroke (width 0.2) (type dash)) (layer "F.Fab") (tstamp 4a373824-f57c-4ee1-b2b2-7a8c985b04c6))
+  (gr_rect locked (start 17.5 12.5) (end 207.5 302.5)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp 5874651f-5fad-4bb0-b34d-c7ee8ca7b348))
+  (gr_line locked (start 207.5 157.5) (end 17.5 157.5)
+    (stroke (width 0.2) (type dash)) (layer "F.Fab") (tstamp d97f43d9-264e-439a-b76a-619bb9fcd5f7))
+  (gr_text locked "190 x 290" (at 184.5 308) (layer "F.Fab") (tstamp 1b1a3fb6-7fd4-4001-865e-04bad573a55a)
+    (effects (font (size 3 3) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text locked "225 x 315" (at 202 320.75) (layer "F.Fab") (tstamp ec647ac5-27d7-4c6e-9c56-551c3a8dfa30)
+    (effects (font (size 3 3) (thickness 0.15)) (justify left bottom))
+  )
 
 )
