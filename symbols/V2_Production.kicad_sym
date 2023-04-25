@@ -12,6 +12,9 @@
     (property "Datasheet" "" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Layer_Numbers_0_0"
       (text "1 2 3 4" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
@@ -35,6 +38,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Order_Number_0_0"

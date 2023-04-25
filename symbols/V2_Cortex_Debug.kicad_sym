@@ -12,6 +12,9 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Cortex_Debug_1_0"
       (circle (center 0 -5.08) (radius 0.508)
         (stroke (width 0.254) (type default))

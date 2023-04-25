@@ -11,16 +11,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e709cb90-96ed-4a5b-b4ec-af99615c5a49)
   )
-  (fp_line (start -4.58 -1.215) (end -4.58 -0.36)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1a82140e-ad0e-4c1c-8432-aeca3f492947))
-  (fp_line (start -4.58 2.76) (end -4.58 3.71)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1e1a4996-e0b3-429e-b7e0-28fa4638d910))
-  (fp_line (start -4.58 3.71) (end 4.58 3.71)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4e5d41fc-ae9c-4e69-9a4d-198648b17e9d))
-  (fp_line (start 4.58 -1.215) (end 4.58 -0.36)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 28ceec9c-c242-4a32-a49c-c308126a0fc0))
-  (fp_line (start 4.58 2.76) (end 4.58 3.71)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1bf917a7-ab2e-4425-8c15-c2bef9aceca1))
   (fp_poly
     (pts
       (arc (start -4.618834 1.797933) (mid -4.318834 2.097933) (end -4.018834 1.797933))

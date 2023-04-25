@@ -12,6 +12,9 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Button-bottom_0_1"
       (rectangle (start -3.81 1.27) (end -1.27 -1.27)
         (stroke (width 0) (type default))
@@ -36,6 +39,9 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Button-top_0_1"
       (rectangle (start -2.54 1.27) (end 2.54 -1.27)
         (stroke (width 0) (type default))
@@ -54,6 +60,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCB_Plug_Horizontal_0_1"

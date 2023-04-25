@@ -12,6 +12,9 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
+    (property "Sim.Enable" "0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "SJ2-25504B-SMT-TR_0_0"
       (rectangle (start -12.7 8.89) (end 12.7 -8.89)
         (stroke (width 0.254) (type default))
