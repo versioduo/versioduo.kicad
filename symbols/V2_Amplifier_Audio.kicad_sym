@@ -1,12 +1,12 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "MA12040P" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at -10.16 44.45 0)
+    (property "Reference" "U" (at -10.16 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MA12070P" (at 3.81 44.45 0)
+    (property "Value" "MA12070P" (at 3.81 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm_ThermalVias" (at 5.08 -60.96 0)
+    (property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm_ThermalVias" (at 5.08 -73.66 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "" (at 5.08 -64.77 0)
@@ -22,13 +22,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MA12040P_0_1"
-      (rectangle (start -10.16 -43.18) (end 10.16 43.18)
+      (rectangle (start -10.16 48.26) (end 10.16 -48.26)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
     )
     (symbol "MA12040P_1_1"
-      (pin power_in line (at 2.54 -45.72 90) (length 2.54)
+      (pin power_in line (at 2.54 -50.8 90) (length 2.54)
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -44,11 +44,11 @@
         (name "CF0BN" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
@@ -60,7 +60,7 @@
         (name "~{ERROR}" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -5.08 45.72 270) (length 2.54)
+      (pin power_in line (at -5.08 50.8 270) (length 2.54)
         (name "AVDD" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -68,11 +68,11 @@
         (name "CMSE" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 -45.72 90) (length 2.54)
+      (pin power_in line (at -2.54 -50.8 90) (length 2.54)
         (name "AVSS" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -96,11 +96,11 @@
         (name "SD1" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at -2.54 -50.8 90) (length 2.54) hide
         (name "AVSS" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -45.72 90) (length 2.54)
+      (pin power_in line (at 0 -50.8 90) (length 2.54)
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
@@ -140,11 +140,11 @@
         (name "~{MUTE}" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "36" (effects (font (size 1.27 1.27))))
       )
@@ -168,11 +168,11 @@
         (name "CF1BP" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 45.72 270) (length 2.54)
+      (pin power_in line (at 2.54 50.8 270) (length 2.54)
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "41" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 45.72 270) (length 2.54) hide
+      (pin passive line (at 2.54 50.8 270) (length 2.54) hide
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
@@ -192,15 +192,15 @@
         (name "CF1AN" (effects (font (size 1.27 1.27))))
         (number "46" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "47" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -45.72 90) (length 2.54) hide
+      (pin passive line (at 2.54 -50.8 90) (length 2.54) hide
         (name "PVSS" (effects (font (size 1.27 1.27))))
         (number "48" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -12.7 40.64 0) (length 2.54)
+      (pin no_connect line (at 0 -66.04 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
@@ -228,7 +228,7 @@
         (name "VGDC" (effects (font (size 1.27 1.27))))
         (number "54" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -2.54 45.72 270) (length 2.54)
+      (pin power_in line (at -2.54 50.8 270) (length 2.54)
         (name "DVDD" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
@@ -244,7 +244,7 @@
         (name "CFDCN" (effects (font (size 1.27 1.27))))
         (number "58" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -45.72 90) (length 2.54) hide
+      (pin passive line (at 0 -50.8 90) (length 2.54) hide
         (name "DVSS" (effects (font (size 1.27 1.27))))
         (number "59" (effects (font (size 1.27 1.27))))
       )
@@ -268,15 +268,19 @@
         (name "CFGDN" (effects (font (size 1.27 1.27))))
         (number "63" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -12.7 38.1 0) (length 2.54)
+      (pin no_connect line (at 0 -68.58 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "64" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 45.72 270) (length 2.54)
+      (pin input line (at 5.08 -50.8 90) (length 2.54)
+        (name "PAD" (effects (font (size 1.27 1.27))))
+        (number "65" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 50.8 270) (length 2.54)
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 45.72 270) (length 2.54) hide
+      (pin passive line (at 0 50.8 270) (length 2.54) hide
         (name "PVDD" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

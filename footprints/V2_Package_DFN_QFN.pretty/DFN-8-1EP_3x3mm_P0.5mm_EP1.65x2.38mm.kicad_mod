@@ -61,10 +61,10 @@
   (pad "6" smd rect (at 1.4 0.25) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 44048f19-0693-485d-9c68-2fc45c129a2f))
   (pad "7" smd rect (at 1.4 -0.25) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 26556895-7315-4830-a3bc-ce90160bab8a))
   (pad "8" smd rect (at 1.4 -0.75) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 94c8d248-c78a-4dcf-90fd-ccca405f0c30))
-  (pad "9" thru_hole circle (at 0 -0.5) (size 0.4 0.4) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu") (remove_unused_layers) (keep_end_layers)
+  (pad "9" thru_hole circle (at 0 -0.5) (size 0.45 0.45) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu") (remove_unused_layers) (keep_end_layers)
     (zone_connect 2) (tstamp a90e13d4-76dc-43b0-96be-63f131d5e7dd))
   (pad "9" smd rect (at 0 0) (size 1.65 2.38) (layers "F.Cu" "F.Mask") (tstamp f4a5c9d3-2311-4678-a9e1-e439ed07ed1f))
-  (pad "9" thru_hole circle (at 0 0.5) (size 0.4 0.4) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu") (remove_unused_layers) (keep_end_layers)
+  (pad "9" thru_hole circle (at 0 0.5) (size 0.45 0.45) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu") (remove_unused_layers) (keep_end_layers)
     (zone_connect 2) (tstamp 8c29c206-f283-4d8b-9944-7d198fde2e1f))
   (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm.wrl"
     (offset (xyz 0 0 0))

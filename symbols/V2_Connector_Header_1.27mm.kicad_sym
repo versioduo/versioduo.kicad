@@ -72,7 +72,7 @@
     (property "Value" "2x05_Horizontal" (at 1.27 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "V2_Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Horizontal" (at 0 -12.7 0)
+    (property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal" (at 0 -12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -1.27 0 0)
