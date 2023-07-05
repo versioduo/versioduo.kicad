@@ -1,0 +1,40 @@
+(footprint "Arrow_Small" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -2.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fc5cd65c-0da5-41de-b9ab-0e8eeb75790a)
+  )
+  (fp_text value "Arrow_Small" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 58903bca-24ce-4f95-8f50-064b7aefd7a6)
+  )
+  (fp_circle (center 0 0) (end 0.7 0)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp 7504050b-fceb-4325-a482-968a0e84a645))
+  (fp_poly
+    (pts
+      (xy 0.2 0.2)
+      (xy 0.2 0.075)
+      (xy -0.45 0.075)
+      (xy -0.45 -0.075)
+      (xy 0.2 -0.075)
+      (xy 0.2 -0.2)
+      (xy 0.45 0)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 63217f7c-2389-44dc-bfad-b4d8d591a6b1))
+  (fp_circle (center 0 0) (end 0.7 0)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Mask") (tstamp a4e93179-6870-48df-8ac0-b16b3cfa6c94))
+  (fp_poly
+    (pts
+      (xy 0.2 0.2)
+      (xy 0.2 0.075)
+      (xy -0.45 0.075)
+      (xy -0.45 -0.075)
+      (xy 0.2 -0.075)
+      (xy 0.2 -0.2)
+      (xy 0.45 0)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 76950840-35b3-480f-8f67-55f3ca1a43c9))
+)
