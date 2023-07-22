@@ -17,6 +17,16 @@
     (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 29daffd4-66ee-4413-bcfe-710caca8afb4))
   (fp_rect (start -13 3) (end 13 -28)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 793ef821-b450-412d-8a26-ba2c9831a262))
-  (pad "" np_thru_hole circle (at -9.9 -22.4) (size 3 3) (drill 3) (layers "*.Mask") (tstamp d69ab99f-22ab-4bcd-99c1-fd16928963c2))
-  (pad "" np_thru_hole circle (at 9.9 -2.6) (size 3 3) (drill 3) (layers "*.Mask") (tstamp cb03040a-a08d-4539-9ebf-f817cf3a06bc))
+  (pad "1" thru_hole custom (at -9.9 -22.4) (size 5.5 5.5) (drill 3) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers)
+    (zone_connect 2) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_bbox (start -0.75 -0.75) (end 0.75 0.75) (width 0.000001) (fill none))
+    ) (tstamp 2882b2ed-c817-47e9-ba06-06a4060901ca))
+  (pad "2" thru_hole custom (at 9.9 -2.6) (size 5.5 5.5) (drill 3) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers)
+    (zone_connect 2) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_bbox (start -0.75 -0.75) (end 0.75 0.75) (width 0.000001) (fill none))
+    ) (tstamp 3feb679f-427d-4fd0-8561-02b3c1863e5c))
 )
