@@ -1,4 +1,4 @@
-(footprint "Connector" (version 20221018) (generator pcbnew)
+(footprint "Connector_PogoPins" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x20 2.54mm double row")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7192f327-4e0a-4c61-8d74-eee3916da97a)
   )
-  (fp_text value "Connector" (at -0.04 3.75 180) (layer "F.Fab") hide
+  (fp_text value "Connector_PogoPins" (at -0.04 3.75 180) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8daac92e-5b64-4a39-8305-447770fc7a4a)
   )
