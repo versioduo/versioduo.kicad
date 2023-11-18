@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x20 2.54mm double row")
-  (attr through_hole)
+  (attr through_hole allow_missing_courtyard)
   (fp_text reference "REF**" (at 0.04 -3.25 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7192f327-4e0a-4c61-8d74-eee3916da97a)
