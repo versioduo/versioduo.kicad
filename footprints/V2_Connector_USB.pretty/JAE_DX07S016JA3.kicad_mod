@@ -2,7 +2,6 @@
   (layer "F.Cu")
   (descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
   (tags "USB C Type-C Receptacle SMD USB 2.0")
-  (attr smd)
   (fp_text reference "REF**" (at 0 -5) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c7d67a2-2d36-4939-8a8b-3adf045277c7)
