@@ -1,6 +1,5 @@
 (footprint "9774030243" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
   (fp_text reference "REF**" (at 0 -4.318) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
     (tstamp d45198af-7708-470b-b969-fdef0f4fbfcf)
@@ -346,13 +345,13 @@
   (fp_circle (center 0 0) (end 2.175 0)
     (stroke (width 0.127) (type solid)) (fill none) (layer "F.Fab") (tstamp a8da1c73-4aab-4380-8196-9c74b9d53d83))
   (pad "1" thru_hole custom (at 0 0) (size 3.3 3.3) (drill 2.9) (layers "*.Cu") (remove_unused_layers) (keep_end_layers)
-    (zone_connect 2) (thermal_bridge_angle 45)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_bbox (start -0.75 -0.75) (end 0.75 0.75) (width 0.000001) (fill none))
     ) (tstamp d4d32c75-4857-4aa5-bd21-86902ed1908a))
   (pad "1" smd custom (at 0 0) (size 5.3 5.3) (layers "F.Cu")
-    (zone_connect 2) (thermal_bridge_angle 45)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_bbox (start 0 0) (end 0 0) (width 0.000001) (fill none))
