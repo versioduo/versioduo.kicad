@@ -1,6 +1,5 @@
 (footprint "CUI_SJ2-25504B-SMT-TR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
   (fp_text reference "REF**" (at 0.0335 -6.44709) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a7454258-8d6b-4513-9681-ac77ead8110f)
