@@ -776,13 +776,24 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d86a6dd2-23cf-44fb-b930-ccade1b75635")
 	)
-	(pad "SHIELD" thru_hole circle
+	(pad "SCREW" thru_hole custom
 		(at 0 46)
 		(size 5 5)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_bbox
+				(start -1.25 -1.25)
+				(end 1.25 1.25)
+				(fill no)
+			)
+		)
 		(uuid "219c48b6-7325-458b-b5fe-511c0895df90")
 	)
 	(model "/Users/kay/Documents/KiCad/7.0/versioduo.kicad/3dmodels/V2_Connector_M2.3dshapes/MDT180B01001.step"
