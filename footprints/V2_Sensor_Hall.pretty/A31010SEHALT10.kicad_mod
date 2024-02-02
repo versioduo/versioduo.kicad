@@ -1,0 +1,221 @@
+(footprint "A31010SEHALT10"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "A31010SEHALT-10-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "5f2d444a-1523-4801-8f91-077ced71683b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "A31010SEHALT10"
+		(at 0 7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d02be2f1-6979-479f-8ea4-1b4c1f55a4db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c4a694c-5e58-4d62-981e-361fa04dda04")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a028b68-50ab-4877-b517-9005c00fc69c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d96cd4b-b50e-4999-9049-5456b5e03158")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb922da3-42fa-4acb-b9f2-c46a85ca6093")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "072bae24-1ae7-4f43-9cb4-56cd56aad01b")
+	)
+	(fp_rect
+		(start -1.5 -2.25)
+		(end 1.5 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "23b7fa15-00f5-4abb-bff3-79519a8c1298")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7e6602d-637c-4439-b2ef-a3076b345a3c")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fede8cd1-2be2-4b2f-8de8-e6843fba713e")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08afd66f-493a-457d-a3dc-25da54691d7d")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "983f1a8e-b7d2-4741-ab44-047b55fb2f6d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "d1bf3954-dd3d-458a-a532-7480fc6f9dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -0.2219 -0.006494)
+		(size 0.441961 1.218528)
+		(layers "F.Paste")
+		(uuid "81425376-de8a-4c0e-b79c-ffecf5452ffb")
+	)
+	(pad "" smd rect
+		(at 0.430523 -0.006495)
+		(size 0.437668 1.218531)
+		(layers "F.Paste")
+		(uuid "19382589-cf99-4843-af07-c327ae10907b")
+	)
+	(pad "" smd rect
+		(at 0.5 -1.35)
+		(size 0.3 1)
+		(layers "F.Paste")
+		(uuid "0670e3b1-20f9-48e4-8aa2-439fac2fa5b1")
+	)
+	(pad "" smd rect
+		(at 0.5 1.35)
+		(size 0.3 1)
+		(layers "F.Paste")
+		(uuid "bdae41e6-f7ac-4ea5-b2e5-a3353969c52a")
+	)
+	(pad "1" smd rect
+		(at -0.5 1.35)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c2d64e1-fdbe-4822-9196-d936c54dce68")
+	)
+	(pad "2" smd rect
+		(at 0 1.35)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9986dfc-69fb-4385-a319-0029c67d026b")
+	)
+	(pad "3" smd rect
+		(at -0.05 0)
+		(size 0.8 1.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e51c8a49-eba8-4763-8098-f81c0e171941")
+	)
+	(pad "3" smd rect
+		(at 0.5 0)
+		(size 0.3 3.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8eb27928-edc8-4152-a73b-cc409e898f6d")
+	)
+	(pad "5" smd rect
+		(at 0 -1.35)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6594caf-f5dd-4566-97fe-3d1f50fc0730")
+	)
+	(pad "6" smd rect
+		(at -0.5 -1.35)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb947bc8-4750-4fa9-b81e-8a6e733ee9ad")
+	)
+	(model "/Users/kay/Documents/KiCad/8.0/versioduo.kicad/3dmodels/V2_Sensor_Hall.3dshapes/A31010SEHALT-10.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
