@@ -512,9 +512,9 @@
 		)
 	)
 	(symbol "SJ2-35464B-SMT-TR"
-		(pin_numbers hide)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 0.635)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -748,7 +748,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -10.16) (xy 2.54 -10.16)
+					(xy 5.08 -10.16) (xy 2.54 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -760,7 +760,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 2.54 -5.08)
+					(xy 5.08 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -772,7 +772,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 0 0)
+					(xy 5.08 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -784,7 +784,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 5.08) (xy -2.54 5.08)
+					(xy 5.08 5.08) (xy -2.54 5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -796,7 +796,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 10.16) (xy -7.62 10.16)
+					(xy 5.08 10.16) (xy -7.62 10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -823,7 +823,7 @@
 			(pin passive line
 				(at 12.7 10.16 180)
 				(length 2.54)
-				(name "1"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -841,7 +841,7 @@
 			(pin passive line
 				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "10"
+				(name "SW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -859,7 +859,7 @@
 			(pin passive line
 				(at 12.7 -10.16 180)
 				(length 2.54)
-				(name "2"
+				(name "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -877,7 +877,7 @@
 			(pin passive line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "3"
+				(name "R1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			(pin passive line
 				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "4"
+				(name "R2"
 					(effects
 						(font
 							(size 1.27 1.27)
