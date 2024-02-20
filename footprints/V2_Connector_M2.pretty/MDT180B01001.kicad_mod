@@ -796,7 +796,7 @@
 		)
 		(uuid "219c48b6-7325-458b-b5fe-511c0895df90")
 	)
-	(model "/Users/kay/Documents/KiCad/7.0/versioduo.kicad/3dmodels/V2_Connector_M2.3dshapes/MDT180B01001.step"
+	(model "../../3dmodels//V2_Connector_M2.3dshapes/MDT180B01001.step"
 		(offset
 			(xyz 0 0 0)
 		)
