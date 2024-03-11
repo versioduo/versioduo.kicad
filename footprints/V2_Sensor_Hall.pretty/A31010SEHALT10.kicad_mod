@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1 -1.5)
-		(end -1 1.5)
+		(start -1.1 -1.5)
+		(end -1.1 1.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -76,14 +76,26 @@
 		(uuid "cb922da3-42fa-4acb-b9f2-c46a85ca6093")
 	)
 	(fp_line
-		(start 1 -1.5)
-		(end 1 1.5)
+		(start 1.1 -1.5)
+		(end 1.1 1.5)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "072bae24-1ae7-4f43-9cb4-56cd56aad01b")
+	)
+	(fp_poly
+		(pts
+			(xy -1 2) (xy -1.33 2.24) (xy -1.33 1.76) (xy -1 2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d6b88223-3082-48cd-8eba-33060990dfcf")
 	)
 	(fp_rect
 		(start -1.5 -2.25)
