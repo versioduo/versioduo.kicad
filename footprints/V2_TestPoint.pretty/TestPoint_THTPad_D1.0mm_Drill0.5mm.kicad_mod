@@ -1,19 +1,89 @@
-(footprint "TestPoint_THTPad_D1.0mm_Drill0.5mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
-  (tags "test point THT pad")
-  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-  (fp_text reference "REF**" (at 0 -1.448) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 4e38932b-eb8d-42a1-bf6a-e0b6fd21674f)
-  )
-  (fp_text value "TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 0 1.55) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e1e54b65-b0a7-453a-a172-bf9ee38af1c5)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -1.45) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d2dd388d-0e61-403b-9317-8b9d890a3814)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers "*.Cu" "F.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 8e467c9f-6e54-4e17-913d-8a170d878962))
+(footprint "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+	(tags "test point THT pad")
+	(property "Reference" "REF**"
+		(at 0 -1.448 0)
+		(layer "F.SilkS")
+		(uuid "4e38932b-eb8d-42a1-bf6a-e0b6fd21674f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1e54b65-b0a7-453a-a172-bf9ee38af1c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b830901-c441-4dad-ad38-a805f3f213b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "061a1b4e-8cee-40b2-8e91-2b9c05c43c34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cef70b1d-22e6-4896-a2df-58db82e2e622")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2dd388d-0e61-403b-9317-8b9d890a3814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "8e467c9f-6e54-4e17-913d-8a170d878962")
+	)
 )

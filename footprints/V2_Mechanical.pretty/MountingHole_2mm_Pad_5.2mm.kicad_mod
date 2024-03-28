@@ -1,24 +1,111 @@
-(footprint "MountingHole_2mm_Pad_5.2mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 886db97b-d0a1-4c68-867e-4bd284f499f8)
-  )
-  (fp_text value "Mounting_Hole" (at 0 6 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2108529b-ca54-447b-94bf-1d4e2f4defc0)
-  )
-  (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 24d4c908-1155-4ecd-9f2c-7725b5abd22a)
-  )
-  (fp_circle (center 0 0) (end 2.54 1.27)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 0a024d22-6b6b-4a97-9f37-611211c0d74c))
-  (pad "1" thru_hole custom (at 0 0) (size 5.4 5.4) (drill 2) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers)
-    (zone_connect 2) (thermal_bridge_angle 45)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_bbox (start -0.75 -0.75) (end 0.75 0.75) (width 0.000001) (fill none))
-    ) (tstamp a73b991e-7cbb-4e69-8051-43e74d5d3c44))
+(footprint "MountingHole_2mm_Pad_5.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "886db97b-d0a1-4c68-867e-4bd284f499f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mounting_Hole"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2108529b-ca54-447b-94bf-1d4e2f4defc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "131051b7-53ab-4977-8ebe-cb65eaebd98d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a802932-e5ba-4f60-9c12-348421d8eaa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc320cbb-59c3-4dae-8491-1ee6f7f0ee3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0a024d22-6b6b-4a97-9f37-611211c0d74c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "24d4c908-1155-4ecd-9f2c-7725b5abd22a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 5.4 5.4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_bbox
+				(start -0.75 -0.75)
+				(end 0.75 0.75)
+				(fill no)
+			)
+		)
+		(uuid "a73b991e-7cbb-4e69-8051-43e74d5d3c44")
+	)
 )

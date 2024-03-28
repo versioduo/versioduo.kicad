@@ -1,22 +1,101 @@
-(footprint "MountingHole_8mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Mounting Hole 10mm, no annular")
-  (tags "mounting hole 10mm no annular")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at -0.004 -5.726) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cc13d8f8-cdd8-413f-9d1c-1ba20ac58a27)
-  )
-  (fp_text value "MountingHole_8mm" (at 0 5.976) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2ab88904-38da-4b6e-bbf9-97e3763bf498)
-  )
-  (fp_text user "${REFERENCE}" (at 0 10.75) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a232982a-df28-4240-94c2-17968f4c8894)
-  )
-  (fp_circle (center 0 0) (end 4 0)
-    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 87d43f0d-0d4b-438b-91e8-001573a3507a))
-  (fp_circle (center 0 0) (end 4.1 0)
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp b0947842-555a-4ef5-beb9-1b7aab9603aa))
+(footprint "MountingHole_8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 10mm, no annular")
+	(tags "mounting hole 10mm no annular")
+	(property "Reference" "REF**"
+		(at -0.004 -5.726 0)
+		(layer "F.SilkS")
+		(uuid "cc13d8f8-cdd8-413f-9d1c-1ba20ac58a27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_8mm"
+		(at 0 5.976 0)
+		(layer "F.Fab")
+		(uuid "2ab88904-38da-4b6e-bbf9-97e3763bf498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9472bbdc-1522-47fd-9e70-fcb473293da5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea10dcac-9903-4844-8f52-35abce5d4873")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78743c01-7cb6-4391-a5a7-923d2d20c31a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "87d43f0d-0d4b-438b-91e8-001573a3507a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b0947842-555a-4ef5-beb9-1b7aab9603aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a232982a-df28-4240-94c2-17968f4c8894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 )

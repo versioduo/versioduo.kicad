@@ -1,21 +1,102 @@
-(footprint "Order_Number" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Sheetfile" "strip.kicad_sch")
-  (property "Sheetname" "")
-  (property "exclude_from_bom" "")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -1.77 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6c1cd5f9-6297-4423-a790-b8d9a92d596c)
-  )
-  (fp_text value "ORDER-NUMBER" (at 0 2.27 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a5a44f41-8d2a-4276-86d7-ebcf1a21ad44)
-  )
-  (fp_text user "${Order-Number}" (at 0 0 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 2861a01a-29e8-4ca9-81ec-035b5616595d)
-  )
-  (fp_rect (start -7 -0.75) (end 7 0.75)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 7c583d0f-c427-4c4b-982f-c532b1d72015))
+(footprint "Order_Number"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.77 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c1cd5f9-6297-4423-a790-b8d9a92d596c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ORDER-NUMBER"
+		(at 0 2.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5a44f41-8d2a-4276-86d7-ebcf1a21ad44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "792ba0e0-8a16-43b1-9aa1-3f0e88705910")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "132d253f-7ee8-4bd0-9be4-cefc8f24a921")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c692409-0a20-4f71-9d57-2737451e6f69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b33cf98-f724-46ca-a00a-527298edd676")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -7 -0.75)
+		(end 7 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7c583d0f-c427-4c4b-982f-c532b1d72015")
+	)
+	(fp_text user "${Order-Number}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2861a01a-29e8-4ca9-81ec-035b5616595d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
 )

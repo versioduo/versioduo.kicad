@@ -1,19 +1,89 @@
-(footprint "Pin_2mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
-  (tags "Through hole pin header THT 2x20 2.54mm double row")
-  (attr through_hole allow_missing_courtyard)
-  (fp_text reference "REF**" (at 0.04 -3.25 180) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7192f327-4e0a-4c61-8d74-eee3916da97a)
-  )
-  (fp_text value "Pin_2mm" (at -0.04 3.75 180) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 8daac92e-5b64-4a39-8305-447770fc7a4a)
-  )
-  (fp_text user "${REFERENCE}" (at 0 6.25 180) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9aa9a0ee-691c-4932-87d3-db21dd7c5b02)
-  )
-  (pad "1" thru_hole circle (at 0 0 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 5cbce20d-5cbf-4dfc-b7fb-eef681688af5))
+(footprint "Pin_2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
+	(tags "Through hole pin header THT 2x20 2.54mm double row")
+	(property "Reference" "REF**"
+		(at 0.04 -3.25 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7192f327-4e0a-4c61-8d74-eee3916da97a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin_2mm"
+		(at -0.04 3.75 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8daac92e-5b64-4a39-8305-447770fc7a4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12786af5-61b6-4476-97f0-303092693f65")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e795a1a5-fc08-455b-88ce-19238d180eb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e52552-1ab7-4bbc-9269-971c870fe6ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.25 180)
+		(layer "F.Fab")
+		(uuid "9aa9a0ee-691c-4932-87d3-db21dd7c5b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "5cbce20d-5cbf-4dfc-b7fb-eef681688af5")
+	)
 )

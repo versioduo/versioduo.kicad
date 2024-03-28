@@ -1,15 +1,85 @@
-(footprint "MountingHole_2mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp efb6560b-384a-4ccb-8449-4d711cc37505)
-  )
-  (fp_text value "MountingHole_2mm" (at 0 2.23 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c8e5ea04-0e99-4754-88cc-b42c74fff3bb)
-  )
-  (fp_circle (center 0 0) (end 1.1 0)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1df6a8ea-4e89-4d6e-9dd2-0bba8f94979d))
-  (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers "*.Mask") (tstamp fc884e42-5a40-4ada-817b-2e4028a859f1))
+(footprint "MountingHole_2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "efb6560b-384a-4ccb-8449-4d711cc37505")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2mm"
+		(at 0 2.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8e5ea04-0e99-4754-88cc-b42c74fff3bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac2877fc-d2bd-4746-a659-7a6d4e629383")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2824c62f-3980-488d-8c89-92e06114ce69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78e963c5-57ec-4b0e-b939-613e651419c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1df6a8ea-4e89-4d6e-9dd2-0bba8f94979d")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Mask")
+		(uuid "fc884e42-5a40-4ada-817b-2e4028a859f1")
+	)
 )

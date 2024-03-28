@@ -1,20 +1,93 @@
-(footprint "5V" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-  (fp_text reference "REF**" (at 0 -2.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp fc5cd65c-0da5-41de-b9ab-0e8eeb75790a)
-  )
-  (fp_text value "5V" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 58903bca-24ce-4f95-8f50-064b7aefd7a6)
-  )
-  (fp_text user "5V" (at 0 0 unlocked) (layer "F.Cu")
-      (effects (font (size 1.2 1.2) (thickness 0.15)))
-    (tstamp 28c233b6-6640-481c-a200-7fafab9b03b3)
-  )
-  (fp_text user "5V" (at 0 0 unlocked) (layer "F.Mask")
-      (effects (font (size 1.2 1.2) (thickness 0.15)))
-    (tstamp 8553fd3b-a175-4691-a4f3-72323bb19728)
-  )
+(footprint "5V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5V"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea1ddb6-53da-48fd-8bdf-7e2c49d77b52")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61928348-9d47-41ba-a0c6-1fc633db9097")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f40a1466-ddf6-49ed-a870-b00d2c65b901")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text user "5V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Cu")
+		(uuid "28c233b6-6640-481c-a200-7fafab9b03b3")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "5V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "8553fd3b-a175-4691-a4f3-72323bb19728")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
 )
