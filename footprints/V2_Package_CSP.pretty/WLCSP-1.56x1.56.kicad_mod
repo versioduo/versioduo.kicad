@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -2.3 0)
 		(layer "F.SilkS")
 		(uuid "30c0996e-9d23-4474-b4da-14fc9d0e1294")
 		(effects
@@ -25,8 +25,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "WLCSP-1.56x1.56"
+		(at 0 3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.85 -0.85)
-		(end -0.85 -0.6)
+		(start -0.85 -0.6)
+		(end -0.85 -0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -73,18 +73,8 @@
 		(uuid "f46e7f43-3591-413d-8a02-b0a306411475")
 	)
 	(fp_line
-		(start -0.85 -0.85)
-		(end -0.6 -0.85)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b9858b99-f757-41d0-ba00-983056172f7f")
-	)
-	(fp_line
 		(start -0.85 0.85)
-		(end -0.85 0.35)
+		(end -0.85 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -94,7 +84,7 @@
 	)
 	(fp_line
 		(start -0.85 0.9)
-		(end -0.35 0.9)
+		(end -0.4 0.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -103,8 +93,18 @@
 		(uuid "936563ec-e9e6-4351-b85e-2b4fe4ac86d2")
 	)
 	(fp_line
+		(start -0.6 -0.85)
+		(end -0.4 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9858b99-f757-41d0-ba00-983056172f7f")
+	)
+	(fp_line
 		(start 0.9 -0.85)
-		(end 0.35 -0.85)
+		(end 0.4 -0.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -114,7 +114,7 @@
 	)
 	(fp_line
 		(start 0.9 -0.85)
-		(end 0.9 -0.35)
+		(end 0.9 -0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -124,7 +124,7 @@
 	)
 	(fp_line
 		(start 0.9 0.9)
-		(end 0.35 0.9)
+		(end 0.4 0.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -133,14 +133,26 @@
 		(uuid "d379e2f3-7999-46e8-8d3e-7dd0749c756e")
 	)
 	(fp_line
-		(start 0.9 0.9)
-		(end 0.9 0.35)
+		(start 0.9 0.95)
+		(end 0.9 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7919ca87-a93b-4aaf-869b-5481306d72c0")
+	)
+	(fp_poly
+		(pts
+			(xy -0.844256 -0.849775) (xy -1.124256 -0.849775) (xy -0.844256 -1.129775) (xy -0.844256 -0.849775)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "99ff5210-67ab-44a2-a28b-13ef759de430")
 	)
 	(fp_rect
 		(start -0.85 -0.85)
