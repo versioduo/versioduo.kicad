@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "QFN36_5X6"
-		(at 0 8.2 0)
+		(at 0 11.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "af6f8348-2f59-451b-9823-f94668984d16")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "V2_Driver_Stepper:QFN36-5X6"
-		(at 0 0 0)
+		(at 0 5.8 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "96364ea3-3c86-4fa5-9275-6f5ba8a4bbde")
@@ -1658,7 +1658,7 @@
 		(uuid "0cfa8217-8e38-4be2-a69a-5df9d1e24e65")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 5.8 0)
+		(at 0 8.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5cf0e015-f04a-4804-b183-e1e4371ef36d")
@@ -1885,10 +1885,21 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b1a3a867-cf15-41e3-a797-1fe7b8b438de")
 	)
-	(pad "37" smd rect
+	(pad "37" smd custom
 		(at 0 0)
 		(size 3.6068 4.0894)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_bbox
+				(start -1.1 -1.15)
+				(end 1.2 1.15)
+				(fill no)
+			)
+		)
 		(uuid "355f7a58-7b50-4c93-ad1b-52ae305997a2")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.6mm.step"
