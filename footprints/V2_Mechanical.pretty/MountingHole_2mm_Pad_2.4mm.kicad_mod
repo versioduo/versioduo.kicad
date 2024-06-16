@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Mounting_Hole"
+	(property "Value" "MountingHole_2mm_Pad_2.4mm"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
