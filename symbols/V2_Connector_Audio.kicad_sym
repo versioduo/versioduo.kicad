@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SJ2-35464B-SMT-TR"
+		(property "Description" ""
 			(at -8.128 -23.114 0)
 			(effects
 				(font
@@ -957,7 +957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SJ2-35464B-SMT-TR"
+		(property "Description" ""
 			(at -8.128 -23.114 0)
 			(effects
 				(font
