@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +76,7 @@
 		(uuid "f46e7f43-3591-413d-8a02-b0a306411475")
 	)
 	(fp_line
-		(start -0.85 0.85)
+		(start -0.85 0.9)
 		(end -0.85 0.4)
 		(stroke
 			(width 0.1)
@@ -133,7 +136,7 @@
 		(uuid "d379e2f3-7999-46e8-8d3e-7dd0749c756e")
 	)
 	(fp_line
-		(start 0.9 0.95)
+		(start 0.9 0.9)
 		(end 0.9 0.4)
 		(stroke
 			(width 0.1)
