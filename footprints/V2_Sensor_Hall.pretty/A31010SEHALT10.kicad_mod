@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "A31010SEHALT-10-2")
+	(descr "A31010SEHALT-10")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "REF**"
 		(at 0 -3.25 0)
 		(layer "F.SilkS")
 		(uuid "5f2d444a-1523-4801-8f91-077ced71683b")
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -160,14 +163,26 @@
 		)
 	)
 	(pad "" smd rect
-		(at -0.2219 -0.006494)
-		(size 0.441961 1.218528)
+		(at -0.22144 0.351384)
+		(size 0.44288 0.502768)
 		(layers "F.Paste")
 		(uuid "81425376-de8a-4c0e-b79c-ffecf5452ffb")
 	)
 	(pad "" smd rect
-		(at 0.430523 -0.006495)
-		(size 0.437668 1.218531)
+		(at -0.221438 -0.357879)
+		(size 0.442876 0.515758)
+		(layers "F.Paste")
+		(uuid "6f30a2d3-6f03-4ab0-853b-2ae4a4b9fa1f")
+	)
+	(pad "" smd rect
+		(at 0.430523 -0.357878)
+		(size 0.437668 0.515756)
+		(layers "F.Paste")
+		(uuid "1a4332a8-903f-4241-af39-ea8316ab103e")
+	)
+	(pad "" smd rect
+		(at 0.430523 0.351385)
+		(size 0.437668 0.50277)
 		(layers "F.Paste")
 		(uuid "19382589-cf99-4843-af07-c327ae10907b")
 	)
