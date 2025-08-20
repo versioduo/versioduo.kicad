@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Connector"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60,15 +60,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Connector_1_1"
 			(rectangle
 				(start -7.62 50.8)
@@ -92,6 +83,150 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 45.72 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 43.18 0)
+				(length 2.54)
+				(name "SDA/GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 40.64 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 38.1 0)
+				(length 2.54)
+				(name "SCL/GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 35.56 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 33.02 0)
+				(length 2.54)
+				(name "GCLK0/GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 30.48 0)
+				(length 2.54)
+				(name "GPIO14/TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 27.94 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,24 +415,6 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 45.72 0)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "GND"
@@ -470,24 +587,6 @@
 					)
 				)
 				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 43.18 0)
-				(length 2.54)
-				(name "SDA/GPIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -675,24 +774,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 40.64 0)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -10.16 -50.8 0)
 				(length 2.54)
@@ -711,97 +792,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -10.16 38.1 0)
-				(length 2.54)
-				(name "SCL/GPIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 35.56 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 33.02 0)
-				(length 2.54)
-				(name "GCLK0/GPIO4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 30.48 0)
-				(length 2.54)
-				(name "GPIO14/TXD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 27.94 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Hat"
 		(exclude_from_sim no)
@@ -863,67 +855,9 @@
 			)
 		)
 		(symbol "Hat_0_1"
-			(arc
-				(start -10.16 -1.905)
-				(mid -9.9726 -2.3526)
-				(end -9.525 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -9.525 10.16)
-				(mid -9.9726 9.9726)
-				(end -10.16 9.525)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -9.144 -1.524)
-				(radius 0.568)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -9.144 9.144)
-				(radius 0.568)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -10.16 9.525) (xy -10.16 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -9.525 -2.54) (xy 9.525 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -947,7 +881,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 9.525) (xy 10.16 -1.905)
+					(xy -9.525 -2.54) (xy 9.525 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -957,8 +891,43 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -10.16 9.525)
+				(mid -9.9726 9.9726)
+				(end -9.525 10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -9.525 -2.54)
+				(mid -9.9726 -2.3526)
+				(end -10.16 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
-				(center 9.144 -1.524)
+				(center -9.144 9.144)
+				(radius 0.568)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -9.144 -1.524)
 				(radius 0.568)
 				(stroke
 					(width 0)
@@ -979,10 +948,9 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 9.525 -2.54)
-				(mid 9.9689 -2.3489)
-				(end 10.16 -1.905)
+			(circle
+				(center 9.144 -1.524)
+				(radius 0.568)
 				(stroke
 					(width 0)
 					(type default)
@@ -992,9 +960,33 @@
 				)
 			)
 			(arc
-				(start 10.16 9.525)
-				(mid 9.9731 9.9731)
-				(end 9.525 10.16)
+				(start 10.16 -1.905)
+				(mid 9.9697 -2.3497)
+				(end 9.525 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.525 10.16)
+				(mid 9.9726 9.9726)
+				(end 10.16 9.525)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 9.525) (xy 10.16 -1.905)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1004,6 +996,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Zero"
 		(exclude_from_sim no)
@@ -1064,67 +1057,9 @@
 			)
 		)
 		(symbol "Zero_0_1"
-			(arc
-				(start -10.16 -1.778)
-				(mid -9.9368 -2.3168)
-				(end -9.398 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -9.398 5.08)
-				(mid -9.9368 4.8568)
-				(end -10.16 4.318)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -9.144 -1.524)
-				(radius 0.568)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -9.144 4.064)
-				(radius 0.568)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -10.16 4.318) (xy -10.16 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -9.398 -2.54) (xy 9.398 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1148,7 +1083,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 4.318) (xy 10.16 -1.778)
+					(xy -9.398 -2.54) (xy 9.398 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1158,8 +1093,43 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -10.16 4.318)
+				(mid -9.9368 4.8568)
+				(end -9.398 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -9.398 -2.54)
+				(mid -9.9368 -2.3168)
+				(end -10.16 -1.778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
-				(center 9.144 -1.524)
+				(center -9.144 4.064)
+				(radius 0.568)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -9.144 -1.524)
 				(radius 0.568)
 				(stroke
 					(width 0)
@@ -1180,10 +1150,9 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 9.398 -2.54)
-				(mid 9.9323 -2.3123)
-				(end 10.16 -1.778)
+			(circle
+				(center 9.144 -1.524)
+				(radius 0.568)
 				(stroke
 					(width 0)
 					(type default)
@@ -1193,9 +1162,33 @@
 				)
 			)
 			(arc
-				(start 10.16 4.318)
+				(start 10.16 -1.778)
+				(mid 9.9317 -2.3117)
+				(end 9.398 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.398 5.08)
 				(mid 9.9359 4.8559)
-				(end 9.398 5.08)
+				(end 10.16 4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 4.318) (xy 10.16 -1.778)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1205,6 +1198,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Connector_Hat"
 		(extends "Connector")
@@ -1253,15 +1247,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(symbol "Connector_PogoPins"
 		(extends "Connector")
@@ -1302,15 +1287,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
 			(at 0 0 0)
 			(effects
 				(font
