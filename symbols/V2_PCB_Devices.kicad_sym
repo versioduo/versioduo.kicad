@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Button-bottom"
 		(exclude_from_sim no)
 		(in_bom no)
@@ -84,6 +84,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Button-top"
 		(exclude_from_sim no)
@@ -156,6 +157,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "EtherCon_Horizontal"
 		(exclude_from_sim no)
@@ -238,6 +240,90 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "EtherCon_Vertical"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "CON"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EtherCon_Vertical"
+			(at -9.398 -13.4619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "V2_PCB_Devices:PCB_EtherCon_Horizontal"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "EtherCon_Vertical_0_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.5921)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "PCB_Plug_Horizontal"
 		(exclude_from_sim no)
@@ -319,6 +405,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "USB-C_Horizontal"
 		(exclude_from_sim no)
@@ -379,8 +466,8 @@
 		(symbol "USB-C_Horizontal_0_1"
 			(arc
 				(start -5.08 0)
-				(mid -4.3361 -1.7961)
-				(end -2.54 -2.54)
+				(mid -4.3361 1.7961)
+				(end -2.54 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -390,21 +477,9 @@
 				)
 			)
 			(arc
-				(start -2.54 2.54)
-				(mid -4.3361 1.7961)
+				(start -2.54 -2.54)
+				(mid -4.3361 -1.7961)
 				(end -5.08 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.54) (xy 2.54 -2.54)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -425,9 +500,21 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
-				(start 2.54 -2.54)
-				(mid 4.3361 -1.7961)
+				(start 2.54 2.54)
+				(mid 4.3361 1.7961)
 				(end 5.08 0)
 				(stroke
 					(width 0)
@@ -439,8 +526,8 @@
 			)
 			(arc
 				(start 5.08 0)
-				(mid 4.3361 1.7961)
-				(end 2.54 2.54)
+				(mid 4.3361 -1.7961)
+				(end 2.54 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -450,5 +537,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

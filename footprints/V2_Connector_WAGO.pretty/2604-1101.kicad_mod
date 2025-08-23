@@ -1,10 +1,10 @@
 (footprint "2604-1101"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.000002 -5.400001 0)
+		(at 0.199998 -5.400001 0)
 		(layer "F.SilkS")
 		(uuid "12e18002-4b9f-46f6-a6c0-f8b3c9b54f5d")
 		(effects
@@ -15,25 +15,13 @@
 		)
 	)
 	(property "Value" "2604-1101"
-		(at -0.000002 -2.650001 0)
+		(at 0.199998 -2.650001 0)
 		(layer "F.SilkS")
 		(uuid "eb4208f1-1721-4a8d-ba79-0799b998c275")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "53b5b8d9-14b5-4763-bc51-9c914e3d2fc2")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -66,38 +56,39 @@
 		(start -2.5 0)
 		(end 2.5 16.3)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.Fab")
 		(uuid "bd7b41d0-6618-46c8-8be2-69cef8114ed4")
 	)
 	(pad "1" thru_hole circle
-		(at 0.2 2.9)
-		(size 1.8034 1.8034)
+		(at -0.4 2.9)
+		(size 2 2)
 		(drill 1.2954)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f485349c-f699-44ff-9b9d-38df7a71af31")
 	)
 	(pad "1" thru_hole circle
-		(at 0.2 11.1)
-		(size 1.8034 1.8034)
+		(at -0.4 11.1)
+		(size 2 2)
 		(drill 1.2954)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "51f791d1-284d-4444-a775-9b7095b2aea3")
 	)
-	(model "/Users/kay/Documents/KiCad/7.0/versioduo.kicad_library/3dmodels/V2_Connector_WAGO.3dshapes/2604-1101.stp"
+	(embedded_fonts no)
+	(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2604-1101.stp"
 		(offset
-			(xyz 2.5 -11.2 0)
+			(xyz 1.9 -11.05 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 -0 90)
 		)
 	)
 )

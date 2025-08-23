@@ -1,0 +1,117 @@
+(footprint "PCB_EtherCon_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "1453c6e7-b8fe-4fc7-89e8-961900fa202d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 -11.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79ce3738-6302-4d1b-8b8e-fd69b8716e23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f3453e5-547f-442f-adba-1fdbfd4c61a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1082fbc9-9525-41e2-881b-e1e86bd5bd68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center 0.25 0)
+		(end 11.25 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2ee0eb4c-8b63-4f91-abc1-6fc5cdde71e7")
+	)
+	(fp_circle
+		(center -9.65 -9.9)
+		(end -6.9 -9.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "97649900-39ce-4c5f-b568-9f53952c5c47")
+	)
+	(fp_circle
+		(center 10.15 9.9)
+		(end 12.9 9.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "66f93efe-df99-4624-8ca3-ad5cffbc05a8")
+	)
+	(fp_rect
+		(start -12.75 15.5)
+		(end 13.25 -15.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "793ef821-b450-412d-8a26-ba2c9831a262")
+	)
+	(pad "" np_thru_hole circle
+		(at -9.65 -9.9)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(zone_connect 2)
+		(uuid "2882b2ed-c817-47e9-ba06-06a4060901ca")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.15 9.9)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(zone_connect 2)
+		(uuid "3feb679f-427d-4fd0-8561-02b3c1863e5c")
+	)
+	(embedded_fonts no)
+)
