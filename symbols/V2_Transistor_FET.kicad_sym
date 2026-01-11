@@ -991,6 +991,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "726-BSC010N04LS"
+			(at 0 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "IQE006NE2LM5CGSC"
 		(extends "WHTFN-9")
@@ -1041,6 +1051,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "IQE022N06LM5CGSCATMA1"
 		(extends "WHTFN-9")
@@ -1091,6 +1102,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "IRF9358"
 		(extends "SO-8_Dual")
@@ -1150,5 +1162,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

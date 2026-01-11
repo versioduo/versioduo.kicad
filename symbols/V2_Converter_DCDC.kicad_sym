@@ -56,6 +56,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "595-TPSM33625RDNR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "TPSM33625RDNR"
 			(at 0 0 0)
 			(effects

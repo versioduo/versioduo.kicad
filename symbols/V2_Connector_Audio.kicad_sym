@@ -2157,6 +2157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "568-NSJ12HC"
+			(at 0 -30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "audio jack dual receptacle stereo headphones phones TRS connector neutrik"
 			(at 0 0 0)
 			(effects

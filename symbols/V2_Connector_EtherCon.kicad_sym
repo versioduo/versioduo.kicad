@@ -54,15 +54,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "RJ45_0_1"
 			(polyline
 				(pts
@@ -373,7 +364,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_EtherCon:NE8FAH"
-			(at 3.81 -20.955 0)
+			(at 0 -23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,8 +390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+		(property "Mouser" "568-NE8FAH"
+			(at 0 -27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,6 +399,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NE8FAV"
 		(extends "RJ45")
@@ -430,7 +422,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_EtherCon:NE8FAV"
-			(at 0 0.635 90)
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,5 +448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "568-NE8FAV-SD"
+			(at 0 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
 	)
 )

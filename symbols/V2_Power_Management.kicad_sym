@@ -388,6 +388,15 @@
 			)
 		)
 		(property "Description" "Reverse Polarity Protection Controller"
+			(at 0 -33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-LM74502HQDDFRQ1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -872,5 +881,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
