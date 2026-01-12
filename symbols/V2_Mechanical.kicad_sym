@@ -7,7 +7,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "FID"
-			(at 0 5.08 0)
+			(at 4.572 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,15 +15,16 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 0 3.175 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 0 -5.08 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,16 +42,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,7 +294,7 @@
 	(symbol "Fiducial_Paste"
 		(extends "Fiducial")
 		(property "Reference" "FID"
-			(at 0 5.08 0)
+			(at 5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,15 +302,16 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 0 3.175 0)
+			(at 0.254 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 0 -5.08 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,16 +329,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,6 +355,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_10mm"
 		(extends "MountingHole")
@@ -444,6 +429,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_1mm"
 		(extends "MountingHole")
@@ -517,6 +503,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2.5mm"
 		(extends "MountingHole")
@@ -590,6 +577,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2.5mm_Keepout_6mm"
 		(extends "MountingHole_Pad")
@@ -663,6 +651,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2.5mm_PadTop_5mm"
 		(extends "MountingHole_Pad")
@@ -736,6 +725,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2.5mm_Pad_5mm"
 		(extends "MountingHole_Pad")
@@ -809,6 +799,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2mm"
 		(extends "MountingHole")
@@ -882,6 +873,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2mm_Pad_2.4mm"
 		(extends "MountingHole_Pad")
@@ -955,6 +947,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2mm_Pad_4mm"
 		(extends "MountingHole_Pad")
@@ -1028,6 +1021,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_2mm_Pad_5.2mm"
 		(extends "MountingHole_Pad")
@@ -1101,6 +1095,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_3mm"
 		(extends "MountingHole")
@@ -1174,6 +1169,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_3mm_Keepout_6mm"
 		(extends "MountingHole")
@@ -1247,6 +1243,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_3mm_PadCovered_6mm"
 		(extends "MountingHole_Pad")
@@ -1320,6 +1317,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_3mm_Pad_6mm"
 		(extends "MountingHole_Pad")
@@ -1393,6 +1391,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_3mm_Pad_8mm"
 		(extends "MountingHole_Pad")
@@ -1466,6 +1465,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_5mm"
 		(extends "MountingHole")
@@ -1539,6 +1539,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_8mm"
 		(extends "MountingHole")
@@ -1612,5 +1613,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

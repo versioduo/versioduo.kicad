@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.778 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0.254 -2.032 0)
+			(at 1.778 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +154,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +163,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +294,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +303,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,12 +592,11 @@
 			)
 		)
 		(property "Value" ""
-			(at -4.445 -2.54 0)
+			(at 0 -2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "V2_LED:LED_0603"
@@ -768,7 +767,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -776,7 +775,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.778 0 90)
+			(at 2.032 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +883,7 @@
 	(symbol "C_0603_0u1"
 		(extends "C_0603")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +892,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 0.254 -2.032 0)
+			(at 1.778 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +959,7 @@
 	(symbol "C_0603_0u22"
 		(extends "C_0603")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +968,7 @@
 			)
 		)
 		(property "Value" "0u22"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1035,7 @@
 	(symbol "C_0603_10u"
 		(extends "C_0603")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1044,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1111,7 @@
 	(symbol "C_0603_18p"
 		(extends "C_0603")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1120,7 @@
 			)
 		)
 		(property "Value" "18p"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1187,7 @@
 	(symbol "C_0603_1u"
 		(extends "C_0603")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1196,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1263,7 @@
 	(symbol "C_0805_10u"
 		(extends "C_0805")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1272,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,6 +1309,17 @@
 		)
 		(property "Mouser" "810-C2012X5R1E106K"
 			(at 0 -18.034 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 -21.844 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1350,7 @@
 	(symbol "C_1210_10u"
 		(extends "C_1210")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1359,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,6 +1396,17 @@
 		)
 		(property "Mouser" "810-CNA6P1X7R1H106K2"
 			(at 0 -16.51 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 -19.05 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1437,7 @@
 	(symbol "C_1210_22u"
 		(extends "C_1210")
 		(property "Reference" "C"
-			(at 0.254 1.778 0)
+			(at 1.524 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1446,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0.254 -2.032 0)
+			(at 1.524 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,6 +1483,17 @@
 		)
 		(property "Mouser" "810-CGA6P3X7R1E226M5"
 			(at 0 -16.51 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "25V"
+			(at 0 -19.304 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,12 +1607,11 @@
 			)
 		)
 		(property "Value" "Orange"
-			(at -4.445 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1651,7 +1682,7 @@
 	(symbol "R_0603_100k"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1659,7 +1690,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 1.778 0 90)
+			(at 3.81 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1756,7 @@
 	(symbol "R_0603_10k"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1733,7 +1764,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 1.778 0 90)
+			(at 3.302 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1830,7 @@
 	(symbol "R_0603_220R"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1807,7 +1838,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 1.778 0 90)
+			(at 4.064 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1904,7 @@
 	(symbol "R_0603_330R"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1881,7 +1912,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 1.778 0 90)
+			(at 4.064 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1978,7 @@
 	(symbol "R_0603_3k9"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1955,7 +1986,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 1.778 0 90)
+			(at 3.302 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2052,7 @@
 	(symbol "R_0603_40k2"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2029,7 +2060,7 @@
 			)
 		)
 		(property "Value" "40k2"
-			(at 1.778 0 90)
+			(at 3.81 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2126,7 @@
 	(symbol "R_0603_5k1"
 		(extends "R_0603")
 		(property "Reference" "R"
-			(at 0 0 90)
+			(at 2.032 1.27 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2103,7 +2134,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 1.778 0 90)
+			(at 3.302 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

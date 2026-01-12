@@ -14,14 +14,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -5.08 6.35 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" ""
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -49,15 +49,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115,24 +106,23 @@
 	(symbol "2065"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at -5.08 6.35 0)
+			(at 2.54 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 0 3.81 0)
+		(property "Value" "WAGO 2065-100"
+			(at 9.906 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 0 0 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,37 +148,28 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "2601-1101"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at -5.08 6.35 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 0 3.81 0)
+		(property "Value" "WAGO 2601-1101"
+			(at 10.922 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at -0.254 -2.54 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,20 +195,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "2604-1101"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at -5.08 6.35 0)
+			(at 2.54 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +208,7 @@
 			)
 		)
 		(property "Value" "WAGO 2604-1101"
-			(at 2.54 3.81 0)
+			(at 10.668 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +216,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2604-1101"
-			(at -1.27 -3.81 0)
+			(at -0.254 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,14 +242,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(embedded_fonts no)
 	)
 )
