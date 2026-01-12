@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 2.6 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -165,6 +165,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "f849bb85-eee3-44d9-b881-7f1627d4304a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "712248b8-368d-4bbd-bd59-74ef2ffe1763")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -2 0)

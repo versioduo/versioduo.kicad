@@ -13,8 +13,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW102"
-			(at 0 7.62 0)
+		(property "Reference" "SW"
+			(at -0.254 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,14 +22,14 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 5.08 0)
+			(at 0 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "V2_Button_Switch_SMD:SKSG"
+		(property "Footprint" ""
 			(at 0 -4.826 0)
 			(effects
 				(font
@@ -153,7 +153,7 @@
 	)
 	(symbol "SKSG"
 		(extends "SW_Push")
-		(property "Reference" "SW102"
+		(property "Reference" "SW"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -169,8 +169,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 5.08 0)
+		(property "Footprint" "V2_Button_Switch_SMD:SKSG"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +197,8 @@
 			)
 		)
 		(property "Mouser" "688-SKSGACE010"
-			(at 0 -9.398 0)
+			(at -0.254 -14.224 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

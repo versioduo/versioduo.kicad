@@ -95,6 +95,17 @@
 		(layer "Margin")
 		(uuid "934696e6-edc1-4287-9eb1-ea813a617a0f")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8be3e408-9e8a-4fcb-88ee-2765f01be585")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
 	(pad "" smd roundrect
 		(at -1.55 0)
 		(size 0.9 1.1)

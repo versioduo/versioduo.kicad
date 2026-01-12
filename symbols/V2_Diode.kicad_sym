@@ -294,7 +294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "V2_Diode_SMD:D_0603"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -314,6 +314,16 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-CG0603MLC-05LE"
+			(at 0 -7.62 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "V2_Diode_SMD:D_0603"
 			(at 0 -5.715 0)
 			(effects
 				(font
@@ -361,6 +371,16 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-CG0603MLC-3.3LE"
+			(at 0 -7.366 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

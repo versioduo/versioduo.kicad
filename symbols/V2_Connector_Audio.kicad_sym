@@ -2092,6 +2092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "568-NL4MDXXV3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "speakon connector neutrik"
 			(at 0 0 0)
 			(effects

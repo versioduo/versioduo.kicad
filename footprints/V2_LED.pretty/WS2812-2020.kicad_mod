@@ -99,6 +99,28 @@
 		(layer "F.CrtYd")
 		(uuid "798cd59b-9668-4561-be3d-640cee0559a2")
 	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1c05c36a-1a22-4cc1-8516-9f73818b8b26")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b44caa55-38d6-42a1-8f98-8ac3281b0a0e")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
 	(pad "1" smd roundrect
 		(at 0.915 0.55)
 		(size 0.8 0.8)

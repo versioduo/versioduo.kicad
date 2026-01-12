@@ -185,7 +185,7 @@
 		(start -1.8034 -2.2987)
 		(end -1.8034 2.2987)
 		(stroke
-			(width 0.0254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -195,7 +195,7 @@
 		(start -1.8034 2.2987)
 		(end 1.8034 2.2987)
 		(stroke
-			(width 0.0254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -205,7 +205,7 @@
 		(start 1.8034 -2.2987)
 		(end -1.8034 -2.2987)
 		(stroke
-			(width 0.0254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -215,11 +215,22 @@
 		(start 1.8034 2.2987)
 		(end 1.8034 -2.2987)
 		(stroke
-			(width 0.0254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "a6f7ad83-5df7-4511-a6db-f5e4007e4ae8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c91ae600-d868-498f-a289-c1df7c863323")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
 	)
 	(pad "" smd roundrect
 		(at -1.7425 0.3)
