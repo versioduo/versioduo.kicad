@@ -368,7 +368,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_USB:JAE_DX07S016JA3"
-			(at 0 -32.004 0)
+			(at 0 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +395,28 @@
 			)
 		)
 		(property "Mouser" "656-DX07S016JA3R1500"
-			(at 0 -35.306 0)
+			(at 0 -43.18 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "DX07S016JA3R1500"
+			(at -0.254 -40.64 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JAE Electronics"
+			(at -0.254 -38.1 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -188,7 +188,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 -5.842 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +197,27 @@
 			)
 		)
 		(property "Mouser" "688-SKSGACE010"
-			(at -0.254 -14.224 0)
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alps Alpine"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SKSGACE010"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font

@@ -151,7 +151,7 @@
 		(uuid "ce4766ff-65c1-436b-b2c8-ec114ebf92cc")
 		(effects
 			(font
-				(size 0.3 0.3)
+				(size 0.25 0.25)
 				(thickness 0.05)
 			)
 		)

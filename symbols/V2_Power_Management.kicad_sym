@@ -370,7 +370,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-8"
-			(at 1.27 -29.21 0)
+			(at 0 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +397,28 @@
 			)
 		)
 		(property "Mouser" "595-LM74502HQDDFRQ1"
-			(at 0 0 0)
+			(at 0 -40.64 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "LM74502HQDDFRQ1"
+			(at 0 -38.1 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -35.56 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +609,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
-			(at -1.27 -13.97 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,6 +628,36 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-TPS2559DRCR"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TPS2559DRCR"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/smart-power-switches/high-side-switches/profet-plus-24v-automotive-smart-high-side-switch/btt6010-1era/"
-			(at -5.08 -10.16 0)
+			(at 0 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +924,37 @@
 			)
 		)
 		(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
-			(at 0 0 0)
+			(at 0 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-BTT60101ERBXUMA1"
+			(at 0 -48.26 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 0 -43.18 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BTT60101ERBXUMA1"
+			(at 0 -45.72 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -171,7 +171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_0805"
 			(at 0 -17.018 0)
 			(effects
 				(font
@@ -422,7 +422,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_Polarized_6.3x5.8"
+	(symbol "C_Polarized_6.3"
 		(pin_numbers
 			(hide yes)
 		)
@@ -451,7 +451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" ""
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -496,7 +496,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_Polarized_6.3x5.8_0_1"
+		(symbol "C_Polarized_6.3_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -544,7 +544,7 @@
 				)
 			)
 		)
-		(symbol "C_Polarized_6.3x5.8_1_1"
+		(symbol "C_Polarized_6.3_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1215,28 @@
 			)
 		)
 		(property "Mouser" "603-CC603KPX7R9BB223"
-			(at 0 -17.018 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603KPX7R9BB223"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1303,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1312,28 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 0 -17.272 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1400,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1409,28 @@
 			)
 		)
 		(property "Mouser" "603-CC0603JRX79BB224"
-			(at 0 -17.018 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603JRX7R9BB224"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1458,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_0603_0u470"
+	(symbol "C_0603_0u47"
 		(extends "C_0603")
 		(property "Reference" "C"
 			(at 2.032 1.016 0)
@@ -1406,7 +1469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u470"
+		(property "Value" "0u47"
 			(at 2.032 -1.524 0)
 			(effects
 				(font
@@ -1434,7 +1497,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1506,28 @@
 			)
 		)
 		(property "Mouser" "603-CC0603JR6BB474"
-			(at 0 -17.018 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603JRX7R6BB474"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1594,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1603,28 @@
 			)
 		)
 		(property "Mouser" "810-C1608X6S1A106M"
-			(at 0 -17.018 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "C1608X6S1A106M080AC"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1691,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1700,28 @@
 			)
 		)
 		(property "Mouser" "603-CC603JRNPO9BN180"
-			(at 0 -17.526 0)
+			(at 0 -23.368 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603JRNPO9BN180"
+			(at 0 -20.574 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,8 +1796,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 0 -17.272 0)
+		(property "Mouser" "603-CC603KRX7R9BB105"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603KRX7R9BB105"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1885,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1894,28 @@
 			)
 		)
 		(property "Mouser" "603-CC603KRX5R6BB475"
-			(at 0 -17.018 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CC0603KRX5R6BB475"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 -15.24 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1982,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1991,7 @@
 			)
 		)
 		(property "Mouser" "810-C2012X5R1E106K"
-			(at 0 -18.034 0)
+			(at 0 -22.86 0)
 			(show_name)
 			(effects
 				(font
@@ -1833,7 +2001,27 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 0 -21.844 0)
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "C2012X5R1E106K125AB"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font
@@ -1901,7 +2089,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +2098,7 @@
 			)
 		)
 		(property "Mouser" "810-CNA6P1X7R1H106K2"
-			(at 0 -16.51 0)
+			(at 0 -22.86 0)
 			(show_name)
 			(effects
 				(font
@@ -1919,8 +2107,28 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "50V"
-			(at 0 -19.05 0)
+		(property "Voltage" "50V"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CNA6P1X7R1H106K250AE"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font
@@ -1988,7 +2196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 -13.462 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2205,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA6P3X7R1E226M5"
-			(at 0 -16.51 0)
+			(at 0 -22.86 0)
 			(show_name)
 			(effects
 				(font
@@ -2006,8 +2214,28 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "25V"
-			(at 0 -19.304 0)
+		(property "Voltage" "25V"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CGA6P3X7R1E226M250AE"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font
@@ -2036,8 +2264,222 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_Polarized_6.3x5.8_1_47u"
-		(extends "C_Polarized_6.3x5.8")
+	(symbol "C_Polarized_6.3x5.8_47u"
+		(extends "C_Polarized_6.3")
+		(property "Reference" "C"
+			(at 2.032 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "V2_Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "667-EEE-FK1V470P"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "EEE-FK1V470P"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "35V"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "C_Polarized_6.3x7.7_100u"
+		(extends "C_Polarized_6.3")
+		(property "Reference" "C"
+			(at 2.032 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "V2_Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "667-EEE-FKV101XAL"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "EEE-FKV101XAL"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "35V"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "C_Polarized_6.3xx"
+		(extends "C_Polarized_6.3")
 		(property "Reference" "C"
 			(at 2.032 1.27 0)
 			(effects
@@ -2150,7 +2592,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
-			(at 0 -7.874 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2601,28 @@
 			)
 		)
 		(property "Mouser" "815-ABS0716632.768KT"
-			(at 0 -11.176 0)
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "ABS07-166-32.768KHZ-T"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 0 -10.16 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,15 +2687,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 0 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2241,8 +2695,38 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Mouser" "755-SML-D12M8WT86C"
-			(at 0 -11.684 0)
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SML-D12M8WT86C "
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor "
+			(at 0 -10.16 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2800,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603100RFKEAH"
-			(at 0 -15.494 0)
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "330mW"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100RFKEAHP"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2896,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2905,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603100KFKEAC"
-			(at 0 -15.494 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603100KFKEAC"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +3001,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +3010,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW060310K0FKEAC"
-			(at 0 -16.256 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW060310K0FKEAC"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +3106,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +3115,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603220RFKEAH"
-			(at 0 -15.748 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603220RFKEAHP"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "330mW"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +3222,145 @@
 			)
 		)
 		(property "Mouser" "71-RCS06032R20JNEA"
-			(at 0 -15.494 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RCS06032R20JNEA"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "500mW"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_0603_2k7"
+		(extends "R_0603")
+		(property "Reference" "R"
+			(at 1.778 1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k7"
+			(at 1.778 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06032K70FKEAC"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06032K70FKEAC"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -22.86 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +3425,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3434,143 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603330RFKEAC"
-			(at 0 -16.51 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW0603330RFKEAC"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_0603_39k"
+		(extends "R_0603")
+		(property "Reference" "R"
+			(at 2.032 1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "39k"
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-RCS060339K0FKEA"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "500mW"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RCS060339K0FKEA"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +3635,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3644,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06033K90FKEAC"
-			(at 0 -16.256 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06033K90FKEAC"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +3740,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +3749,38 @@
 			)
 		)
 		(property "Mouser" "71-RCS060340K2FKEA"
-			(at 0 -15.494 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "500mW"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RCS060340K2FKEA"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3845,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3854,38 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06035K10FKEAC"
-			(at 0 -16.256 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CRCW06035K10FKEAC"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 -12.192 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3959,38 @@
 			)
 		)
 		(property "Mouser" "667-ERJ-6DSFR11V"
-			(at 0.508 -14.986 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "ERJ-6DSFR11V"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "500mW"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

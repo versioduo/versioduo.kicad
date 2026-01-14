@@ -322,7 +322,37 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-05LE"
-			(at 0 -7.62 0)
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CG0603MLC-05LE"
+			(at 0 -12.954 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5V"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font
@@ -379,7 +409,37 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-3.3LE"
-			(at 0 -7.366 0)
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "CG0603MLC-3.3LE"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3V3"
+			(at 0 -15.24 0)
 			(show_name)
 			(effects
 				(font
@@ -512,7 +572,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SOD-523"
-			(at 0 -6.985 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,8 +598,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 755-RB501SM-30FHT2R"
-			(at 0 -10.668 0)
+		(property "Mouser" "755-RB501SM-30FHT2R"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "RB501SM-30FHT2R"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 0 -10.16 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,8 +648,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 0 -6.985 0)
+		(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
+			(at -0.254 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,6 +668,36 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "512-S310FA"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "S310FA"
+			(at 0 -12.7 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +847,38 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ12CA-Q"
-			(at 0 -7.366 0)
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SMBJ12CA-Q"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "12V"
+			(at 0 -7.62 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +934,38 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ36CA-Q"
-			(at 0 -7.366 0)
+			(at 0 -15.494 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SMBJ36CA-Q"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "36V"
+			(at 0 -12.7 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +978,7 @@
 	(symbol "SMBJ60CA"
 		(extends "Diode_TVS_Unidirectional")
 		(property "Reference" "TVS"
-			(at -1.27 3.81 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +1021,38 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ60CA-Q"
-			(at 0 -7.366 0)
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SMBJ60CA-Q"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 0 -12.7 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

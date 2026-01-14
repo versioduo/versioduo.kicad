@@ -485,13 +485,12 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at -17.78 -12.7 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -514,8 +513,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 757-TLP2361TPRE"
-			(at 0 0 0)
+		(property "Mouser" "757-TLP2361TPRE"
+			(at 0 -35.56 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TLP2361(TPR,E"
+			(at 0 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Toshiba"
+			(at 0 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

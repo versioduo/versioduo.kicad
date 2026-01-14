@@ -136,6 +136,17 @@
 		(layer "F.Fab")
 		(uuid "a680bb82-61d0-4b0b-a94c-a2c87f214260")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -12.5 0 0)
+		(layer "F.Fab")
+		(uuid "928a523e-55ab-4bb7-afd4-e35526a1042e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
 	(pad "G" thru_hole circle
 		(at -1.73 -5.96)
 		(size 2.5 2.5)

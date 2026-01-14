@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_LGA:LGA24-3x3"
-			(at 0 -16.51 0)
+			(at -0.254 -52.324 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -48,8 +48,29 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+		(property "Manufacturer" "Bosch"
+			(at 0 -58.42 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BHI160B"
+			(at 0 -55.626 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C464452"
+			(at 0 -61.468 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +557,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_CSP:WLCSP-1.56x1.56"
-			(at 1.27 -13.97 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -561,8 +582,29 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+		(property "Manufacturer" "Bosch"
+			(at 0 -17.526 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "BMM150"
+			(at 0 -20.574 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C171681"
+			(at 0 -23.368 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

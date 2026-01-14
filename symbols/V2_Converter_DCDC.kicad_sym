@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33625.pdf"
-			(at 2.286 -40.386 0)
+			(at 0 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,7 +57,28 @@
 			)
 		)
 		(property "Mouser" "595-TPSM33625RDNR"
-			(at 0 0 0)
+			(at 0 -48.26 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -43.18 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TPSM33625RDNR"
+			(at 0 -45.72 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

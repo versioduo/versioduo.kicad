@@ -992,7 +992,8 @@
 			)
 		)
 		(property "Mouser" "726-BSC010N04LS"
-			(at 0 -15.748 0)
+			(at 0 -22.86 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,50 +1001,19 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "IQE006NE2LM5CGSC"
-		(extends "WHTFN-9")
-		(property "Reference" "Q"
-			(at 5.08 1.905 0)
+		(property "Product" "BSC010N04LS"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "IQE006NE2LM5CGSC"
-			(at 5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 5.08 -1.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,6 +1065,36 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-IQE006NE2LM5CGSC"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "IQE006NE2LM5CGSCATMA1"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 -17.78 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

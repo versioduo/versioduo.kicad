@@ -364,7 +364,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_EtherCon:NE8FAH"
-			(at 0 -23.622 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +391,28 @@
 			)
 		)
 		(property "Mouser" "568-NE8FAH"
-			(at 0 -27.432 0)
+			(at 0 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 -27.94 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAH"
+			(at 0 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +443,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_EtherCon:NE8FAV"
-			(at 0 -21.336 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +470,28 @@
 			)
 		)
 		(property "Mouser" "568-NE8FAV-SD"
-			(at 0 -24.892 0)
+			(at 0 -30.48 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NE8FAV-SD"
+			(at 0 -27.94 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

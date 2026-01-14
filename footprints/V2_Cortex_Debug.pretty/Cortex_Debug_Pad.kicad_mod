@@ -159,8 +159,9 @@
 		(uuid "abc11519-63f6-4c57-afce-3f0b9e8bc8ac")
 		(effects
 			(font
-				(size 0.3 0.3)
-				(thickness 0.05)
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)

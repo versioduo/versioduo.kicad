@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "V2_Driver_Stepper:QFN36-5X6"
-			(at 1.27 -43.434 0)
+			(at 0 -49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,6 +47,36 @@
 		)
 		(property "Description" ""
 			(at -17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 -53.086 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TMC2130-LA"
+			(at 0 -56.642 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C915795"
+			(at 0 -60.198 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +667,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -50.8 180)
+				(at 0 -40.64 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -656,7 +686,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -53.34 180)
+				(at 0 -43.18 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"

@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D3"
-			(at 0 11.43 0)
+			(at 0 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "WS2812"
-			(at 0 8.89 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,12 +26,11 @@
 			)
 		)
 		(property "Footprint" "V2_LED:WS2812-2020"
-			(at 0 -3.81 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify top)
 				(hide yes)
 			)
 		)
@@ -46,7 +45,37 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0 0)
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 0 -15.494 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "WS2812B-2020"
+			(at 0 -12.954 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965555"
+			(at 0 -18.288 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

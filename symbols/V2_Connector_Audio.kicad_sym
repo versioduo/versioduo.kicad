@@ -501,12 +501,11 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Audio:CUI_SJ2-25404B-SMT-TR"
-			(at -12.192 -20.574 0)
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -530,8 +529,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 490-SJ2-25404BSMT-TR"
-			(at 0 0 0)
+		(property "Mouser" "490-SJ2-25404BSMT-TR"
+			(at 0.254 -38.1 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SJ2-25404B-SMT-TR"
+			(at 0 -35.56 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 -33.02 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2086,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nl4mdxx-v-3"
-			(at 0 0 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2104,7 @@
 			)
 		)
 		(property "Description" "speakON Chassis Connectors, 4 pole chassis connector, grey D-size flange, self tapping screw holes (A-screw), vertical PCB mount. Replaces NL4MD-V-1"
-			(at 0 0 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2113,28 @@
 			)
 		)
 		(property "Mouser" "568-NL4MDXXV3"
-			(at 0 0 0)
+			(at 0 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 -27.94 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NL4MDXXV3"
+			(at 0 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2181,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal"
-			(at 2.286 -24.13 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nsj12hc"
-			(at 0 -21.336 0)
+			(at 0 -22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2199,7 @@
 			)
 		)
 		(property "Description" "Stacking Jacks, Stereo dual jack, full nose"
-			(at -0.254 -27.178 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2208,28 @@
 			)
 		)
 		(property "Mouser" "568-NSJ12HC"
-			(at 0 -30.226 0)
+			(at 0 -35.306 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
+			(at 0 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "NSJ12HC"
+			(at 0 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
-			(at 0 -62.23 0)
+			(at 0 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,8 +49,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 556-ATSAMD51G19AMU"
-			(at 0 0 0)
+		(property "Mouser" "556-ATSAMD51G19AMU"
+			(at 0 -71.12 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 -66.04 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "ATSAMD51G19A-MU"
+			(at 0 -68.58 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1011,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.8x4.8mm_ThermalVias"
-			(at 1.27 -59.69 0)
+			(at 0 -66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1021,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf"
-			(at 1.27 -63.5 0)
+			(at 0 -71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1030,7 @@
 			)
 		)
 		(property "Description" "SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 256K Flash, 128K SRAM, TQFP-64"
-			(at 0 0 0)
+			(at 0 -68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,8 +1038,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 556-ATSAMD51J19AMU"
-			(at 0 0 0)
+		(property "Mouser" "556-ATSAMD51J19AMU"
+			(at 0 -78.74 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "ATSAMD51J19A-MU"
+			(at 0 -76.2 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 -73.66 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -255,7 +255,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SON:VSON-8-1_3x3mm_P0.65_EP1.65x2.4mm"
-			(at 0 -24.13 0)
+			(at 0 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,7 +264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/TPS784-Q1"
-			(at 1.27 -20.32 0)
+			(at 0 -34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,8 +281,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-TPS78433QWDRBRQ1"
-			(at 0 0 0)
+		(property "Mouser" "595-TPS78433QWDRBRQ1"
+			(at 0 -46.736 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -41.148 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "TPS78433QWDRBRQ1"
+			(at 0 -43.942 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -77,7 +77,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 5.08) (xy -4.699 5.08)
+					(xy -2.286 5.08) (xy -4.4335 5.08)
 				)
 				(stroke
 					(width 0)
@@ -125,7 +125,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 2.667) (xy -4.699 2.667)
+					(xy -0.762 2.667) (xy -4.4468 2.6741)
 				)
 				(stroke
 					(width 0)
@@ -552,8 +552,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-THVD2442DRCR "
-			(at 0 0 0)
+		(property "Mouser" "595-THVD2442DRCR"
+			(at 0 -35.56 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "THVD2442DRCR "
+			(at 0 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -284,7 +284,7 @@
 			)
 		)
 		(property "Description" "Amphenol – Minitek127"
-			(at 0 -16.51 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +293,28 @@
 			)
 		)
 		(property "Mouser" "649-200211120001T4LF"
-			(at 0 -20.574 0)
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol FCI"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "20021112-00010T4LF"
+			(at 0 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -106,7 +106,7 @@
 	(symbol "2065"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at 2.54 2.032 0)
+			(at 1.524 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +114,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 9.906 -1.778 0)
+			(at 9.144 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +122,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 0 -6.35 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,6 +141,26 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 0 -13.208 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2065-100/998-403"
+			(at 0 -16.51 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +173,7 @@
 	(symbol "2601-1101"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at 2.54 1.778 0)
+			(at 1.524 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +181,7 @@
 			)
 		)
 		(property "Value" "WAGO 2601-1101"
-			(at 10.922 -2.032 0)
+			(at 9.652 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +189,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 0 -6.35 0)
+			(at 0 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,6 +208,26 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 0 -11.43 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2601-1101"
+			(at 0 -14.478 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +240,7 @@
 	(symbol "2604-1101"
 		(extends "Conn_01x01")
 		(property "Reference" "J"
-			(at 2.54 1.524 0)
+			(at 1.778 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +248,7 @@
 			)
 		)
 		(property "Value" "WAGO 2604-1101"
-			(at 10.668 -1.524 0)
+			(at 9.906 -2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +256,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2604-1101"
-			(at -0.254 -6.858 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,6 +275,26 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 0 -11.938 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "2604-1101"
+			(at 0 -15.494 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "74AHC1G125"
 		(pin_names
 			(offset 1.016)
@@ -25,8 +25,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 0 0 0)
+		(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 1.27 -12.7 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,37 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 0 0 0)
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-SN74AHC1G125DBVR"
+			(at 0 -27.94 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "SN74AHC1G125DBVR"
+			(at 0 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -22.86 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +115,24 @@
 			)
 		)
 		(symbol "74AHC1G125_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input inverted
 				(at 0 5.08 270)
 				(length 3.81)
@@ -103,20 +151,20 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
+			(pin power_in line
+				(at 1.27 1.27 270)
+				(length 0.635)
 				(name ""
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0 0)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0 0)
 						)
 					)
 				)
@@ -157,24 +205,7 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 1.27 1.27 270)
-				(length 0.635)
-				(name ""
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 )
