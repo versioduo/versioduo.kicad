@@ -157,14 +157,26 @@
 		(layer "F.CrtYd")
 		(uuid "b8136b80-3cde-437f-bf50-a823dee238fa")
 	)
+	(fp_rect
+		(start -0.844256 -0.849775)
+		(end 0.9 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "870a46fd-de3a-4894-8229-0dd3a3aef745")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e4488584-3ca3-4bc2-965e-f49e8e46f09a")
+		(uuid "583872a5-d9f0-4a9b-855a-edb56d0826f7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
 			)
 		)
 	)

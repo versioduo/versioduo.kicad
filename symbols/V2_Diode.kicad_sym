@@ -500,7 +500,7 @@
 	(symbol "PMEG6030AEXEX"
 		(extends "Diode_Schottky")
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +508,7 @@
 			)
 		)
 		(property "Value" "PMEG6030AEXEX"
-			(at 0 -5.588 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +516,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
-			(at 0 -8.382 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,8 +542,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 771-PMEG6030AEXEX "
-			(at 0 -11.176 0)
+		(property "Mouser" "771-PMEG6030AEXEX"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "PMEG6030AEXEX"
+			(at 0 -12.7 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)

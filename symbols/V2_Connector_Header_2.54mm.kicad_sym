@@ -52,15 +52,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Conn_1x08_1_1"
 			(rectangle
 				(start -2.54 10.16)
@@ -223,15 +214,15 @@
 	(symbol "1x08_Socket_Horizontal"
 		(extends "Conn_1x08")
 		(property "Reference" "J"
-			(at 0 22.86 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 1.27 22.86 0)
+		(property "Value" "1x08"
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +230,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Header_2.54mm:SocketHeader_1x08_P2.54mm_Horizontal"
-			(at -1.27 12.7 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,5 +265,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

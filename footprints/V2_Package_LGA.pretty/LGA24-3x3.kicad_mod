@@ -157,14 +157,25 @@
 		(layer "F.CrtYd")
 		(uuid "866ed157-107b-4154-afaa-0018a20656fd")
 	)
+	(fp_rect
+		(start -1.4 -1.4)
+		(end 1.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d77bfcde-1fd9-454d-9f01-7e5bb9fe10b3")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "b844c60c-e655-400b-bd3d-0ad3194f166d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.1)
 			)
 		)
 	)
