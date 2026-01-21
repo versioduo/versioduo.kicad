@@ -55,11 +55,12 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files allow_missing_courtyard)
-	(pad "1" smd rect
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd roundrect
 		(at 0 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.05)
 		(uuid "fe8ce89d-a8a3-4dc0-8bc8-0e7ade183b61")
 	)
 	(embedded_fonts no)

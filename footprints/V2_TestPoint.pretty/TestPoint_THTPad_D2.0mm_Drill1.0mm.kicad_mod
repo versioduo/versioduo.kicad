@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files allow_missing_courtyard)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)

@@ -27,28 +27,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 5.08 -1.905 0)
+		(property "Footprint" "V2_Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
-			(at 2.54 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "9A Id, -20V Vds, Dual HEXFET P-Channel MOSFET, SO-8"
-			(at 0 0 0)
+		(property "Description" ""
+			(at -0.254 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1143,37 @@
 			)
 		)
 		(property "Description" "9A Id, -20V Vds, Dual HEXFET P-Channel MOSFET, SO-8"
-			(at 0 0 0)
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product" "IRF9358TRPBF"
+			(at 0 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "942-IRF9358TRPBF"
+			(at 0 -25.4 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
