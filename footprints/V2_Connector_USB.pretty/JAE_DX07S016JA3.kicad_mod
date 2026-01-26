@@ -309,7 +309,7 @@
 		(uuid "ed3a3ade-7997-4dba-b3a8-e2fce5336324")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)

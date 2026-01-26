@@ -113,7 +113,7 @@
 		(uuid "1c660af7-54a5-49cd-99ef-81a5b951e09e")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)

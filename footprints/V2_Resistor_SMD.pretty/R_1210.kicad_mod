@@ -102,7 +102,7 @@
 		(uuid "fe35d6f0-3c7b-4b5e-9235-77e53cf9f7fd")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)

@@ -1,4 +1,4 @@
-(footprint "PinHeader_2x05_P1.27mm_Horizontal"
+(footprint "PinHeader_2x05_P1.27mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ">VALUE"
+	(property "Value" "Val**"
 		(at -1.778 3.81 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -167,54 +167,34 @@
 		(uuid "d26c9f42-582e-4034-aa49-2a64b5eec935")
 	)
 	(fp_line
-		(start -3.175 -3.7)
-		(end -2.54 -3.7)
+		(start -4.75 -1.25)
+		(end -1 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e1956905-df4b-42c1-a2e4-172499093ca0")
+		(uuid "8ad839d8-8f96-4973-815f-2081c4a383e1")
 	)
 	(fp_line
-		(start -2.54 -3.7)
-		(end -1.27 -3.7)
+		(start 1 -1.25)
+		(end 4.75 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f492b24f-a47c-4857-829d-0d9919d7c5ee")
+		(uuid "958c1e75-0f64-4088-8483-9a8457a767e2")
 	)
 	(fp_line
-		(start 1.27 -3.7)
-		(end 2.54 -3.7)
+		(start 4.75 2.5)
+		(end -4.75 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ec910f2-c24e-4144-b0d3-d5ba70f6ec16")
-	)
-	(fp_line
-		(start 2.54 -3.7)
-		(end 3.175 -3.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "491b8f75-e602-4cfc-9991-b6dfb54b4e8c")
-	)
-	(fp_line
-		(start 3.175 -1.2)
-		(end -3.175 -1.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ffd93257-5516-4bc6-b4c6-d9803beb2344")
+		(uuid "88253e1e-b9c8-4974-94a3-3f10451928dd")
 	)
 	(fp_rect
 		(start 3.5 2)
@@ -227,138 +207,19 @@
 		(layer "F.CrtYd")
 		(uuid "038b0211-3bd3-41df-aa03-cff6a19e5177")
 	)
-	(fp_line
-		(start -5 -9)
-		(end 5 -9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "743c7d56-7094-4289-8ab9-c5197791e550")
-	)
-	(fp_line
-		(start -5 -3.5)
-		(end -5 -9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ecca50e6-c1d2-407d-a19c-acbceb466a17")
-	)
-	(fp_line
-		(start -3.5 -3.5)
-		(end -5 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "66640f86-c82a-4126-8a71-bcad47ddb76b")
-	)
-	(fp_line
-		(start -3.5 2)
-		(end -3.5 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a0ce6165-12f3-4400-8daf-a2733e36b828")
-	)
-	(fp_line
-		(start -2.54 -3.81)
-		(end -2.54 -6.75)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "995b5155-2c4b-4b6b-891d-b2d6eb85d148")
-	)
-	(fp_line
-		(start -1.27 -3.81)
-		(end -1.27 -6.75)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e6b9f847-fa75-4bfe-9a33-a89470a9a7a9")
-	)
-	(fp_line
-		(start 0 -3.81)
-		(end 0 -6.75)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "80ef4976-403f-4468-ae2b-ab389cf8a54b")
-	)
-	(fp_line
-		(start 1.27 -3.81)
-		(end 1.27 -6.75)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "46df8929-bd0b-4961-b972-eb4dadd7e3a5")
-	)
-	(fp_line
-		(start 2.54 -3.81)
-		(end 2.54 -6.75)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b232f6df-29f0-44d3-ae84-8989939eeab2")
-	)
-	(fp_line
-		(start 3.5 -3.5)
-		(end 3.5 2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b7277f6c-423b-4ce4-a7f5-6da750a8d762")
-	)
-	(fp_line
+	(fp_rect
 		(start 3.5 2)
-		(end -3.5 2)
+		(end -3.5 -0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "be4e101e-83a4-4460-aea1-e30de91a6eea")
-	)
-	(fp_line
-		(start 5 -9)
-		(end 5 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e2061679-b936-41cc-8494-e90941580096")
-	)
-	(fp_line
-		(start 5 -3.5)
-		(end 3.5 -3.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2fe4b229-f08b-442b-ae34-041d61fa3c28")
+		(uuid "4bd62d49-806d-4072-887b-4b97377e93ea")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.4 0)
+		(at -0.05 0.6 0)
 		(layer "F.Fab")
 		(uuid "11b4aef2-d7c9-482f-b4f7-481f8b59dc72")
 		(effects
@@ -540,15 +401,15 @@
 		(uuid "5aae13ab-5fc3-4ba6-ac2d-d838b805494b")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Horizontal.step"
+	(model "../../3dmodels/V2_Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical.step"
 		(offset
-			(xyz 2.52 1.18 1.65)
+			(xyz 2.54 -0.64 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz 90 180 -0)
 		)
 	)
 )

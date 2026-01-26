@@ -259,14 +259,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NL4"
-			(at 8.89 6.35 0)
+			(at 2.54 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Connector_SpeakOn:NL4MDXX-H-3"
@@ -354,17 +356,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NL4MDXX-V-3"
-			(at 7.62 6.35 0)
+			(at 2.54 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+		(property "Footprint" "V2_Connector_SpeakOn:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
 			(at 0 -20.32 0)
 			(effects
 				(font

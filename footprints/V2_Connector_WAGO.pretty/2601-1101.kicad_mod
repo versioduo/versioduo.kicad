@@ -91,7 +91,7 @@
 		(uuid "4fac4da0-0396-4811-91d0-20394e234221")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 				(bold yes)
 			)
