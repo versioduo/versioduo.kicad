@@ -116,7 +116,7 @@
 		(uuid "51f791d1-284d-4444-a775-9b7095b2aea3")
 	)
 	(embedded_fonts no)
-	(model "/Users/kay/Documents/KiCad/9.0/versioduo.kicad/3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
+	(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"
 		(offset
 			(xyz 1.36 -1.9 0)
 		)
