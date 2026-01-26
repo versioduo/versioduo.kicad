@@ -1466,6 +1466,16 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 0 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "capacitor cap"
 			(at 0 0 0)
 			(effects
@@ -1749,6 +1759,16 @@
 		)
 		(property "Manufacturer" "TDK"
 			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 -25.4 0)
 			(show_name)
 			(effects
 				(font
