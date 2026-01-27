@@ -1,7 +1,7 @@
-(footprint "24V"
-	(version 20240108)
+(footprint "28V"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "24V"
+	(property "Value" "28V"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "018c1bf0-6aaa-432f-b6ab-6bde7eb55d25")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,11 +51,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-	(fp_text user "24V"
+	(fp_text user "28V"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Cu")
@@ -78,7 +68,7 @@
 			)
 		)
 	)
-	(fp_text user "24V"
+	(fp_text user "28V"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Mask")
@@ -90,4 +80,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

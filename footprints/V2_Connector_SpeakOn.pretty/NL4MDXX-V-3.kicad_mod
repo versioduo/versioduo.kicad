@@ -1,4 +1,4 @@
-(footprint "Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+(footprint "NL4MDXX-V-3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+	(property "Value" "NL4MDXX-V-3"
 		(at -0.7 19.15 0)
 		(layer "F.Fab")
 		(hide yes)

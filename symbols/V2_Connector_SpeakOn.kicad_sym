@@ -368,7 +368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Connector_SpeakOn:Jack_speakON_Neutrik_NL4MDXX-V-3_Vertical"
+		(property "Footprint" "V2_Connector_SpeakOn:NL4MDXX-V-3"
 			(at 0 -20.32 0)
 			(effects
 				(font
