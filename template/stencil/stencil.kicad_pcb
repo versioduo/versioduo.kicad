@@ -8,7 +8,7 @@
 	)
 	(paper "User" 280 380)
 	(title_block
-		(date "2026-01-10")
+		(date "2026-01-28")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -94,8 +94,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 40 345)
-		(grid_origin 40 345)
+		(aux_axis_origin 40 350)
+		(grid_origin 40 350)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_55557500)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -140,7 +140,7 @@
 	(footprint "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
 		(layer "F.Cu")
 		(uuid "24fd89c8-47b3-48a8-806d-875c3546f749")
-		(at 230 335)
+		(at 230 340)
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID102"
@@ -247,7 +247,7 @@
 	(footprint "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
 		(layer "F.Cu")
 		(uuid "4e2054ac-c368-4110-aae8-e6137b4a211c")
-		(at 50 45)
+		(at 50 40)
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID103"
@@ -354,7 +354,7 @@
 	(footprint "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
 		(layer "F.Cu")
 		(uuid "8303c4b8-6b26-4ce5-9e65-ce6c68799d83")
-		(at 50 335)
+		(at 50 340)
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID101"
@@ -470,8 +470,8 @@
 		(uuid "0989e577-1d07-4d5c-b27f-eeb0e7f4ae78")
 	)
 	(gr_rect
-		(start 40 35)
-		(end 240 345)
+		(start 40 30)
+		(end 240 350)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -482,8 +482,8 @@
 		(uuid "5874651f-5fad-4bb0-b34d-c7ee8ca7b348")
 	)
 	(gr_line
-		(start 140 345)
-		(end 140 35)
+		(start 140 350)
+		(end 140 30)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -516,7 +516,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "280 x 380 -> 200 x 310"
+	(gr_text "280 x 380 -> 200 x 320"
 		(locked yes)
 		(at 212.5 373.75 0)
 		(layer "F.Fab")
@@ -531,4 +531,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "V2_A4_Empty.kicad_wks")
+			(type worksheet)
+			(data |KLUv/SDtTQQA8kcaGHDNA0DI0YHeJkZJsFFVHWPECK8T+nf7Ruut19T/Wjj1lcRtZEY9sbORjzTz
+				BIaRKX941NSZJ0BmPfl9qd8ptZzn+0ZINNlsfT9aMk5jtv60TTtxar2BmQMgAoxWv7Yhp9ZdInlM
+				wxcXCyAQIoF8eJTajUPCXqolYFHFD/FgziWduMYHggI=|
+			)
+			(checksum "00BCE598336E5951A5D0C187D2E96FE2")
+		)
+	)
 )
