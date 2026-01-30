@@ -221,7 +221,7 @@
 		(uuid "048fb689-194a-400f-877a-47795b269c42")
 	)
 	(embedded_fonts no)
-	(model "../../../versioduo.kicad/3dmodels/V2_Connector_Audio.3dshapes/NL4MDXX-V-3.step"
+	(model "../../3dmodels/V2_Connector_Audio.3dshapes/NL4MDXX-V-3.step"
 		(offset
 			(xyz 0.06 0.03 18.9)
 		)

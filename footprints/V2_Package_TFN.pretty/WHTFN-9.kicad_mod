@@ -400,7 +400,7 @@
 		(uuid "4f9e326a-6a0c-48ad-af5d-b3bdd4bd3ae8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Package_SON.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+	(model "../../3dmodels/V2_Package_SON.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
 		(offset
 			(xyz 0 0 0)
 		)

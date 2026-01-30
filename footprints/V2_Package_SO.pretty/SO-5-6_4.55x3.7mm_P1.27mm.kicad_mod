@@ -315,7 +315,7 @@
 		(uuid "f9a7c7ee-4da6-40b0-a60b-90c0574cf7ee")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SO-5-6_4.55x3.7mm_P1.27mm.step"
+	(model "../../3dmodels/V2_Package_SO.3dshapes/SO-5-6_4.55x3.7mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

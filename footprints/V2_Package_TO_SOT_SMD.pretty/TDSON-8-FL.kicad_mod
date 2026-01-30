@@ -722,7 +722,7 @@
 		(uuid "b7ff5e15-c196-454a-a19c-f7886c80b36f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.wrl"
+	(model "../../3dmodels/V2_Package_TO_SOT_SMD.3dshapes/TDSON-8-1.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

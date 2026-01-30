@@ -442,7 +442,7 @@
 		(uuid "28928888-1fff-42b3-97f8-49d52acdf8d6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
+	(model "../../3dmodels/V2_Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

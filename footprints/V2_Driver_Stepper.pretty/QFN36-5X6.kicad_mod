@@ -1988,7 +1988,7 @@
 		(uuid "2d2b9e31-e338-4be3-81c9-7441c981d8b6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.6mm.step"
+	(model "../../3dmodels/V2_Package_DFN_QFN.3dshapes/QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

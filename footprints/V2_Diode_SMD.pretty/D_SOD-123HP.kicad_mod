@@ -161,7 +161,7 @@
 		(uuid "52451b14-8bf6-4686-970b-6aa5cae2f7ab")
 	)
 	(embedded_fonts no)
-	(model "../../../versioduo.kicad/3dmodels/V2_Diode_SMD.3dshapes/SOD123HP.step"
+	(model "../../3dmodels/V2_Diode_SMD.3dshapes/SOD123HP.step"
 		(offset
 			(xyz -0.1 0.3 -3.6)
 		)

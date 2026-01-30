@@ -392,7 +392,7 @@
 		(uuid "0fd6f02c-2ee8-4ee7-88dd-5d015041fb2d")
 	)
 	(embedded_fonts no)
-	(model "/Users/kay/Documents/KiCad/8.0/versioduo.kicad/3dmodels/V2_Connector_Audio.3dshapes/SJ2-35464B-SMT-TR.step"
+	(model "../../3dmodels/V2_Connector_Audio.3dshapes/SJ2-35464B-SMT-TR.step"
 		(offset
 			(xyz 6 -3 4.2)
 		)

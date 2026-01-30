@@ -472,7 +472,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels//V2_Connector_SIM.3dshapes/G85D1171012HHR.step"
+	(model "../../3dmodels/V2_Connector_SIM.3dshapes/G85D1171012HHR.step"
 		(offset
 			(xyz 0 -0.1 0)
 		)

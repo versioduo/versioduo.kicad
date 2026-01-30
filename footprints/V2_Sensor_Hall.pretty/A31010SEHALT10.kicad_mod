@@ -223,7 +223,7 @@
 		(uuid "eb947bc8-4750-4fa9-b81e-8a6e733ee9ad")
 	)
 	(embedded_fonts no)
-	(model "/Users/kay/Documents/KiCad/8.0/versioduo.kicad/3dmodels/V2_Sensor_Hall.3dshapes/A31010SEHALT-10.stp"
+	(model "../../3dmodels/V2_Sensor_Hall.3dshapes/A31010SEHALT-10.stp"
 		(offset
 			(xyz 0 0 0)
 		)

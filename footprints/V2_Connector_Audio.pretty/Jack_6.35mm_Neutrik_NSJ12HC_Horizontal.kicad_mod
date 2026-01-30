@@ -265,7 +265,7 @@
 		(uuid "92108fad-8f50-49bd-b26e-8805e51392a2")
 	)
 	(embedded_fonts no)
-	(model "../../../versioduo.kicad/3dmodels/V2_Connector_Audio.3dshapes/NSJ12HC.step"
+	(model "../../3dmodels/V2_Connector_Audio.3dshapes/NSJ12HC.step"
 		(offset
 			(xyz -0.28 0 23)
 		)

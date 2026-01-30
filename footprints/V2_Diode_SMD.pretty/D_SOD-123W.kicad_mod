@@ -150,7 +150,7 @@
 		(uuid "52451b14-8bf6-4686-970b-6aa5cae2f7ab")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_CFP3_SOD-123W.step"
+	(model "../../3dmodels/V2_Diode_SMD.3dshapes/Nexperia_CFP3_SOD-123W.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -250,7 +250,7 @@
 		(uuid "28df51d0-02c8-4a5a-81a2-ee5f111bb0ab")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243.step"
+	(model "../../3dmodels/V2_Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243.step"
 		(offset
 			(xyz 0 0 0)
 		)

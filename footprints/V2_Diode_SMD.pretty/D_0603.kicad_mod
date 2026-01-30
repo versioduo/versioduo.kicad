@@ -171,7 +171,7 @@
 		(uuid "8ebb89ad-e81a-407d-b908-ac854133d7bf")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"
+	(model "../../3dmodels/V2_Diode_SMD.3dshapes/D_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
