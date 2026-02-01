@@ -1,9 +1,8 @@
-(footprint "TPSM33625"
+(footprint "QFN-11"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "TPSM33625RDNR ")
 	(property "Reference" "REF**"
 		(at 0 -3.4 0)
 		(unlocked yes)
@@ -17,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TPSM33625"
+	(property "Value" "QFN-11"
 		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -443,7 +442,7 @@
 		(uuid "a92d34ad-0d30-40a1-8b27-e10e08a5bdb9")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Converter_DCDC.3dshapes/TPSM33625.step"
+	(model "../../3dmodels/V2_Converter_DCDC.3dshapes/QFN-11.step"
 		(offset
 			(xyz 0 0 0)
 		)

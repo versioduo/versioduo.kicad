@@ -10,21 +10,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -10.16 8.382 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "SIM"
-			(at -7.62 -10.795 0)
+		(property "Value" ""
+			(at -7.62 11.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -276,25 +276,25 @@
 	(symbol "G85D1171012HHR"
 		(extends "SIM Card ")
 		(property "Reference" "J"
-			(at -10.16 8.382 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "SIM"
-			(at -7.62 -10.795 0)
+		(property "Value" "G85D1171012HHR"
+			(at -7.62 11.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Connector_SIM:Amphenol_G85D1171012HHR"
-			(at 1.27 -12.7 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,5 +321,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

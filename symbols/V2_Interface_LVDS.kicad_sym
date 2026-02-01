@@ -573,15 +573,16 @@
 	(symbol "SN65MLVD203B"
 		(extends "LVDS_Full-Duplex_Enable")
 		(property "Reference" "U"
-			(at -8.89 8.89 0)
+			(at 2.54 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SN65MLVD203B"
-			(at 1.27 8.89 0)
+			(at 2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,5 +617,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
