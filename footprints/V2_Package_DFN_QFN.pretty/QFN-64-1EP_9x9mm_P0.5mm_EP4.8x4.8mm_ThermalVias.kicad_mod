@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN-64-1EP_9x9mm_P0.5mm_EP4.8x4.8mm_ThermalVias"
+	(property "Value" "Val**"
 		(at 0 7.07 0)
 		(layer "F.Fab")
 		(hide yes)
