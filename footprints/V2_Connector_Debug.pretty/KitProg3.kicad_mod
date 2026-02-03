@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" "Nonsensical pad order, the cable's wire 1 is pin 2"
+	(property "Description" "Nonsensical pin order, the cable's wire 1 is pin 2"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -363,7 +363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Nonsensical pad order, the cable's wire 1 is pin 2"
+		(property "Description" "Nonsensical pin order, the cable's wire 1 is pin 2"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -699,6 +699,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 						(color 165 165 165 1)
 					)
 				)

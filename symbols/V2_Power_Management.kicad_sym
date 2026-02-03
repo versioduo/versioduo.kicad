@@ -370,7 +370,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-8"
-			(at 0 -30.734 0)
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,7 +388,7 @@
 			)
 		)
 		(property "Description" "Reverse Polarity Protection Controller"
-			(at 0 -33.528 0)
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "595-LM74502HQDDFRQ1"
+		(property "Mouser" "595-LM74502QDDFRQ1"
 			(at 0 -40.64 0)
 			(show_name)
 			(effects
@@ -406,7 +406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "LM74502HQDDFRQ1"
+		(property "Product" "LM74502QDDFRQ1"
 			(at 0 -38.1 0)
 			(show_name)
 			(effects
