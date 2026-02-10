@@ -91,17 +91,17 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Date: ${ISSUE_DATE}"
+	(tbtext "Updated: ${ISSUE_DATE}"
 		(name "")
-		(pos 37.43 4.0002)
+		(pos 34.93 4.0002)
 	)
-	(tbtext "Rev: ${REVISION}"
+	(tbtext "Revision: ${REVISION}"
 		(name "")
-		(pos 37.43 13.0002)
+		(pos 34.93 13.0002)
 	)
 	(tbtext "Id: ${#}/${##}"
 		(name "")
-		(pos 37.43 10.0002)
+		(pos 34.93 10.0002)
 		(comment "Sheet id")
 	)
 	(tbtext "${TITLE}"
@@ -111,7 +111,7 @@
 	)
 	(tbtext "Sheet: ${SHEETNAME}"
 		(name "")
-		(pos 37.43 7.0002)
+		(pos 34.93 7.0002)
 	)
 	(tbtext "${COMPANY}"
 		(name "")
