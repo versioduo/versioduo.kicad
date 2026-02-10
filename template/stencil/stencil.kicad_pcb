@@ -8,7 +8,7 @@
 	)
 	(paper "User" 280 380)
 	(title_block
-		(date "2026-01-28")
+		(date "2026-02-10")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -155,7 +155,7 @@
 				)
 			)
 		)
-		(property "Value" "Fiducial"
+		(property "Value" "Fiducial_Paste"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -180,7 +180,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -220,7 +220,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d8c7ac05-a72f-49db-bfd4-0bfe7d0c801e")
+			(uuid "e19a1bbf-d6cf-4904-8db3-4fdb2a2a431b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -231,7 +231,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "771ef705-1c18-4b4f-aa30-cd425b6baaa0")
+			(uuid "6cbd7904-1e75-42fe-9b1a-a11318c97448")
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -240,7 +240,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(solder_mask_margin 0.25)
 			(clearance 0.25)
-			(uuid "7efb866b-30bb-47a9-956a-9aeaac3e368e")
+			(uuid "5c4eb1cd-2caf-4657-9c05-6610916a8700")
 		)
 		(embedded_fonts no)
 	)
@@ -262,7 +262,7 @@
 				)
 			)
 		)
-		(property "Value" "Fiducial"
+		(property "Value" "Fiducial_Paste"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -287,7 +287,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -327,7 +327,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b6aba609-b957-4da8-8338-acb3748fa5c3")
+			(uuid "550872b6-245e-49c9-a45d-94d13e8420e3")
 		)
 		(fp_circle
 			(center 0 0)
@@ -338,7 +338,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a8bfd2ea-4d4a-491b-82be-084d9b872777")
+			(uuid "ed776d0e-c946-43da-a5ab-a3c55b92d1fc")
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -347,7 +347,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(solder_mask_margin 0.25)
 			(clearance 0.25)
-			(uuid "24e3896f-ec14-4dbf-ad0f-09e04af83e93")
+			(uuid "acf1e941-dc7d-474a-abac-d1f40fbc5c87")
 		)
 		(embedded_fonts no)
 	)
@@ -369,7 +369,7 @@
 				)
 			)
 		)
-		(property "Value" "Fiducial"
+		(property "Value" "Fiducial_Paste"
 			(at 0 1.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -394,7 +394,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -434,7 +434,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "87396448-ab83-400e-8603-466eee12050c")
+			(uuid "f0521407-fc54-4efe-959b-03464e0fdc40")
 		)
 		(fp_circle
 			(center 0 0)
@@ -445,7 +445,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7223d3e5-f795-419c-9bc5-ab6c67f5b352")
+			(uuid "216e270a-7552-4143-8ab9-a510477406cc")
 		)
 		(pad "" smd circle
 			(at 0 0)
@@ -454,7 +454,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(solder_mask_margin 0.25)
 			(clearance 0.25)
-			(uuid "4f7d1023-0070-4cd2-a552-72d34fd30ea5")
+			(uuid "050358bf-dc8e-43f0-b1f9-dfac72e57669")
 		)
 		(embedded_fonts no)
 	)
