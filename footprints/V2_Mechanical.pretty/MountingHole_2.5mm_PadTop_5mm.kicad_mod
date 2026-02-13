@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.5mm_PadTop_5mm"
+	(property "Value" "2.5mm_PadTop_5mm"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,18 +56,6 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-	(fp_text user "${REFERENCE}"
-		(at 0 4 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "24d4c908-1155-4ecd-9f2c-7725b5abd22a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole custom
 		(at 0 0)
 		(size 2.8 2.8)

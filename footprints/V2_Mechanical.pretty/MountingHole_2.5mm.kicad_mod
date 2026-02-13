@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.5mm"
+	(property "Value" "2.5mm"
 		(at 0 2.23 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.5mm_Keepout_6mm"
+	(property "Value" "2.5mm_Keepout_6mm"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -66,18 +66,6 @@
 		(fill no)
 		(layer "Margin")
 		(uuid "865578c7-74bf-4893-846c-9f89ee7fbd15")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 4 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "24d4c908-1155-4ecd-9f2c-7725b5abd22a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)

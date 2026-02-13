@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_3mm"
+	(property "Value" "3mm"
 		(at 0 3 0)
 		(layer "F.Fab")
 		(hide yes)

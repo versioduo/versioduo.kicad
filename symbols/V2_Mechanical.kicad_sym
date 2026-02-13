@@ -125,16 +125,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +185,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" ""
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -221,16 +212,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +349,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_10mm"
+		(property "Value" "10mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -394,16 +376,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,7 +414,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_1mm"
+		(property "Value" "1mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -450,7 +423,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_1mm"
-			(at 0 -5.08 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,16 +441,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +479,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm"
+		(property "Value" "2.5mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -524,7 +488,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2.5mm"
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,16 +506,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +544,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm_Keepout_6mm"
+		(property "Value" "2.5mm_Keepout_6mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -598,7 +553,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2.5mm_Keepout_6mm"
-			(at 0 -10.16 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,16 +571,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at -0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +609,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm_PadTop_5mm"
+		(property "Value" "2.5mm_PadTop_5mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -690,16 +636,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at -0.254 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,7 +674,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.5mm_Pad_5mm"
+		(property "Value" "2.5mm_Pad_5mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -764,16 +701,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +739,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
+		(property "Value" "2mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -838,15 +766,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -885,7 +804,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_2.4mm"
+		(property "Value" "2mm_Pad_2.4mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -912,16 +831,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +869,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_4mm"
+		(property "Value" "2mm_Pad_4mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -986,16 +896,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +934,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
+		(property "Value" "2mm_Pad_5.2mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -1060,16 +961,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +999,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3mm"
+		(property "Value" "3mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -1134,16 +1026,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1064,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3mm_Keepout_6mm"
+		(property "Value" "3mm_Keepout_6mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -1208,16 +1091,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3mm_PadCovered_6mm"
+		(property "Value" "3mm_PadCovered_6mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -1282,16 +1156,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1194,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3mm_Pad_6mm"
+		(property "Value" "3mm_Pad_6mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -1356,16 +1221,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1259,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3mm_Pad_8mm"
+		(property "Value" "3mm_Pad_8mm"
 			(at 0 4.445 0)
 			(effects
 				(font
@@ -1430,16 +1286,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1324,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_5mm"
+		(property "Value" "5mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -1504,16 +1351,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1389,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_8mm"
+		(property "Value" "8mm"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -1578,16 +1416,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

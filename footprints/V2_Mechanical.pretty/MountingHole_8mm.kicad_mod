@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_8mm"
+	(property "Value" "8mm"
 		(at 0 5.976 0)
 		(layer "F.Fab")
 		(hide yes)

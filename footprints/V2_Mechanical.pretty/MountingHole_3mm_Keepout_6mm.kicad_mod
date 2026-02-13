@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_3mm_Keepout_6mm"
+	(property "Value" "3mm_Keepout_6mm"
 		(at 0 4.6 0)
 		(layer "F.Fab")
 		(hide yes)

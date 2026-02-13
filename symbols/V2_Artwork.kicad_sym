@@ -1622,17 +1622,16 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at -4.572 -5.588 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Artwork:Logo_Small"
-			(at 0 -8.128 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,15 +1657,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "V2-logo_1_0"
 			(polyline
 				(pts
@@ -1682,6 +1672,82 @@
 			)
 		)
 		(symbol "V2-logo_1_1"
+			(text "V2"
+				(at -0.508 -0.254 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.375)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "V2-logo-tiny"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "ICON"
+			(at -3.302 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "V2-logo"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "V2_Artwork:Logo_Tiny"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.508 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "V2-logo-tiny_1_0"
+			(polyline
+				(pts
+					(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
+				)
+				(stroke
+					(width 0.3)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "V2-logo-tiny_1_1"
 			(text "V2"
 				(at -0.508 -0.254 0)
 				(effects

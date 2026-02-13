@@ -1,4 +1,4 @@
-(footprint "Order_Number"
+(footprint "Revision"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Order_Number"
+	(property "Value" "Val**"
 		(at 0 2.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,27 +55,28 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_rect
-		(start -7 -0.75)
-		(end 7 0.75)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "7c583d0f-c427-4c4b-982f-c532b1d72015")
-	)
-	(fp_text user "${Order-Number}"
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text user "${REVISION} (${ISSUE_DATE})"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2861a01a-29e8-4ca9-81ec-035b5616595d")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REVISION} (${ISSUE_DATE})"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b59e894-61ff-4a69-b910-255433b07dfa")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
 		)
 	)

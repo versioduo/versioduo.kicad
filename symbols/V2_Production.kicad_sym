@@ -75,7 +75,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Order_Number"
+	(symbol "Revision"
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" ""
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -96,7 +96,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
+		(property "Footprint" "V2_Production:Revision"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -123,26 +123,26 @@
 				(hide yes)
 			)
 		)
-		(symbol "Order_Number_0_0"
-			(text "ORDER-NUMBER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(symbol "Order_Number_0_1"
+		(symbol "Revision_0_1"
 			(rectangle
-				(start -8.89 1.27)
-				(end 8.89 -1.27)
+				(start -5.08 1.27)
+				(end 5.08 -1.27)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "Revision_1_1"
+			(text "Revision"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
