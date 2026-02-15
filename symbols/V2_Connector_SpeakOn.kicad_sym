@@ -61,15 +61,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Jack*speakON*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "NL4_0_1"
 			(polyline
 				(pts
@@ -337,15 +328,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Jack*speakON*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "NL4MDXX-V-3"
@@ -426,15 +408,6 @@
 			)
 		)
 		(property "ki_keywords" "speakon connector neutrik"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Jack*speakON*"
 			(at 0 0 0)
 			(effects
 				(font
