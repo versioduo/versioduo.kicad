@@ -298,7 +298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "50 Ω"
 			(at 1.905 -1.27 0)
 			(effects
 				(font
@@ -395,7 +395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "47 Ω"
 			(at 1.905 -1.27 0)
 			(effects
 				(font
