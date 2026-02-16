@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 2.35 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -171,7 +171,7 @@
 		(uuid "ef5fb4e3-0601-4355-a940-0aa06e8c9def")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-21_Kemet-B.step"
+	(model "../../3dmodels/V2_Capacitor_SMD.3dshapes/EIA-3528.step"
 		(offset
 			(xyz 0 0 0)
 		)
