@@ -171,7 +171,6 @@
 		(size 0.5 0.5)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "5c00bc5c-8161-45d9-af96-9c24eac2b982")
 	)
 	(pad "1" thru_hole circle
@@ -181,7 +180,6 @@
 		(layers "*.Cu")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(solder_mask_margin 0.102)
 		(uuid "ade688c3-37d7-4c3b-8024-95e4d06a6d57")
 	)
 	(pad "1" smd circle
@@ -207,7 +205,6 @@
 		(layers "*.Cu")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(solder_mask_margin 0.102)
 		(uuid "a1d45d83-c35d-4ce0-bfb0-2304948cdbfb")
 	)
 	(pad "3" smd circle
@@ -233,7 +230,6 @@
 		(layers "*.Cu")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(solder_mask_margin 0.102)
 		(uuid "fc6b6f88-0bc0-4cee-a8b1-86ad00617db0")
 	)
 	(pad "5" smd circle
