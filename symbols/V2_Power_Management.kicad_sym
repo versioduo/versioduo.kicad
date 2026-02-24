@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SO:PG-TDS0-14"
-			(at 2.54 -33.02 0)
+			(at 0 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,8 +42,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
-			(at 0 0 0)
+		(property "Description" "Infineon Smart High Side Switches PROFET™+ 24V"
+			(at 0 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "36V"
+			(at 0 -45.72 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Infineon Smart High Sde Switches PROFET™+ 24V"
+		(property "Description" "Infineon Smart High Side Switches PROFET™+ 24V"
 			(at 0 -40.64 0)
 			(effects
 				(font
@@ -954,6 +964,16 @@
 		)
 		(property "Product" "BTT60101ERBXUMA1"
 			(at 0 -45.72 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "36V"
+			(at 0 -50.8 0)
 			(show_name)
 			(effects
 				(font
