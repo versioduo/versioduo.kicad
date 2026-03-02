@@ -56,7 +56,7 @@
 		)
 	)
 	(fp_line
-		(start -4.127 -1.1452)
+		(start -4.25 -1.1452)
 		(end 3.873 -1.1452)
 		(stroke
 			(width 0.1)
@@ -67,7 +67,7 @@
 	)
 	(fp_line
 		(start -0.246 1.1548)
-		(end -4.127 1.1548)
+		(end -4.25 1.1548)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -117,7 +117,7 @@
 		(uuid "c01660ca-37c5-4af4-a186-3ba9fd360696")
 	)
 	(fp_line
-		(start -4.127 -1.1452)
+		(start -4.377 -1.1452)
 		(end 3.873 -1.1452)
 		(stroke
 			(width 0.1)
@@ -127,8 +127,8 @@
 		(uuid "b50f1349-71b3-4198-9d87-c1e414cd3b8f")
 	)
 	(fp_line
-		(start -4.127 1.1548)
-		(end -4.127 -1.1452)
+		(start -4.377 1.1548)
+		(end -4.377 -1.1452)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,7 +178,7 @@
 	)
 	(fp_line
 		(start 3.873 1.1548)
-		(end -4.127 1.1548)
+		(end -4.377 1.1548)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -199,22 +199,22 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at -3.13 0)
-		(size 1.75 1.6)
+		(at -3.25 0)
+		(size 2 1.6)
 		(layers "F.Paste")
-		(roundrect_rratio 0.05)
+		(roundrect_rratio 0.1)
 		(uuid "549ab68b-004d-4e6a-b7ce-d64ff08bab79")
 	)
 	(pad "" smd roundrect
-		(at 0.6 0)
-		(size 4.6 2)
+		(at 0.75 0)
+		(size 5 2)
 		(layers "F.Paste")
-		(roundrect_rratio 0.05)
+		(roundrect_rratio 0.1)
 		(uuid "05b49401-31d1-4846-8744-c540cd83444b")
 	)
 	(pad "1" smd custom
-		(at 0.6 0)
-		(size 4.6 2)
+		(at -3.05 0)
+		(size 2.3 1.6)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(thermal_bridge_angle 45)
@@ -223,20 +223,32 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_poly
-				(pts
-					(xy -4.6 -0.8) (xy -2.3 -0.8) (xy -2.3 0.8) (xy -4.6 0.8)
-				)
-				(width 0)
-				(fill yes)
-			)
 			(gr_bbox
 				(start -0.8 -0.8)
 				(end 0.8 0.8)
 				(fill no)
 			)
 		)
-		(uuid "94868805-ed63-4c9b-a997-1ea675a78ee3")
+		(uuid "d5072b1d-1946-4eb0-8cc2-90e6ee8b572a")
+	)
+	(pad "1" smd custom
+		(at 0.6 0)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_bbox
+				(start -0.8 -0.8)
+				(end 0.8 0.8)
+				(fill no)
+			)
+		)
+		(uuid "04ff5110-a250-4f29-b057-b90bdaa1a057")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2065-100.stp"

@@ -1234,7 +1234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 0 -23.368 0)
 			(show_name)
 			(effects
@@ -1244,7 +1244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 0 -20.574 0)
 			(show_name)
 			(effects
@@ -1254,7 +1254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 0 -17.78 0)
 			(show_name)
 			(effects
@@ -1749,7 +1749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 0 -22.86 0)
 			(show_name)
 			(effects
@@ -1769,7 +1769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 0 -17.78 0)
 			(show_name)
 			(effects
