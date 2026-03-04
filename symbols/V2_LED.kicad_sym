@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 0 -7.112 0)
 			(effects
 				(font
@@ -485,7 +485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -589,7 +589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 0 -5.08 0)
 			(effects
 				(font

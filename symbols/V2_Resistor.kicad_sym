@@ -48,7 +48,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.192 0)
 			(effects
 				(font
@@ -173,7 +173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.192 0)
 			(effects
 				(font
@@ -298,7 +298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.192 0)
 			(effects
 				(font
@@ -416,7 +416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -521,7 +521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -626,7 +626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -731,7 +731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -838,7 +838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -945,7 +945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1050,7 +1050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1264,7 +1264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1371,7 +1371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -1583,7 +1583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1690,7 +1690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1797,7 +1797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1902,7 +1902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2007,7 +2007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2112,7 +2112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2326,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2433,7 +2433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -2750,7 +2750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 -12.7 0)
 			(effects
 				(font

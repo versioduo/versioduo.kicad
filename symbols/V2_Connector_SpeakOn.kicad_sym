@@ -280,7 +280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "speakON Connector, Male or Female, NL4"
+		(property "Description" ""
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -368,7 +368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "speakON Chassis Connectors, 4 pole chassis connector, grey D-size flange, self tapping screw holes (A-screw), vertical PCB mount. Replaces NL4MD-V-1"
+		(property "Description" ""
 			(at 0 -25.4 0)
 			(effects
 				(font

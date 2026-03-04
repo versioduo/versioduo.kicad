@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 0 -7.62 0)
 			(effects
 				(font

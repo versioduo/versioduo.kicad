@@ -48,7 +48,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -191,7 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Footprint" "V2_Inductor_SMD:L_3.1x5.1"
-			(at -1.778 0 90)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -325,7 +325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -422,7 +422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 0 -13.97 0)
 			(effects
 				(font
