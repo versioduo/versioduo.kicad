@@ -1,0 +1,165 @@
+(footprint "D_SOD-1608"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ad0ef1b4-2422-4d9d-a1cd-3b6a8db056bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ffb480a-78d3-447d-bb0c-8fce4018ac89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83cddf7f-ab3b-4784-ba44-47d25e6354db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DFN1608D-2 (SOD1608)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "104b301b-6a34-4988-b845-3026281959f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.6)
+		(end -1.2 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57b56691-c886-4fb7-930e-6c8b7d65f9a8")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end -1.2 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aac9a32-7eb9-4629-b92d-5ed9b6aa4892")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -1.2 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39b8e437-6954-460e-a2f7-f4927ec50c2e")
+	)
+	(fp_rect
+		(start -1.2 -0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "80cfb0b7-fc5f-433f-9c18-c6340cda46ec")
+	)
+	(fp_rect
+		(start -1.2 -0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5562a5d0-d7c0-486f-bdea-f396eb1a35cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6db39fc1-1514-443d-8693-86458eeb50ac")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.425 0)
+		(size 1.05 0.8)
+		(layers "F.Paste")
+		(roundrect_rratio 0.125)
+		(chamfer_ratio 0.3)
+		(chamfer top_right bottom_right)
+		(uuid "84c74b11-9013-4970-bdd6-564ff25b1420")
+	)
+	(pad "1" smd roundrect
+		(at -0.425 0)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "b863fab6-899c-46e8-964e-b4b1ca728350")
+	)
+	(pad "2" smd roundrect
+		(at 0.625 0)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1538461538)
+		(uuid "a12c7023-84c9-4365-af05-e23ae298dbc9")
+	)
+	(pad "2" smd roundrect
+		(at 0.625 0)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1538461538)
+		(chamfer_ratio 0.3)
+		(chamfer top_left bottom_left)
+		(uuid "04389167-fa85-4ad6-9a59-132b5a6a3d8e")
+	)
+	(embedded_fonts no)
+	(model "/Users/kay/Documents/KiCad/9.0/3dmodels/V2_Diode_SMD.3dshapes/SOD-1608.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
