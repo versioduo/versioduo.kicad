@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "ESD"
-			(at -6.35 6.35 0)
+			(at -6.35 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0582N"
-			(at -6.35 3.81 0)
+			(at -6.35 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-			(at 0 -17.78 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "Mouser" "947-RCLAMP0582N.TCT"
-			(at 0 -25.4 0)
+			(at 0 -21.59 0)
 			(show_name)
 			(effects
 				(font
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Product" "RCLAMP0582N.TCT"
-			(at 0 -22.86 0)
+			(at 0 -19.05 0)
 			(show_name)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 			)
 		)
 		(property "Manufacturer" "Semtech"
-			(at 0 -20.32 0)
+			(at 0 -16.51 0)
 			(show_name)
 			(effects
 				(font
@@ -83,8 +83,8 @@
 		)
 		(symbol "RCLAMP0582N_0_1"
 			(rectangle
-				(start -6.35 2.54)
-				(end 6.35 -5.08)
+				(start -6.35 7.62)
+				(end 6.35 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -96,27 +96,9 @@
 		)
 		(symbol "RCLAMP0582N_1_0"
 			(pin bidirectional line
-				(at -8.89 0 0)
+				(at -8.89 5.08 0)
 				(length 2.54)
-				(name "I/O2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "I/O1"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -131,11 +113,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 2.54 -10.16 0)
+			(pin passive line
+				(at -8.89 2.54 0)
 				(length 2.54)
-				(hide yes)
-				(name ""
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -150,8 +131,26 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 8.89 0 180)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -169,7 +168,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -2.54 180)
+				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -188,11 +187,10 @@
 			)
 		)
 		(symbol "RCLAMP0582N_1_1"
-			(pin no_connect line
-				(at 2.54 -7.62 0)
+			(pin passive line
+				(at -8.89 -5.08 0)
 				(length 2.54)
-				(hide yes)
-				(name ""
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
