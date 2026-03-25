@@ -9,7 +9,7 @@
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
-      "pads": 0.7200000286102295,
+      "pads": 0.6100000143051147,
       "shapes": 1.0,
       "tracks": 0.7099999785423279,
       "vias": 1.0,
@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",

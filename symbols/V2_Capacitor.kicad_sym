@@ -1047,7 +1047,7 @@
 				)
 			)
 		)
-		(property "Mouser" " 810-CGA3E3X7R1H474KB"
+		(property "Mouser" "810-CGA3E3X7R1H474KB"
 			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1058,7 +1058,7 @@
 				)
 			)
 		)
-		(property "Product" " CGA3E3X7R1H474K080AB"
+		(property "Product" "CGA3E3X7R1H474K080AB"
 			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)

@@ -11,10 +11,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -12.192 0)
@@ -71,7 +71,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151,10 +151,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -11.684 0)
@@ -211,7 +211,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -351,7 +351,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -431,10 +431,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -12.192 0)
@@ -491,7 +491,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -631,7 +631,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +703,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "+VBUS"
-		(power global)
+		(power local)
 		(pin_numbers
 			(hide yes)
 		)
@@ -711,10 +711,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -12.7 0)
@@ -771,7 +771,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -831,7 +831,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "+VLINK"
-		(power global)
+		(power local)
 		(pin_numbers
 			(hide yes)
 		)
@@ -839,10 +839,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -12.7 0)
@@ -899,7 +899,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,7 +1027,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,7 +1190,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "Shield"
-		(power global)
+		(power local)
 		(pin_numbers
 			(hide yes)
 		)
@@ -1198,10 +1198,10 @@
 			(offset 0)
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 0 -7.62 0)
@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "global ground"
+		(property "ki_keywords" "power"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
