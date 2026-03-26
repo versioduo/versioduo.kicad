@@ -266,7 +266,7 @@
 		(uuid "06bb69c2-c736-4371-9a66-360c3e879941")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Package_TO_SOT_SMD.3dshapes/SOT-23-8.wrl"
+	(model "../../3dmodels/V2_Package_TO_SOT_SMD.3dshapes/SOT-23-8.step"
 		(offset
 			(xyz 0 0 0)
 		)

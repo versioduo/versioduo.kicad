@@ -418,7 +418,7 @@
 		(uuid "4a8bc1fd-90c7-487c-a171-9d4f7ef4319d")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.wrl"
+	(model "../../3dmodels/V2_Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

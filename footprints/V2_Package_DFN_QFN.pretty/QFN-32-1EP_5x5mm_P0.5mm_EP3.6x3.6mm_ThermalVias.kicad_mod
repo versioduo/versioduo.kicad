@@ -861,7 +861,7 @@
 		(uuid "36e17e8b-c3e8-4a8a-9438-5fe8f5d67b5e")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
+	(model "../../3dmodels/V2_Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
