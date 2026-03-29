@@ -1,7 +1,7 @@
 (footprint "NL4MDXX-V-3"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors, 4 pole chassis connector, grey D-size flange, self tapping screw holes (A-screw), vertical PCB mount, replaces NL4MD-V-1, https://www.neutrik.com/en/product/nl4mdxx-v-3")
 	(tags "neutrik speakon")
@@ -9,7 +9,7 @@
 		(at 0 -16.6 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cee39df6-4c70-423d-b13f-b74527df7149")
+		(uuid "aa5b6893-16ce-4ad4-a925-6c5197f688f7")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at -0.7 19.15 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8069d43d-d8d5-49f6-a362-04fda890d6a8")
+		(uuid "8464d527-a806-45f9-ad31-fa0e90fa4cb2")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c1ce8a00-084e-4958-a929-6203c08db281")
+		(uuid "5e5f4e79-6ad4-4368-802e-1ac9850d71a7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fcca2d21-a1d5-4430-8cd3-753f51327a5d")
+		(uuid "ae443aea-29b2-4867-b81e-09ed039c076f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -13 12)
 		(end -13 -12)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c0e62f02-acad-433a-9a19-c59787c34b01")
+		(uuid "1bc71967-2b62-4609-9fb8-2bea68f12c20")
 	)
 	(fp_line
 		(start -9.5 -15.5)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "729c07c9-c325-47c0-b053-4fcc85e8ce2c")
+		(uuid "9ae6cb00-aec3-4bf3-b69c-9bfcb21f0790")
 	)
 	(fp_line
 		(start -9.5 15.5)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3a0f71fe-9b0f-4a28-9799-896666901547")
+		(uuid "e4df92a3-ebe2-47eb-9fe5-b56122944dfd")
 	)
 	(fp_line
 		(start 13 12)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8042f6b2-9df5-4e83-815f-737afd6cc4e1")
+		(uuid "47b869b8-266d-4439-ab38-379a8b4c25ba")
 	)
 	(fp_arc
 		(start -13 -12)
@@ -105,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "906e071d-7382-4e0e-a3b4-f3f50fd567c3")
+		(uuid "67fe038f-9352-4b59-a5ae-6540aaf347c8")
 	)
 	(fp_arc
 		(start -9.5 15.5)
@@ -116,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e2a807d0-5517-4ef6-af83-339bb809c939")
+		(uuid "a3eeb553-521b-4211-b98b-d9fc8cb7a25d")
 	)
 	(fp_arc
 		(start 9.5 -15.5)
@@ -127,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f9deffb9-2f0d-4cea-9cbe-b385a5db2bb3")
+		(uuid "4c4ebcd3-e019-461d-a7f2-09f0e66826a9")
 	)
 	(fp_arc
 		(start 13 12)
@@ -138,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b0825606-15d6-4623-a66b-d09dae07d464")
+		(uuid "29106c2f-9669-4867-b539-52ce76539ca7")
 	)
 	(fp_circle
 		(center -9.5 -12)
@@ -149,7 +150,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6321aedc-7f18-4d56-9904-17b7dd4c6617")
+		(uuid "7a7a7375-11c0-4bea-a53d-5d92d175babe")
 	)
 	(fp_circle
 		(center 0 0)
@@ -160,7 +161,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3721dfea-bbb4-4ec7-b54b-596905f066d7")
+		(uuid "6e26e64b-41a3-4ab7-a7b3-fb31460fac05")
 	)
 	(fp_circle
 		(center 9.5 12)
@@ -171,12 +172,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "22923860-6f46-4fa8-b1ee-f10f09126695")
+		(uuid "0fa8f2b4-ee5a-4d47-9399-291135283226")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "30cdb44f-06b8-4355-a4a6-d7fdec17b575")
+		(uuid "62413b1d-82a3-4905-aa0f-b0c3c735e652")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -191,7 +192,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "18d0c491-51ea-4287-9c21-264a05381a8f")
+		(uuid "36079346-2fc3-4ff1-b340-3a3ba1e5f9ae")
 	)
 	(pad "1-" thru_hole circle
 		(at -5.4 -0.7)
@@ -200,7 +201,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "7e87aa30-00fe-4ab3-9d0a-f0564767f60f")
+		(uuid "c75282e1-d0ec-4d61-80e4-6924eddbe10c")
 	)
 	(pad "2+" thru_hole circle
 		(at -0.7 3.6)
@@ -209,7 +210,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "62c54444-c22d-4211-b725-2bebbfec83c7")
+		(uuid "28efea57-44ee-4d9f-8559-bbe9febc30de")
 	)
 	(pad "2-" thru_hole circle
 		(at 5.4 0.7)
@@ -218,7 +219,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "048fb689-194a-400f-877a-47795b269c42")
+		(uuid "da2ae3fa-f0ab-4732-9134-63c474b1e793")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/V2_Connector_Audio.3dshapes/NL4MDXX-V-3.step"

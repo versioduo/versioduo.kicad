@@ -1,14 +1,14 @@
 (footprint "Hat"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2.25 2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "55c7c09d-544f-4ab0-bbb2-0f75d2960acb")
+		(uuid "4232e832-efa7-4062-973a-5278e507d977")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3aca8fd5-b75a-4396-8a29-4cef14fa7b09")
+		(uuid "f34ef827-ce5e-4ea1-8116-4e8602abde24")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "70464a6a-fe98-45cb-bb7e-0701e49ff01e")
+		(uuid "a2d2924d-72d5-49ba-8640-4b5d7cd1826e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "abf0d391-b9b1-4080-9707-97c1441737d0")
+		(uuid "cbe669d2-33ce-4ca4-a036-420230f6a442")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 0 -52.5)
 		(end 0 -3.5)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c8cde283-e455-4aa5-9c4d-b71beccdced8")
+		(uuid "51163a19-cdee-4012-a3c5-b63e907bf450")
 	)
 	(fp_line
 		(start 3.5 -56)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4158340f-a0ad-4f9b-ba2b-d005acffbc2c")
+		(uuid "e07fc773-0d3c-4ac3-a221-b48c49f5e62a")
 	)
 	(fp_line
 		(start 3.5 0)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "945b53c3-621b-45e7-b43a-5392628f5836")
+		(uuid "0b3f2336-0c83-4f16-8201-15d45e6d07b4")
 	)
 	(fp_line
 		(start 85 -52.5)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4714eb7d-003a-46e3-a52f-37b169203eb3")
+		(uuid "6d3a77c6-4901-4f4d-a829-4a95f1607f0c")
 	)
 	(fp_arc
 		(start 0 -52.5)
@@ -105,7 +106,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "aeddd1b3-8151-4b7d-8c0b-8586b99c72e1")
+		(uuid "15697e1f-7e69-440a-a3bb-08cc1dab7b14")
 	)
 	(fp_arc
 		(start 3.5 0)
@@ -116,7 +117,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "411c1bbf-7ecb-480c-8324-49a196ea9201")
+		(uuid "4027714a-5675-4631-bcc5-8b07b4d0a5ef")
 	)
 	(fp_arc
 		(start 81.5 -56)
@@ -127,7 +128,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e8fcdb46-d1d5-4320-9a85-ea869b30a33e")
+		(uuid "7bf02ed7-9cfa-4bec-95e8-76b922e992ad")
 	)
 	(fp_arc
 		(start 85 -3.5)
@@ -138,13 +139,13 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7c3aaf0e-aa36-4274-bc7f-a6c10dcfa3c8")
+		(uuid "c70585fa-64e5-4ca0-992f-0d5723796d8b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.5 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "652a08be-b000-4291-a901-0853f646a5f5")
+		(uuid "59b58ad3-aa7f-4752-8474-87bb3a634312")
 		(effects
 			(font
 				(size 1 1)

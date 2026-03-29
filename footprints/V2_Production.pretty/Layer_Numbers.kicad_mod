@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8d281d79-da54-4663-bbc1-a44a0ffda756")
+		(uuid "3cdb24d9-5e88-4bd7-9bb1-50c8f88826dc")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "49b58e50-1bb6-4fc2-8eb2-b1c0c5e6d264")
+		(uuid "d864eb5e-1157-4ffc-bac2-7baef4dd7d1a")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f19a32f-1e6f-4e42-8bc2-fdd892279161")
+		(uuid "e0209839-bf97-4150-adff-6c0fd56afe6e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4a9e9a5-6e58-464b-8ca5-08f8d426fcf4")
+		(uuid "da23da50-f856-40f6-95d4-063cdd9f0f18")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "c5471f50-19a4-4fd6-a436-b7c8d6c8d506")
+		(uuid "21c3a142-e0e3-42b7-9bf7-83c933accc92")
 	)
 	(fp_rect
 		(start -1.5 -0.5)
@@ -85,7 +85,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "52ff7039-77b8-4f71-a495-8c238bd73a33")
+		(uuid "f585e45b-4ada-4d8e-b94b-ef44ac0ed911")
 	)
 	(fp_poly
 		(pts
@@ -99,7 +99,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(uuid "3a30403b-fbba-4013-b39f-39de7c5fb31f")
+		(uuid "8406e3c3-6dd7-442a-8e9a-d2af72444166")
 	)
 	(fp_rect
 		(start -1.5 -0.5)
@@ -110,7 +110,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "cda677ce-9afb-4937-967c-7fd285e4f500")
+		(uuid "9609ceb6-5268-4cac-9cdf-da8e84ae42cb")
 	)
 	(fp_poly
 		(pts
@@ -165,7 +165,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(uuid "1de000d4-2248-4a31-a31c-5ec0bb51c661")
+		(uuid "50a0243a-6389-407a-bcf3-df52d80141e5")
 	)
 	(fp_poly
 		(pts
@@ -254,11 +254,11 @@
 		)
 		(fill yes)
 		(layer "In2.Cu")
-		(uuid "931fbf85-1e69-4b77-b1c3-9806e03cde65")
+		(uuid "ab4a3771-0aca-4ed4-a223-39d6e8969a9e")
 	)
 	(zone
 		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "In1.Cu" "In2.Cu")
-		(uuid "fd2c0506-3e9a-40d8-8d98-0dd2f616cd6e")
+		(uuid "6bcb0554-906a-4f0f-b035-f18a2c04feeb")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)

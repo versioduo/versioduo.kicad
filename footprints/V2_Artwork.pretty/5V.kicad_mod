@@ -1,14 +1,14 @@
 (footprint "5V"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(uuid "dfebfefd-a0e6-46b8-bbd8-581885643b3a")
 		(effects
 			(font
 				(size 1 1)
@@ -21,23 +21,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(uuid "a65e5d42-5326-4a23-bf82-62a43586e04c")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ea1ddb6-53da-48fd-8bdf-7e2c49d77b52")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -46,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "61928348-9d47-41ba-a0c6-1fc633db9097")
+		(uuid "2cc3b7b9-e12d-484d-b6f0-33c82550e811")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f40a1466-ddf6-49ed-a870-b00d2c65b901")
+		(uuid "9f3956e4-509e-40ab-997c-c157334701d3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,11 +54,12 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "5V"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Cu")
-		(uuid "28c233b6-6640-481c-a200-7fafab9b03b3")
+		(uuid "052c58c4-5c39-4ff3-bced-abe4871cb4f5")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -82,7 +71,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Mask")
-		(uuid "8553fd3b-a175-4691-a4f3-72323bb19728")
+		(uuid "9ed9e52e-8d32-4fa3-a83d-1a6a07eeadbd")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -90,4 +79,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

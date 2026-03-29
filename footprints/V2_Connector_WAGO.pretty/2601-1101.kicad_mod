@@ -1,13 +1,13 @@
 (footprint "2601-1101"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.1 -12 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cc32a967-fe52-472b-923b-f303b96776e6")
+		(uuid "b53d1914-bb5a-4ccf-a4fb-a951305730b4")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0.1 -9.8 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cc4e3838-5c9c-4140-8689-e3db5c0c8436")
+		(uuid "2f406e31-4bdd-43c6-bb5c-4bf9c7248dc1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eaf7f66a-d638-4442-87a4-e6b9e3d2e8c2")
+		(uuid "da080148-714a-4713-a5dd-0bc48b879e4d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1df2086a-ed9d-4b90-96f5-f7e81b77c858")
+		(uuid "c1b7be20-5b3c-4050-a9da-1634ed2e5ad9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.95 1.75)
 		(end -2.95 -3.75)
@@ -62,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9515ec2b-15af-447c-b095-58e81ba363de")
+		(uuid "a7ee8e13-5082-46a6-a65c-ec7e040c3f5a")
 	)
 	(fp_line
 		(start 2.8 -7.25)
@@ -72,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "613ff7d1-a95b-4502-b426-d08cb9894745")
+		(uuid "220fd9bf-0dad-4fa1-846b-0c9be8b95357")
 	)
 	(fp_rect
 		(start -2.2 -7.25)
@@ -83,12 +84,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bd7b41d0-6618-46c8-8be2-69cef8114ed4")
+		(uuid "9f22e27d-bbde-4f5f-9afe-3ec56ef9bf16")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "4fac4da0-0396-4811-91d0-20394e234221")
+		(uuid "e6795e53-665d-4779-a5bd-e60bf5461f15")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -104,7 +105,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "f485349c-f699-44ff-9b9d-38df7a71af31")
+		(uuid "667877c3-6d7a-4789-8cdd-28dcd634c65a")
 	)
 	(pad "1" thru_hole circle
 		(at 0.3 1.9)
@@ -113,7 +114,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "51f791d1-284d-4444-a775-9b7095b2aea3")
+		(uuid "19581d38-7fc7-484c-a1b2-804c796122f1")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/V2_Connector_WAGO.3dshapes/2601-1101.stp"

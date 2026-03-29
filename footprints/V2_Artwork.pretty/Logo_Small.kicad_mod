@@ -1,13 +1,13 @@
 (footprint "Logo_Small"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.319443 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "70717c17-03c5-4912-888c-8dbabf6fb72c")
+		(uuid "8442cc5d-ea27-411a-b3b2-6dbc2adbeee6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19,7 +19,7 @@
 		(at 0 3.5 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ffe188d7-335d-49fc-9cba-bcc2cf84ccea")
+		(uuid "1e743768-3b7d-4243-94df-f3779bf916ff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9430c493-b536-450a-b858-bb0e537f627d")
+		(uuid "4300b044-5ca1-4394-a86d-468124e9d72d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "59f096ca-ca96-466d-bdd0-e138588761ab")
+		(uuid "332d7117-a4c4-4452-8597-816d41356df8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 2.006758 1.750057) (xy -2.003742 1.750057) (xy -2.003742 0.089057) (xy -1.676242 0.089057) (xy -1.676242 1.422557)
@@ -66,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "1e1b089d-e6b0-4dc9-b925-21b61114983b")
+		(uuid "8c014a25-d512-4560-9e47-8c06b7958a46")
 	)
 	(fp_poly
 		(pts
@@ -80,7 +81,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "b4b18b66-91b9-4c67-a66b-25a0920f92a8")
+		(uuid "53ddde2b-7e1c-4693-8193-fbf8047a208f")
 	)
 	(fp_poly
 		(pts
@@ -102,7 +103,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "31377850-c13f-4a52-b78b-5f85d37811eb")
+		(uuid "33499a10-3db6-4081-ad6c-4d3284181c01")
 	)
 	(fp_poly
 		(pts
@@ -116,7 +117,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "de9e2471-c3c6-42ac-8f45-12af6e429be9")
+		(uuid "639aa2cc-e81d-414d-bdfe-0464f421db7d")
 	)
 	(fp_poly
 		(pts
@@ -130,7 +131,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "31f2c73d-03aa-4e03-be47-36344b5f5150")
+		(uuid "78d3f329-95ca-4363-8e3e-9aa02845d367")
 	)
 	(fp_poly
 		(pts
@@ -152,19 +153,16 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "dba9a96d-d348-4774-8c52-3c07b1293289")
+		(uuid "f633ce7b-7840-4694-a15c-b3cce0ebc7bb")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
-		(uuid "9ece0bcf-7494-4918-9e3f-70e6d3408d54")
+		(uuid "9a733e58-e7d2-473d-9d26-db47a0afc524")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -179,6 +177,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

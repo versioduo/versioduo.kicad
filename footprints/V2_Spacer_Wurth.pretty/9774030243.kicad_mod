@@ -1,13 +1,13 @@
 (footprint "9774030243"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.318 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d45198af-7708-470b-b969-fdef0f4fbfcf")
+		(uuid "cdf6a17e-781a-4b3e-a2cb-a9c8903ed3e5")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 5.08 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fd586a36-e278-4ada-aa05-42932b5bb946")
+		(uuid "22e86d00-ae90-4c99-8723-d16d094c3d9a")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3bce55fd-ac78-4e34-8e6d-d10a26153bbc")
+		(uuid "61c3438a-4c6c-46dd-bf29-6b05e248cfb6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5eaf7d01-6501-4aa6-a9df-37866ebd1184")
+		(uuid "2ab96530-a2a0-4fe0-af40-fbeb07052a27")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,6 +55,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2.65 0)
@@ -64,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "d25bec58-9b20-47e0-a016-ee4c29fa5ca2")
+		(uuid "5cb87761-9010-42e8-8336-5a1ef3864a79")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "46fd2d1d-9d05-423d-a039-e4a8ff716671")
+		(uuid "b864de0a-70fd-4c0d-be6c-5cf4935fe52d")
 	)
 	(fp_poly
 		(pts
@@ -102,7 +103,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "fccd8fd6-1163-4d08-a327-dec4d87eb672")
+		(uuid "60d1cf83-6332-46d9-bae1-59812064354c")
 	)
 	(fp_poly
 		(pts
@@ -132,7 +133,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "cd8e377f-3354-4c06-8890-1df036184788")
+		(uuid "91d2ed7e-218a-4e8f-8258-79289811bf59")
 	)
 	(fp_poly
 		(pts
@@ -159,7 +160,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "70e66559-b36a-4673-8fa6-89418bdf2b98")
+		(uuid "4517a68e-1913-4a9a-85fc-3bcf910e314f")
 	)
 	(fp_poly
 		(pts
@@ -186,7 +187,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "6be3692c-7860-4960-9625-ce9ec7555450")
+		(uuid "83a3d425-642a-415c-9103-7544b60e02d3")
 	)
 	(fp_circle
 		(center 0 0)
@@ -197,7 +198,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "96f927aa-671c-41cb-b7b9-4c144e6543c8")
+		(uuid "f63b65d8-ec33-41d8-b0dd-401bd68d2d88")
 	)
 	(fp_circle
 		(center 0 0)
@@ -208,7 +209,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a8da1c73-4aab-4380-8196-9c74b9d53d83")
+		(uuid "bee755fd-28b5-4bd8-a224-f5208f8f6abf")
 	)
 	(pad "1" thru_hole custom
 		(at 0 0)
@@ -229,7 +230,7 @@
 				(fill no)
 			)
 		)
-		(uuid "d4d32c75-4857-4aa5-bd21-86902ed1908a")
+		(uuid "a5f64e38-12b6-442f-8864-5818d535a4fc")
 	)
 	(pad "1" smd custom
 		(at 0 0)
@@ -247,7 +248,7 @@
 				(fill no)
 			)
 		)
-		(uuid "28df51d0-02c8-4a5a-81a2-ee5f111bb0ab")
+		(uuid "c2fbb8a3-32e2-46e3-85dd-eb1bfd84a087")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/V2_Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243.step"

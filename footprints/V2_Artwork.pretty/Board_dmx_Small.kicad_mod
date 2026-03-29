@@ -1,14 +1,14 @@
 (footprint "Board_dmx_Small"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3ea63207-1dbd-44be-9718-208209f4ef44")
+		(uuid "bf1bbffb-031c-4da6-8746-49f7bef98378")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25b2fcb9-f35b-4d1f-9af9-440b3d9d3514")
+		(uuid "6aff88e5-8e6e-48e2-a51d-eb926cac187b")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c6b5c5b-59af-4b4b-b8c9-5043829d3929")
+		(uuid "5f74ad06-fa4b-471e-be67-9685345e6df0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9ac23081-a7b8-42bf-bc7f-daf75a9ec061")
+		(uuid "e119bdbf-e4c5-4a43-bcbd-827d47cb3f39")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 1.632799 -0.181149) (xy 1.873559 -0.571724) (xy 2.1642 -0.571724) (xy 1.768844 0.018826) (xy 2.180278 0.635153)
@@ -68,7 +69,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "36d09f96-077a-4400-a7b9-45764b0e87f5")
+		(uuid "903a1988-8805-4a5b-9a4d-09bdc8d81ba8")
 	)
 	(fp_poly
 		(pts
@@ -82,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "da6c9b41-f816-4b19-b63b-01c1d91570f1")
+		(uuid "a3f7c125-f1d8-4c8e-9623-0d7d0a74acdf")
 	)
 	(fp_poly
 		(pts
@@ -146,7 +147,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "69f247d7-6870-4d9e-85b5-6268d62f4969")
+		(uuid "33ce0186-7a46-4289-844c-18fd688982b1")
 	)
 	(fp_poly
 		(pts
@@ -230,7 +231,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "0a58b61d-f03e-4187-8c84-b01f1805e256")
+		(uuid "c1bdd335-ec2a-4b5c-88ec-cabaf495ea02")
 	)
 	(fp_poly
 		(pts
@@ -244,7 +245,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "be467bf5-7a6d-472e-ab23-04434345e5dd")
+		(uuid "acf621af-b8e2-4202-a803-fdc2c65fee40")
 	)
 	(fp_poly
 		(pts
@@ -258,7 +259,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "04be0b81-9fd8-4d4b-b993-55493bcfddeb")
+		(uuid "87607855-bcc4-4f4e-9bb8-c21ae7bb3086")
 	)
 	(fp_poly
 		(pts
@@ -322,7 +323,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "2a1ed53c-735b-441f-8943-c42896996fa0")
+		(uuid "e6498ee4-a596-4b45-976f-9b125b21a6d1")
 	)
 	(fp_poly
 		(pts
@@ -406,19 +407,16 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "1d491624-0737-40c7-92dd-0ffcae773135")
+		(uuid "79385d89-25d5-4bd0-abe6-609bd7b68e26")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
-		(uuid "d37afd84-fdfa-4e09-968e-1a9bf2ae9639")
+		(uuid "2388aa60-a78a-4ee0-8c13-41d164dfaae5")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -433,6 +431,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -441,15 +440,15 @@
 		)
 	)
 	(group ""
-		(uuid "7fdcb3ee-7bc4-488d-ae50-d3c0d79ca2b8")
-		(members "0a58b61d-f03e-4187-8c84-b01f1805e256" "36d09f96-077a-4400-a7b9-45764b0e87f5"
-			"69f247d7-6870-4d9e-85b5-6268d62f4969" "da6c9b41-f816-4b19-b63b-01c1d91570f1"
+		(uuid "73314b42-51c2-4fbb-b327-09e91f9e16ff")
+		(members "33ce0186-7a46-4289-844c-18fd688982b1" "903a1988-8805-4a5b-9a4d-09bdc8d81ba8"
+			"a3f7c125-f1d8-4c8e-9623-0d7d0a74acdf" "c1bdd335-ec2a-4b5c-88ec-cabaf495ea02"
 		)
 	)
 	(group ""
-		(uuid "b0fb6b9b-e4fa-49f7-8384-47178f8bed7c")
-		(members "04be0b81-9fd8-4d4b-b993-55493bcfddeb" "1d491624-0737-40c7-92dd-0ffcae773135"
-			"2a1ed53c-735b-441f-8943-c42896996fa0" "be467bf5-7a6d-472e-ab23-04434345e5dd"
+		(uuid "b7500ead-791d-4537-be39-ab7882e8e69b")
+		(members "79385d89-25d5-4bd0-abe6-609bd7b68e26" "87607855-bcc4-4f4e-9bb8-c21ae7bb3086"
+			"acf621af-b8e2-4202-a803-fdc2c65fee40" "e6498ee4-a596-4b45-976f-9b125b21a6d1"
 		)
 	)
 	(embedded_fonts no)

@@ -1,14 +1,14 @@
 (footprint "NL4MDXX-H-3"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "speakON Chassis Connectors")
 	(property "Reference" "REF**"
 		(at 0.32 -8.04 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cfdd425b-d36e-4fb9-942a-977a4026aaa2")
+		(uuid "9ccb9a5b-2e1b-48a5-981b-ff85e83ad45e")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0.07 -5.29 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3b8357c3-034c-46b2-9b4a-9bc27a79eb7a")
+		(uuid "e250749e-990d-4485-8ae1-521ff1ed57cd")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "67bce276-187f-42bc-8227-0ff6dfc32919")
+		(uuid "e4994a2d-712b-469d-9d36-436932c6f65e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "901866c3-350c-4a64-8afe-e02e6ffc8531")
+		(uuid "8a4cf842-34ff-4ffe-b7b8-461e25ba4892")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 13 0)
 		(end -13 0)
@@ -63,7 +64,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "2f2c7210-d7b0-46a7-a347-a52469e27884")
+		(uuid "bca698c6-c8df-4dce-a4f3-e6e72c03de68")
 	)
 	(fp_line
 		(start -13 4.5)
@@ -73,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a2a707d9-19a7-4eb3-b80e-b3d15b9900f8")
+		(uuid "274e0ad8-f12a-4670-9d43-fd770b1f6283")
 	)
 	(fp_line
 		(start -12 -2.5)
@@ -83,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b841c46b-84ed-4dbd-ae89-ec7b9369259d")
+		(uuid "8ce82f83-4de8-48b0-b297-606752b9f719")
 	)
 	(fp_line
 		(start -11.9 23.77)
@@ -93,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6a0b6bcd-50d2-4ce0-ab15-7e63041cfe3d")
+		(uuid "ad23fe69-6021-4fdb-95f8-5465ded8a47c")
 	)
 	(fp_line
 		(start 11.9 23.77)
@@ -103,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "77efd470-9251-483e-82a0-4aa30af3ed9c")
+		(uuid "45a9a345-6a12-4084-9c07-282670280ada")
 	)
 	(fp_line
 		(start 11.9 23.77)
@@ -113,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "59f2681d-cfc2-4771-bf16-01d5e81c30aa")
+		(uuid "4c7d548b-abd5-4e05-9e1d-241e49f03004")
 	)
 	(fp_line
 		(start 12 -2.5)
@@ -123,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "99ceb4c3-bda8-44bd-99bd-dfcd477a8c74")
+		(uuid "73cc7d5e-e690-422d-b29b-7ecf5b9fb0ba")
 	)
 	(fp_line
 		(start 12 -2.5)
@@ -133,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1ce6d89c-02c7-41a6-91ee-4f22c60eac88")
+		(uuid "bac9b74e-8d5a-434f-8d9d-965195a7ca33")
 	)
 	(fp_line
 		(start 13 0)
@@ -143,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "49dfbcb4-f827-41b9-add6-e9d4848b94b8")
+		(uuid "aa8ebd3c-6cc0-4c5e-84e1-0f2889f4734f")
 	)
 	(fp_line
 		(start 13 4.5)
@@ -153,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3158cdbb-a083-4f8c-9bb1-e1de55b35c3b")
+		(uuid "68bc7ba8-5536-4c87-be3a-5fe410d19850")
 	)
 	(fp_line
 		(start 13 4.5)
@@ -163,12 +164,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "88828032-794b-45f8-8ff1-59d70ca30a39")
+		(uuid "e827933a-6978-43d0-b1bd-7bde38860513")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.07 9.225 0)
 		(layer "F.Fab")
-		(uuid "198abe6d-f383-4679-bf48-839ae6a2b33b")
+		(uuid "d785a613-d633-406b-a0e8-638737e68793")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -184,7 +185,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "29e09457-f6fb-4d7b-987f-c378da4859fe")
+		(uuid "e5acc630-77c4-4409-9472-db82bd2ee509")
 	)
 	(pad "1-" thru_hole circle
 		(at 6.35 24.77 90)
@@ -193,7 +194,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "4718b92b-f8a0-4705-a5f5-cfcb1347ea42")
+		(uuid "a2a31bd5-b406-4d88-b96c-c115d841e899")
 	)
 	(pad "2+" thru_hole circle
 		(at 0 24.77 90)
@@ -202,7 +203,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "1ba377cd-6fed-4404-bb99-5cc42ad60261")
+		(uuid "6ea9fee5-ead1-4706-8341-53a3bf2a6ba6")
 	)
 	(pad "2-" thru_hole circle
 		(at -6.35 24.77 90)
@@ -211,7 +212,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "9631e4da-5e10-4825-81e3-67771e46f709")
+		(uuid "cc5d2b71-980c-4989-ac94-f95f361b5d74")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/V2_Connector_SpeakOn.3dshapes/nl4mdxx-h-3.stp"

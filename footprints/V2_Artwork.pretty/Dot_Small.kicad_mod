@@ -1,14 +1,14 @@
 (footprint "Dot_Small"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fc5cd65c-0da5-41de-b9ab-0e8eeb75790a")
+		(uuid "018b4f99-6be6-46a6-b54e-935b6f0b361f")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "58903bca-24ce-4f95-8f50-064b7aefd7a6")
+		(uuid "1a2b1b50-07c2-4bbc-963c-e2153a9f7b38")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aa85c026-cc7a-4251-ad98-f563c5575ac9")
+		(uuid "4012163b-28cb-4454-bc35-1eac67e9e5fb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d4d97cf8-c606-47c0-b0b4-0c94b122f296")
+		(uuid "f65af493-f1e0-4c52-b57d-718dc6326aa8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 0.15 0)
@@ -65,7 +66,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "03352a09-175c-4825-ab8f-a522318990d1")
+		(uuid "b5b29cf4-b5da-425a-9181-061ddce37d13")
 	)
 	(fp_circle
 		(center 0 0)
@@ -76,7 +77,7 @@
 		)
 		(fill no)
 		(layer "F.Cu")
-		(uuid "7504050b-fceb-4325-a482-968a0e84a645")
+		(uuid "14b55d4b-c316-4b6f-9e14-cab45a62d4d3")
 	)
 	(fp_circle
 		(center 0 0)
@@ -87,7 +88,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "95482036-0c6b-457c-9757-6f29ed896c74")
+		(uuid "60aa458a-84b3-416d-bbc2-9497828692a5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -98,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.Mask")
-		(uuid "2ae7d50a-f92b-419b-838e-da25fe88caf7")
+		(uuid "db5322e6-6544-44d7-9e56-e9992c7f239d")
 	)
 	(embedded_fonts no)
 )

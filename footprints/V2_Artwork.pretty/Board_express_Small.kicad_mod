@@ -1,14 +1,14 @@
 (footprint "Board_express_Small"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3ea63207-1dbd-44be-9718-208209f4ef44")
+		(uuid "49efd228-abfa-46d9-8d3e-5f88eb13e7d6")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25b2fcb9-f35b-4d1f-9af9-440b3d9d3514")
+		(uuid "2947de2c-d1b4-4a96-8ff2-49b898c7fe14")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "882db34c-bb04-481c-a42b-c6c49eed39f9")
+		(uuid "663ddc92-60a7-451a-9b23-b62991c78a6b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "82095694-04f0-4676-ae34-6d54dee4ac5b")
+		(uuid "3cf6d228-82ba-4193-aaca-dba4e73aa197")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -2.214163 -0.178384) (xy -1.973635 -0.568959) (xy -1.682858 -0.568959) (xy -2.078153 0.021591)
@@ -68,7 +69,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "4dd173b1-7d65-435c-8209-21ddc8bc43b5")
+		(uuid "fce46256-6770-48b5-a8dd-c4994bebac0f")
 	)
 	(fp_poly
 		(pts
@@ -82,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "a50bac8d-ca67-4167-8876-e3fdca95c154")
+		(uuid "d6d43ee3-16ca-4065-a3bd-4eff7d94d89d")
 	)
 	(fp_poly
 		(pts
@@ -111,7 +112,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "a59954fd-ea3c-49b2-b917-58ce2639d0ba")
+		(uuid "82cfdf08-9332-4c44-b44a-058f655456e7")
 	)
 	(fp_poly
 		(pts
@@ -186,7 +187,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "64a6bdd8-5a41-46be-a831-090fec4cf3da")
+		(uuid "d1812209-eb4f-47d0-8da6-190538b27c53")
 	)
 	(fp_poly
 		(pts
@@ -254,7 +255,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "4c19c5ee-2034-4aae-9e12-b1f70e1604bc")
+		(uuid "2656e77c-f246-4d3a-9651-a1959a71bfc8")
 	)
 	(fp_poly
 		(pts
@@ -342,7 +343,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "94853fe1-40e1-4dd9-a11e-e7ebc9a116f8")
+		(uuid "cc6484ca-e82a-49ca-838c-79254eb0ba9e")
 	)
 	(fp_poly
 		(pts
@@ -426,7 +427,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "c8c19911-f338-43e3-af34-94642f9250f5")
+		(uuid "ee345c13-09e1-4d20-ac7b-ff124bcc657f")
 	)
 	(fp_poly
 		(pts
@@ -510,7 +511,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "ba6377e8-888f-4b6c-b117-ecda3a6fcf1f")
+		(uuid "e9663799-2c7a-4ef0-8bdf-89e805a93013")
 	)
 	(fp_poly
 		(pts
@@ -524,7 +525,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "abb6946f-ff15-42a2-b779-65ec36670de8")
+		(uuid "466fb13d-72d6-45e8-b6f2-9bac6f5f14b8")
 	)
 	(fp_poly
 		(pts
@@ -538,7 +539,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "e6a8577d-a765-4423-88ae-3f7d0be95db7")
+		(uuid "a01523de-8a00-4f6f-9f76-309729dda85f")
 	)
 	(fp_poly
 		(pts
@@ -567,7 +568,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "8aaefcc6-6c96-4d4c-ac13-515f8416204c")
+		(uuid "c9188d24-035a-4eac-84df-e4a9714217b9")
 	)
 	(fp_poly
 		(pts
@@ -642,7 +643,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "151ad441-cc07-400b-8583-4dd77363f768")
+		(uuid "f3140128-aa5d-40ea-bfe6-6bf2e1d4d0d1")
 	)
 	(fp_poly
 		(pts
@@ -710,7 +711,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "4469190b-e863-48b3-8db4-ebd28c61d746")
+		(uuid "e7a6d60f-90fb-4ad9-97ab-f27fe438ecaf")
 	)
 	(fp_poly
 		(pts
@@ -798,7 +799,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "ace2b26a-b7dc-46ca-997c-ccb3026336e3")
+		(uuid "470e990c-b395-41be-afec-bd8f19c719dd")
 	)
 	(fp_poly
 		(pts
@@ -882,7 +883,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "650c1cfb-6ef6-4d16-9a6d-a89135e72636")
+		(uuid "46a75de2-3f24-4701-b7d3-f3821df067bb")
 	)
 	(fp_poly
 		(pts
@@ -966,19 +967,16 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "ae92b1c8-3d2f-4484-840c-21bf88ad10c7")
+		(uuid "6c5b7208-4ac2-4a60-997b-3c3e1bb288c9")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
-		(uuid "d37afd84-fdfa-4e09-968e-1a9bf2ae9639")
+		(uuid "9231765b-2ce4-4975-aa76-a6cb07329762")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -993,6 +991,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -1001,19 +1000,19 @@
 		)
 	)
 	(group ""
-		(uuid "6b704273-13c0-4131-999a-324768fd46f8")
-		(members "4c19c5ee-2034-4aae-9e12-b1f70e1604bc" "4dd173b1-7d65-435c-8209-21ddc8bc43b5"
-			"64a6bdd8-5a41-46be-a831-090fec4cf3da" "94853fe1-40e1-4dd9-a11e-e7ebc9a116f8"
-			"a50bac8d-ca67-4167-8876-e3fdca95c154" "a59954fd-ea3c-49b2-b917-58ce2639d0ba"
-			"ba6377e8-888f-4b6c-b117-ecda3a6fcf1f" "c8c19911-f338-43e3-af34-94642f9250f5"
+		(uuid "3863ac65-7ab9-472d-8853-e3f59b729ed0")
+		(members "2656e77c-f246-4d3a-9651-a1959a71bfc8" "82cfdf08-9332-4c44-b44a-058f655456e7"
+			"cc6484ca-e82a-49ca-838c-79254eb0ba9e" "d1812209-eb4f-47d0-8da6-190538b27c53"
+			"d6d43ee3-16ca-4065-a3bd-4eff7d94d89d" "e9663799-2c7a-4ef0-8bdf-89e805a93013"
+			"ee345c13-09e1-4d20-ac7b-ff124bcc657f" "fce46256-6770-48b5-a8dd-c4994bebac0f"
 		)
 	)
 	(group ""
-		(uuid "da4f784e-a220-4127-baf9-20d5c0bd0537")
-		(members "151ad441-cc07-400b-8583-4dd77363f768" "4469190b-e863-48b3-8db4-ebd28c61d746"
-			"650c1cfb-6ef6-4d16-9a6d-a89135e72636" "8aaefcc6-6c96-4d4c-ac13-515f8416204c"
-			"abb6946f-ff15-42a2-b779-65ec36670de8" "ace2b26a-b7dc-46ca-997c-ccb3026336e3"
-			"ae92b1c8-3d2f-4484-840c-21bf88ad10c7" "e6a8577d-a765-4423-88ae-3f7d0be95db7"
+		(uuid "fa73b4c6-0545-441a-b6f1-79328fa20930")
+		(members "466fb13d-72d6-45e8-b6f2-9bac6f5f14b8" "46a75de2-3f24-4701-b7d3-f3821df067bb"
+			"470e990c-b395-41be-afec-bd8f19c719dd" "6c5b7208-4ac2-4a60-997b-3c3e1bb288c9"
+			"a01523de-8a00-4f6f-9f76-309729dda85f" "c9188d24-035a-4eac-84df-e4a9714217b9"
+			"e7a6d60f-90fb-4ad9-97ab-f27fe438ecaf" "f3140128-aa5d-40ea-bfe6-6bf2e1d4d0d1"
 		)
 	)
 	(embedded_fonts no)

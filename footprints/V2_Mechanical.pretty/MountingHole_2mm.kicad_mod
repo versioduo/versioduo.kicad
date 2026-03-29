@@ -1,14 +1,14 @@
 (footprint "MountingHole_2mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "efb6560b-384a-4ccb-8449-4d711cc37505")
+		(uuid "a8363c5a-d5c9-4f38-b922-a455d13ede61")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c8e5ea04-0e99-4754-88cc-b42c74fff3bb")
+		(uuid "fa8c2c7a-881b-4a82-8f1e-145f4b713359")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2824c62f-3980-488d-8c89-92e06114ce69")
+		(uuid "0f984a81-c33d-4ea4-bd74-7bbe1dbc91bb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "78e963c5-57ec-4b0e-b939-613e651419c1")
+		(uuid "b3308a6b-b7c2-4e80-8043-a98891421608")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,12 +56,13 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 2 2)
 		(drill 2)
 		(layers "*.Mask")
-		(uuid "fc884e42-5a40-4ada-817b-2e4028a859f1")
+		(uuid "6df0ee7c-0e4d-48b5-96dc-8cad475cd5fe")
 	)
 	(embedded_fonts no)
 )
