@@ -253,6 +253,17 @@
 				)
 			)
 		)
+		(property "Rating" "1.6N"
+			(at 0 -20.32 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "switch normally-open pushbutton push-button"
 			(at 0 0 0)
 			(show_name no)
