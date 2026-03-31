@@ -718,6 +718,17 @@
 				)
 			)
 		)
+		(property "Rating" "4.7A"
+			(at 0 -27.94 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "TPS2559_0_1"
 			(rectangle
 				(start -7.62 10.16)

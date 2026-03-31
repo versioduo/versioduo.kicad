@@ -166,7 +166,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -30.48 180)
+				(at 0 -27.94 180)
 				(length 2.54)
 				(hide yes)
 				(name "SW"
@@ -185,7 +185,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -33.02 180)
+				(at 0 -30.48 180)
 				(length 2.54)
 				(hide yes)
 				(name "SW"
@@ -204,7 +204,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -27.94 180)
+				(at 0 -33.02 180)
 				(length 2.54)
 				(hide yes)
 				(name "BOOT"
@@ -390,216 +390,6 @@
 			)
 		)
 		(property "Rating" "2A"
-			(at 0 -50.8 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TPSM33625RDNR"
-		(extends "QFN-11")
-		(property "Reference" "U"
-			(at -11.43 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPSM33625"
-			(at -11.43 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 -38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "595-TPSM33625RDNR"
-			(at 0 -48.26 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 -43.18 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "TPSM33625RDNR"
-			(at 0 -45.72 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "2.5A"
-			(at 0 -50.8 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TPSM365R6FRDNR"
-		(extends "QFN-11")
-		(property "Reference" "U"
-			(at -11.43 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPSM365R6FRDNR"
-			(at -11.43 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 -38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "595-TPSM365R6FRDNR"
-			(at 0 -48.26 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 -43.18 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "TPSM365R6FRDNR"
-			(at 0 -45.72 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "600mA"
 			(at 0 -50.8 0)
 			(show_name yes)
 			(do_not_autoplace no)
