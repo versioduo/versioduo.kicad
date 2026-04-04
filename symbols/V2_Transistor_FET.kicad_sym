@@ -78,7 +78,7 @@
 				)
 			)
 		)
-		(property "Id" "Mosfet:${SYMBOL_NAME}"
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
 			(at 0 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -390,7 +390,7 @@
 				)
 			)
 		)
-		(property "Id" "Mosfet:${SYMBOL_NAME}"
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
 			(at 0 -13.97 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -701,7 +701,7 @@
 				)
 			)
 		)
-		(property "Id" "Mosfet:${SYMBOL_NAME}"
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
 			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)

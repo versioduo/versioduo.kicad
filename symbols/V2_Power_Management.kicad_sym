@@ -644,23 +644,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -6.35 12.7 0)
+			(at -7.62 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS2559"
-			(at 3.81 12.7 0)
+			(at -7.62 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
@@ -963,7 +965,7 @@
 	(symbol "BTT6010"
 		(extends "BTX60XX")
 		(property "Reference" "U"
-			(at -7.62 13.97 0)
+			(at -7.62 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -974,7 +976,7 @@
 			)
 		)
 		(property "Value" "BTT6010"
-			(at -7.62 11.43 0)
+			(at -7.62 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
