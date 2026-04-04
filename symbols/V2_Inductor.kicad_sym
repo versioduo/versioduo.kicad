@@ -69,6 +69,17 @@
 				)
 			)
 		)
+		(property "Id" "Ferrite:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "L ferrite bead inductor filter"
 			(at 0 0 0)
 			(show_name no)
@@ -344,7 +355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50 Ω"
+		(property "Value" "50Ω"
 			(at 1.905 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -421,6 +432,17 @@
 				)
 			)
 		)
+		(property "Id" "Ferrite:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "L ferrite bead inductor filter"
 			(at 0 0 0)
 			(show_name no)
@@ -458,7 +480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47 Ω"
+		(property "Value" "47Ω"
 			(at 1.905 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -526,6 +548,17 @@
 		)
 		(property "Mouser" "623-2743019447LF"
 			(at 0 -21.59 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Ferrite:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

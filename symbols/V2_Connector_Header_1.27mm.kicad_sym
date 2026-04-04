@@ -64,6 +64,17 @@
 				)
 			)
 		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Conn_2x05_Odd_Even_1_1"
 			(rectangle
 				(start -2.54 6.35)

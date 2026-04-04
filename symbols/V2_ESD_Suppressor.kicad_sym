@@ -96,6 +96,17 @@
 				)
 			)
 		)
+		(property "Id" "ESD:${SYMBOL_NAME}"
+			(at 0 -11.43 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "RCLAMP0582N_0_1"
 			(rectangle
 				(start -6.35 7.62)

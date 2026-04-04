@@ -51,7 +51,18 @@
 			)
 		)
 		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
-			(at 0 0 0)
+			(at 0 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Audio:${SYMBOL_NAME}"
+			(at 0 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -590,6 +601,17 @@
 				)
 			)
 		)
+		(property "Id" "Audio:${SYMBOL_NAME}"
+			(at 0 -27.94 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "SJ2-25404B-SMT-TR_0_0"
 			(rectangle
 				(start -10.16 12.7)
@@ -1028,6 +1050,17 @@
 		(property "Manufacturer" "Same Sky"
 			(at 0 -22.86 0)
 			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Audio:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

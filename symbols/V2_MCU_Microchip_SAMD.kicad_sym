@@ -94,6 +94,17 @@
 				)
 			)
 		)
+		(property "Id" "MCU:${SYMBOL_NAME}"
+			(at 0 -60.96 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "ATSAMD51G_0_1"
 			(rectangle
 				(start -13.97 44.45)
@@ -1089,6 +1100,17 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 0 -73.66 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "MCU:${SYMBOL_NAME}"
+			(at 0 -63.5 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

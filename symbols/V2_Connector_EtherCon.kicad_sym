@@ -66,6 +66,17 @@
 				)
 			)
 		)
+		(property "Id" "EtherCon:${SYMBOL_NAME}"
+			(at 0 -33.02 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "RJ45_0_1"
 			(polyline
 				(pts

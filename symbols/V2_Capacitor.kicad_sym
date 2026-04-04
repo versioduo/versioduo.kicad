@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 0 -17.018 0)
+			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -62,6 +62,17 @@
 		(property "Description" ""
 			(at 0 -13.462 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -15.24 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -194,7 +205,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0805"
-			(at 0 -17.018 0)
+			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -218,6 +229,17 @@
 		(property "Description" ""
 			(at 0 -13.462 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -19.05 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -350,7 +372,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1210"
-			(at 0 -17.018 0)
+			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -374,6 +396,17 @@
 		(property "Description" ""
 			(at 0 -13.462 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -15.24 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -507,7 +540,7 @@
 		)
 		(property "Footprint" ""
 			(at 0 -16.51 0)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -529,6 +562,17 @@
 		)
 		(property "Description" ""
 			(at 0 -13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -718,6 +762,28 @@
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -934,7 +1000,7 @@
 			)
 		)
 		(property "Mouser" "603-CC0603JRX79BB224"
-			(at 0 -20.32 0)
+			(at 0 -34.29 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -945,7 +1011,7 @@
 			)
 		)
 		(property "Product" "CC0603JRX7R9BB224"
-			(at 0 -17.78 0)
+			(at 0 -31.75 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -956,7 +1022,29 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 -15.24 0)
+			(at 0 -29.21 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 1.27 -26.67 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 0 -36.83 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1830,6 +1918,28 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "10V"
+			(at 0 -22.86 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "capacitor cap"
 			(at 0 0 0)
 			(show_name no)
@@ -1912,7 +2022,7 @@
 			)
 		)
 		(property "Mouser" "810-C2012X5R1E106K"
-			(at 0 -22.86 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1923,7 +2033,7 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 0 -20.32 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2037,7 +2147,7 @@
 			)
 		)
 		(property "Mouser" "810-CNC6P1X7R1H106K2"
-			(at 0 -22.86 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2048,7 +2158,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 0 -20.32 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2162,7 +2272,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA6P3X7R1E226M5"
-			(at 0 -22.86 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2173,7 +2283,7 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 0 -20.32 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2287,7 +2397,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-FK1V470P"
-			(at 0 -25.4 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2320,7 +2430,7 @@
 			)
 		)
 		(property "Rating" "35V"
-			(at 0 -22.86 0)
+			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2412,7 +2522,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-FKV101XAL"
-			(at 0 -25.4 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2445,7 +2555,7 @@
 			)
 		)
 		(property "Rating" "35V"
-			(at 0 -22.86 0)
+			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2537,7 +2647,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-FT1V331GP"
-			(at 0 -25.4 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2570,7 +2680,7 @@
 			)
 		)
 		(property "Rating" "35V"
-			(at 0 -22.86 0)
+			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2743,7 +2853,7 @@
 			)
 		)
 		(property "Mouser" "80-T491B107K006"
-			(at 0 -20.32 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2755,6 +2865,28 @@
 		)
 		(property "Product" "T491B107K006AT"
 			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6V3"
+			(at 1.27 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

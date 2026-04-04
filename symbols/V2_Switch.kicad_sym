@@ -58,8 +58,19 @@
 			)
 		)
 		(property "Description" "Push button"
-			(at 0 -7.874 0)
-			(show_name no)
+			(at 0 -8.89 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Button:${SYMBOL_NAME}"
+			(at 0 -6.35 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

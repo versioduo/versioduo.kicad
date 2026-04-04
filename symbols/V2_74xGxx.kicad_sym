@@ -97,6 +97,17 @@
 				)
 			)
 		)
+		(property "Id" "74xGxx:${SYMBOL_NAME}"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
 			(at 0 0 0)
 			(show_name no)

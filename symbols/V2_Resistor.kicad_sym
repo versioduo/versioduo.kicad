@@ -37,7 +37,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 0 -15.748 0)
+			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,6 +61,17 @@
 		(property "Description" ""
 			(at 0 -12.192 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 0 -13.97 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -178,7 +189,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0805"
-			(at 0 -15.748 0)
+			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -202,6 +213,17 @@
 		(property "Description" ""
 			(at 0 -12.192 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 0 -13.97 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -319,7 +341,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_1210"
-			(at 0 -15.748 0)
+			(at 0 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -343,6 +365,17 @@
 		(property "Description" ""
 			(at 0 -12.192 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 0 -12.7 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

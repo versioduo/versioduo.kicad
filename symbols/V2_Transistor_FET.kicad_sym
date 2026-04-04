@@ -78,6 +78,17 @@
 				)
 			)
 		)
+		(property "Id" "Mosfet:${SYMBOL_NAME}"
+			(at 0 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "N_TDSON-8_0_1"
 			(polyline
 				(pts
@@ -379,6 +390,17 @@
 				)
 			)
 		)
+		(property "Id" "Mosfet:${SYMBOL_NAME}"
+			(at 0 -13.97 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "N_WHTFN-9_0_1"
 			(polyline
 				(pts
@@ -670,6 +692,17 @@
 		)
 		(property "Polarity" "P"
 			(at 0 -25.4 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Mosfet:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

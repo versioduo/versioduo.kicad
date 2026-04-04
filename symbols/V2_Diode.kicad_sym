@@ -67,6 +67,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Diode_Schottky_0_1"
 			(polyline
 				(pts
@@ -204,6 +215,17 @@
 		(property "Description" ""
 			(at 0 -7.62 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 0 -6.35 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

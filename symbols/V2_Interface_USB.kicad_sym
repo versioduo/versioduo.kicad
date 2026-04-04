@@ -94,6 +94,28 @@
 				)
 			)
 		)
+		(property "Rating" "28V"
+			(at 0 -67.31 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "USB:${SYMBOL_NAME}"
+			(at 0 -54.61 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "usb pd type csink"
 			(at 0 0 0)
 			(show_name no)

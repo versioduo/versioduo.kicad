@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.neutrik.com/en/speakon/"
-			(at 0 -20.32 0)
+			(at 0 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -54,8 +54,19 @@
 			)
 		)
 		(property "Description" "speakON Connector, Male or Female, NL4"
-			(at 0 -17.78 0)
+			(at 0 -26.67 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "SpeakOn:${LIBRARY_NAME}"
+			(at 0 -24.13 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

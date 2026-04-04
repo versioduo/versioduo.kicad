@@ -67,6 +67,17 @@
 				)
 			)
 		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 0 -8.89 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Spacer_1_0"
 			(circle
 				(center 0 0)

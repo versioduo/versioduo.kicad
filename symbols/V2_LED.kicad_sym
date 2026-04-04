@@ -69,6 +69,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
 			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233,7 +244,7 @@
 			)
 		)
 		(property "Footprint" "V2_LED:WS2812-2020"
-			(at 0 -9.906 0)
+			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -256,7 +267,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 -6.858 0)
+			(at 0 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -267,7 +278,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 0 -15.494 0)
+			(at 0 -16.51 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -278,7 +289,7 @@
 			)
 		)
 		(property "Product" "WS2812B-2020"
-			(at 0 -12.954 0)
+			(at 0 -19.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -289,8 +300,19 @@
 			)
 		)
 		(property "LCSC" "C965555"
-			(at 0 -18.288 0)
+			(at 0 -21.59 0)
 			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 0 -8.89 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -581,6 +603,28 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" " 605nm "
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "LED diode light-emitting-diode"
 			(at 0 0 0)
 			(show_name no)
@@ -696,6 +740,28 @@
 		(property "Manufacturer" "ROHM Semiconductor "
 			(at 0 -10.16 0)
 			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "630nm "
+			(at 0 0 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

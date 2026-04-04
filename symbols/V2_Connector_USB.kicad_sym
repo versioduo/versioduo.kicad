@@ -63,6 +63,28 @@
 				)
 			)
 		)
+		(property "Id" "USB:${SYMBOL_NAME}"
+			(at 0 -38.1 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "USB2.0"
+			(at 0 -40.64 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "USB-C_2.0_0_1"
 			(rectangle
 				(start -10.16 17.78)

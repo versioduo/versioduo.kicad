@@ -64,6 +64,17 @@
 				)
 			)
 		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 0 -22.86 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Conn_1x08_1_1"
 			(rectangle
 				(start -2.54 10.16)

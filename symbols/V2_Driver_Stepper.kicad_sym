@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
-			(at 0 -49.784 0)
+			(at 0 -58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -67,7 +67,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
-			(at 0 -53.086 0)
+			(at 0 -61.976 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Product" "TMC2130-LA"
-			(at 0 -56.642 0)
+			(at 0 -65.532 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -89,7 +89,18 @@
 			)
 		)
 		(property "LCSC" "C915795"
-			(at 0 -60.198 0)
+			(at 0 -69.088 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Stepper:${SYMBOL_NAME}"
+			(at 0 -55.88 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

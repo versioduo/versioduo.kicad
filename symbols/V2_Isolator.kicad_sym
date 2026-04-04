@@ -70,6 +70,17 @@
 				)
 			)
 		)
+		(property "Id" "Optocoupler:${SYMBOL_NAME}"
+			(at 0 -24.13 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Optocoupler_Inverter_0_1"
 			(rectangle
 				(start -7.62 7.62)

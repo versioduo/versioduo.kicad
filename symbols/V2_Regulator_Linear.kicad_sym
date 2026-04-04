@@ -62,6 +62,17 @@
 				)
 			)
 		)
+		(property "Id" "LDO:${SYMBOL_NAME}"
+			(at 0 -31.75 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "LDO_Fixed_Enable_0_1"
 			(rectangle
 				(start -5.08 -5.08)
