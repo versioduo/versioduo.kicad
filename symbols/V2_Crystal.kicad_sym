@@ -16,27 +16,29 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Y"
-			(at 0 2.54 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
-			(at 0 -3.81 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at -0.254 -12.192 0)
+			(at -0.254 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -69,7 +71,7 @@
 			)
 		)
 		(property "Id" "Crystal:${SYMBOL_NAME}"
-			(at 0 -6.35 0)
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -181,23 +183,25 @@
 	(symbol "3.2x1.5_32k768"
 		(extends "3.2x1.5")
 		(property "Reference" "Y"
-			(at 0 2.54 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "32k768"
-			(at 0 -3.81 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -234,7 +238,7 @@
 			)
 		)
 		(property "Mouser" "815-ABS0716632.768KT"
-			(at 0 -15.24 0)
+			(at 0 -21.59 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -245,7 +249,7 @@
 			)
 		)
 		(property "Product" "ABS07-166-32.768KHZ-T"
-			(at 0 -12.7 0)
+			(at 0 -19.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -256,7 +260,7 @@
 			)
 		)
 		(property "Manufacturer" "ABRACON"
-			(at 0 -10.16 0)
+			(at 0 -16.51 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -267,7 +271,7 @@
 			)
 		)
 		(property "Id" "Crystal:${SYMBOL_NAME}"
-			(at 0 -6.35 0)
+			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -278,7 +282,7 @@
 			)
 		)
 		(property "Rating" "10ppm"
-			(at 0 -17.78 0)
+			(at 0 -24.13 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

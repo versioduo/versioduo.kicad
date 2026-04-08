@@ -16,27 +16,29 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 0 5.08 0)
+			(at -2.54 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
-			(at 0 3.302 0)
+			(at -2.54 -4.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_LED:LED_0603"
-			(at 0 -9.906 0)
+			(at 0 -14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -69,7 +71,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 -7.62 0)
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -80,8 +82,8 @@
 			)
 		)
 		(property "Id" "LED:${SYMBOL_NAME}"
-			(at 0 -5.08 0)
-			(show_name no)
+			(at 0 -10.16 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -224,23 +226,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D3"
-			(at 0 10.414 0)
+			(at -5.08 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812"
-			(at 0 7.874 0)
+			(at -5.08 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_LED:WS2812-2020"
@@ -518,23 +522,25 @@
 	(symbol "0603_Orange"
 		(extends "0603")
 		(property "Reference" "D"
-			(at 0 5.588 0)
+			(at -2.54 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Orange"
-			(at 0 3.556 0)
+			(at -2.54 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -571,7 +577,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 -15.24 0)
+			(at 0 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -582,7 +588,7 @@
 			)
 		)
 		(property "Mouser" "755-SML-D12D1WT86"
-			(at 0 -7.62 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -593,7 +599,7 @@
 			)
 		)
 		(property "Product" "SML-D12D1WT86"
-			(at 0 -12.7 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -604,7 +610,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semiconductor "
-			(at 0 -10.16 0)
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -615,7 +621,7 @@
 			)
 		)
 		(property "Id" "LED:${SYMBOL_NAME}"
-			(at 0 -5.08 0)
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -626,7 +632,7 @@
 			)
 		)
 		(property "Rating" "605nm"
-			(at 0 -17.78 0)
+			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -663,23 +669,25 @@
 	(symbol "0603_Red"
 		(extends "0603")
 		(property "Reference" "D"
-			(at 0 5.588 0)
+			(at -2.54 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Red"
-			(at 0 3.556 0)
+			(at -2.54 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -716,7 +724,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -727,17 +735,6 @@
 			)
 		)
 		(property "Mouser" "755-SML-D12V1WT86"
-			(at 0 -7.62 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "SML-D12V1WT86"
 			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -748,8 +745,19 @@
 				)
 			)
 		)
+		(property "Product" "SML-D12V1WT86"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "ROHM Semiconductor "
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -760,7 +768,7 @@
 			)
 		)
 		(property "Id" "LED:${SYMBOL_NAME}"
-			(at 0 -5.08 0)
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -771,7 +779,7 @@
 			)
 		)
 		(property "Rating" "630nm "
-			(at 0 -17.78 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

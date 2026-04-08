@@ -15,23 +15,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Diode_Schottky"
-			(at 0 -2.54 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -68,7 +70,7 @@
 			)
 		)
 		(property "Id" "Diode:${SYMBOL_NAME}"
-			(at 0 -8.89 0)
+			(at 0 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -169,7 +171,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "TVS"
-			(at -2.54 6.35 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -180,7 +182,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -2.54 3.81 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -224,7 +226,7 @@
 			)
 		)
 		(property "Id" "Diode:${SYMBOL_NAME}"
-			(at 0 -6.35 0)
+			(at 0 -11.43 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -327,23 +329,25 @@
 	(symbol "CG0603MLC-05LE"
 		(extends "Diode_TVS_Unidirectional")
 		(property "Reference" "TVS"
-			(at -1.27 3.81 0)
+			(at -3.81 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "CG0603MLC-05LE"
-			(at 0 -3.81 0)
+			(at -3.81 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_0603"
@@ -380,7 +384,7 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-05LE"
-			(at 0 -17.78 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -391,7 +395,7 @@
 			)
 		)
 		(property "Product" "CG0603MLC-05LE"
-			(at 0 -12.954 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -402,7 +406,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 0 -10.16 0)
+			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -413,7 +417,7 @@
 			)
 		)
 		(property "Rating" "5V"
-			(at 0 -15.24 0)
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -428,23 +432,25 @@
 	(symbol "CG0603MLC-3.3LE"
 		(extends "Diode_TVS_Unidirectional")
 		(property "Reference" "TVS"
-			(at -1.27 3.81 0)
+			(at -3.81 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "CG0603MLC-3.3LE"
-			(at 0 -3.81 0)
+			(at -3.81 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_0603"
@@ -481,7 +487,7 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-3.3LE"
-			(at 0 -17.78 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -492,7 +498,7 @@
 			)
 		)
 		(property "Product" "CG0603MLC-3.3LE"
-			(at 0 -12.7 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -503,7 +509,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 0 -10.16 0)
+			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -514,7 +520,7 @@
 			)
 		)
 		(property "Rating" "3V3"
-			(at 0 -15.24 0)
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -529,27 +535,29 @@
 	(symbol "PMEG2010EPK"
 		(extends "Diode_Schottky")
 		(property "Reference" "D"
-			(at 0 7.62 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "PMEG2010EPK"
-			(at 0 5.08 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SOD-1608"
-			(at 0 -4.445 0)
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -582,7 +590,7 @@
 			)
 		)
 		(property "Mouser" "771-PMEG2010EPK"
-			(at 0 -12.7 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -593,7 +601,7 @@
 			)
 		)
 		(property "Product" "PMEG2010EPK"
-			(at 0 -10.16 0)
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -604,7 +612,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia "
-			(at 0 -7.62 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -615,7 +623,7 @@
 			)
 		)
 		(property "Rating" "20V"
-			(at 0 -15.24 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -630,27 +638,29 @@
 	(symbol "PMEG6030AEXEX"
 		(extends "Diode_Schottky")
 		(property "Reference" "D"
-			(at 0 7.62 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "PMEG6030AEXEX"
-			(at 0 5.08 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
-			(at 0 -7.62 0)
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -683,7 +693,7 @@
 			)
 		)
 		(property "Mouser" "771-PMEG6030AEXEX"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -694,7 +704,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -705,7 +715,7 @@
 			)
 		)
 		(property "Product" "PMEG6030AEXEX"
-			(at 0 -12.7 0)
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -716,7 +726,7 @@
 			)
 		)
 		(property "Rating" "60V"
-			(at 0 -17.78 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -731,7 +741,7 @@
 	(symbol "SMBJ24CA"
 		(extends "Diode_TVS_Unidirectional")
 		(property "Reference" "TVS"
-			(at -2.54 6.35 0)
+			(at -3.81 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -742,7 +752,7 @@
 			)
 		)
 		(property "Value" "SMBJ24CA"
-			(at -2.54 3.81 0)
+			(at -3.81 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -834,7 +844,7 @@
 	(symbol "SMBJ33CA"
 		(extends "Diode_TVS_Unidirectional")
 		(property "Reference" "TVS"
-			(at -2.54 6.35 0)
+			(at -2.54 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -845,7 +855,7 @@
 			)
 		)
 		(property "Value" "SMBJ33CA"
-			(at -2.54 3.81 0)
+			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

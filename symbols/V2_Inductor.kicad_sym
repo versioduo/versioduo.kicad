@@ -15,7 +15,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "FB"
-			(at 1.905 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.905 -1.27 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -183,7 +183,7 @@
 	(symbol "FerriteBead_1206"
 		(extends "FerriteBead")
 		(property "Reference" "FB"
-			(at 1.905 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -194,7 +194,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.905 -1.27 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -237,6 +237,17 @@
 				)
 			)
 		)
+		(property "Id" "Ferrite:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "L ferrite bead inductor filter"
 			(at 0 0 0)
 			(show_name no)
@@ -264,7 +275,7 @@
 	(symbol "FerriteBead_3.1x5.1"
 		(extends "FerriteBead")
 		(property "Reference" "FB"
-			(at 1.905 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -275,7 +286,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.905 -1.27 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -318,6 +329,17 @@
 				)
 			)
 		)
+		(property "Id" "Ferrite:${SYMBOL_NAME}"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "L ferrite bead inductor filter"
 			(at 0 0 0)
 			(show_name no)
@@ -345,7 +367,7 @@
 	(symbol "FerriteBead_1206_50Ohm"
 		(extends "FerriteBead_1206")
 		(property "Reference" "FB"
-			(at 1.905 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -356,7 +378,7 @@
 			)
 		)
 		(property "Value" "50Ω"
-			(at 1.905 -1.27 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -470,7 +492,7 @@
 	(symbol "FerriteBead_3.1x5.1_47Ohm"
 		(extends "FerriteBead_3.1x5.1")
 		(property "Reference" "FB"
-			(at 1.905 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -481,7 +503,7 @@
 			)
 		)
 		(property "Value" "47Ω"
-			(at 1.905 -1.27 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -16,7 +16,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 1.778 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.778 -1.778 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -183,7 +183,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -194,7 +194,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -350,7 +350,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -361,7 +361,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -517,7 +517,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -528,7 +528,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -684,7 +684,7 @@
 	(symbol "0603_0u022"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 2.032 1.016 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -695,7 +695,7 @@
 			)
 		)
 		(property "Value" "0u022"
-			(at 2.032 -1.524 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -820,7 +820,7 @@
 	(symbol "0603_0u1"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.778 1.524 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 1.778 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -945,7 +945,7 @@
 	(symbol "0603_0u22"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Value" "0u22"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1081,7 +1081,7 @@
 	(symbol "0603_0u47"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 2.032 1.016 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1092,7 +1092,7 @@
 			)
 		)
 		(property "Value" "0u47"
-			(at 2.032 -1.524 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1206,7 +1206,7 @@
 	(symbol "0603_1000p"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "Value" "1000p"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1331,7 +1331,7 @@
 	(symbol "0603_10u"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1342,7 +1342,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,7 +1456,7 @@
 	(symbol "0603_18p"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1467,7 +1467,7 @@
 			)
 		)
 		(property "Value" "18p"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1581,7 +1581,7 @@
 	(symbol "0603_1u"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1592,7 +1592,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1706,7 +1706,7 @@
 	(symbol "0603_390p"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1717,7 +1717,7 @@
 			)
 		)
 		(property "Value" "390p"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1831,7 +1831,7 @@
 	(symbol "0603_4u7"
 		(extends "0603")
 		(property "Reference" "C"
-			(at 2.032 1.016 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1842,7 +1842,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 2.032 -1.524 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1967,7 +1967,7 @@
 	(symbol "0805_10u"
 		(extends "0805")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1978,7 +1978,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2092,7 +2092,7 @@
 	(symbol "1210_10u"
 		(extends "1210")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2217,7 +2217,7 @@
 	(symbol "1210_22u"
 		(extends "1210")
 		(property "Reference" "C"
-			(at 1.524 1.778 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2228,7 +2228,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 1.524 -2.032 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2342,7 +2342,7 @@
 	(symbol "Polarized_6.3x5.8_47u"
 		(extends "Polarized")
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2467,7 +2467,7 @@
 	(symbol "Polarized_6.3x7.7_100u"
 		(extends "Polarized")
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2592,7 +2592,7 @@
 	(symbol "Polarized_8x10.2_330u"
 		(extends "Polarized")
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Value" "330u"
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2717,7 +2717,7 @@
 	(symbol "Polarized_EIA3528"
 		(extends "Polarized")
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2771,6 +2771,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 0 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "cap capacitor"
 			(at 0 0 0)
 			(show_name no)
@@ -2787,7 +2798,7 @@
 	(symbol "Polarized_EIA3528_100u"
 		(extends "Polarized_EIA3528")
 		(property "Reference" "C"
-			(at 2.032 1.27 0)
+			(at 2.54 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2798,7 +2809,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 2.286 -1.016 0)
+			(at 2.54 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
