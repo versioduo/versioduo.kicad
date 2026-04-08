@@ -347,6 +347,28 @@
 				)
 			)
 		)
+		(property "Id" "LDO:${SYMBOL_NAME}"
+			(at 0 -31.75 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 0 -49.53 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 )

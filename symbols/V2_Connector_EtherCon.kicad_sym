@@ -391,7 +391,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_EtherCon:NE8FAH"
-			(at 0 -25.4 0)
+			(at 0 -31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -424,7 +424,7 @@
 			)
 		)
 		(property "Mouser" "568-NE8FAH"
-			(at 0 -33.02 0)
+			(at 0 -39.37 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -435,7 +435,7 @@
 			)
 		)
 		(property "Manufacturer" "Neutrik"
-			(at 0 -27.94 0)
+			(at 0 -34.29 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -446,7 +446,29 @@
 			)
 		)
 		(property "Product" "NE8FAH"
-			(at 0 -30.48 0)
+			(at 0 -36.83 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "EtherCon:${SYMBOL_NAME}"
+			(at 0 -29.21 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 0 -41.91 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -539,6 +561,28 @@
 		)
 		(property "Product" "NE8FAV-SD"
 			(at 0 -27.94 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "EtherCon:${SYMBOL_NAME}"
+			(at 0 -33.02 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "CAT5e"
+			(at 0 -35.56 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

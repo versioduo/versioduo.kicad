@@ -266,6 +266,28 @@
 				)
 			)
 		)
+		(property "Id" "Crystal:${SYMBOL_NAME}"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "10ppm"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "quartz ceramic resonator oscillator"
 			(at 0 0 0)
 			(show_name no)

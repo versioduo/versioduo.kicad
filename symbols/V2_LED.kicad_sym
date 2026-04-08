@@ -321,6 +321,17 @@
 				)
 			)
 		)
+		(property "Rating" "15mA"
+			(at 0 -24.13 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "WS2812_0_0"
 			(text "RGB"
 				(at -1.27 -1.27 0)
@@ -614,7 +625,7 @@
 				)
 			)
 		)
-		(property "Rating" " 605nm "
+		(property "Rating" "605nm"
 			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -760,8 +771,8 @@
 			)
 		)
 		(property "Rating" "630nm "
-			(at 0 0 0)
-			(show_name no)
+			(at 0 -17.78 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

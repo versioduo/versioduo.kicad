@@ -596,7 +596,7 @@
 			)
 		)
 		(property "Mouser" "595-THVD2442DRCR"
-			(at 0 -35.56 0)
+			(at 0 -36.83 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -607,7 +607,7 @@
 			)
 		)
 		(property "Product" "THVD2442DRCR "
-			(at 0 -33.02 0)
+			(at 0 -34.29 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -618,7 +618,29 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 -30.48 0)
+			(at 0 -29.21 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "RS485:${SYMBOL_NAME}"
+			(at 0 -31.75 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "20Mbps"
+			(at 1.27 -39.37 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
