@@ -13,12 +13,6 @@
 	)
 	(rect
 		(name "")
-		(start 82 16)
-		(end 2 2)
-		(comment "rect around the title block")
-	)
-	(rect
-		(name "")
 		(start 0 0 ltcorner)
 		(end 0 0)
 		(repeat 2)
@@ -91,43 +85,42 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Updated: ${ISSUE_DATE}"
+	(tbtext "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
 		(name "")
-		(pos 34.93 4.0002)
+		(pos 38.1 5.08)
 	)
-	(tbtext "Revision: ${REVISION}"
+	(tbtext "${#}/${##}"
 		(name "")
-		(pos 34.93 13.0002)
-	)
-	(tbtext "Id: ${#}/${##}"
-		(name "")
-		(pos 34.93 10.0002)
+		(pos 38.1 8.89)
 		(comment "Sheet id")
 	)
 	(tbtext "${TITLE}"
 		(name "")
-		(pos 80 13)
+		(pos 80.01 12.7)
 		(font bold)
 	)
-	(tbtext "Sheet: ${SHEETNAME}"
+	(tbtext ""
 		(name "")
-		(pos 34.93 7.0002)
+		(pos 17.43 9)
 	)
 	(tbtext "${COMPANY}"
 		(name "")
-		(pos 80 10)
+		(pos 80.01 8.89)
 		(comment "Company name")
 	)
 	(tbtext "${COMMENT1}"
 		(name "")
-		(pos 80 7)
-		(font italic)
+		(pos 80.01 5.08)
 		(comment "Comment 0")
 	)
-	(tbtext "${COMMENT2}"
+	(tbtext "${SHEETNAME}"
 		(name "")
-		(pos 80 4)
-		(font italic)
-		(comment "Comment 0")
+		(pos 38.1 12.7)
+		(comment "Sheet id")
+	)
+	(rect
+		(name "")
+		(start 82 16)
+		(end 2 2)
 	)
 )

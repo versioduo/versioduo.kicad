@@ -888,7 +888,7 @@
 			)
 		)
 		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-			(at 0 -12.7 0)
+			(at 0 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -899,7 +899,7 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ33CA-Q"
-			(at 0 -23.114 0)
+			(at 0 -28.194 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -910,7 +910,7 @@
 			)
 		)
 		(property "Product" "SMBJ33CA-Q"
-			(at 0 -17.78 0)
+			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -921,7 +921,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 0 -15.24 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -932,7 +932,7 @@
 			)
 		)
 		(property "Rating" "33V"
-			(at 0 -20.32 0)
+			(at 0 -30.48 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
