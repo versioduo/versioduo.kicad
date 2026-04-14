@@ -293,7 +293,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
-			(at 0 -12.7 0)
+			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -315,7 +315,7 @@
 			)
 		)
 		(property "Description" "Amphenol – Minitek127"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "Mouser" "649-200211120001T4LF"
-			(at 0 -22.86 0)
+			(at 0 -27.94 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -337,7 +337,7 @@
 			)
 		)
 		(property "Manufacturer" "Amphenol FCI"
-			(at 0 -17.78 0)
+			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -348,7 +348,29 @@
 			)
 		)
 		(property "Product" "20021112-00010T4LF"
-			(at 0 -20.32 0)
+			(at 0 -25.4 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 0 -30.48 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -383,7 +405,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
-			(at 0 -12.7 0)
+			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -405,7 +427,7 @@
 			)
 		)
 		(property "Description" "Amphenol – Minitek127"
-			(at 0 -15.24 0)
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -416,7 +438,7 @@
 			)
 		)
 		(property "Mouser" "649-200211110010T1LF"
-			(at 0 -22.86 0)
+			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -427,7 +449,7 @@
 			)
 		)
 		(property "Manufacturer" "Amphenol FCI"
-			(at 0 -17.78 0)
+			(at 0 -21.59 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -438,7 +460,29 @@
 			)
 		)
 		(property "Product" "20021111-00010T1LF"
-			(at 0 -20.32 0)
+			(at 0 -24.13 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Header:${SYMBOL_NAME}"
+			(at 0 -13.97 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 0 -29.21 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

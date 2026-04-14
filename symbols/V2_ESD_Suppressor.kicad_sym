@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-			(at 0 -13.97 0)
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 		(property "Mouser" "947-RCLAMP0582N.TCT"
-			(at 0 -21.59 0)
+			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -75,7 +75,7 @@
 			)
 		)
 		(property "Product" "RCLAMP0582N.TCT"
-			(at 0 -19.05 0)
+			(at 0 -24.13 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Manufacturer" "Semtech"
-			(at 0 -16.51 0)
+			(at 0 -21.59 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -97,7 +97,18 @@
 			)
 		)
 		(property "Id" "ESD:${SYMBOL_NAME}"
-			(at 0 -11.43 0)
+			(at 0 -16.51 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "20kV"
+			(at 0 -29.21 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

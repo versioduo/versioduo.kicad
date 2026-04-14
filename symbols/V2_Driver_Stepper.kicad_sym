@@ -12,27 +12,29 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 41.402 0)
+			(at -12.7 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TMC2130-LA"
-			(at 0 38.862 0)
+			(at -12.7 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-36-5X6"
-			(at 0 -58.674 0)
+			(at 0 -58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -67,7 +69,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
-			(at 0 -61.976 0)
+			(at 0 -60.96 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -78,7 +80,7 @@
 			)
 		)
 		(property "Product" "TMC2130-LA"
-			(at 0 -65.532 0)
+			(at 0 -63.5 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -89,7 +91,7 @@
 			)
 		)
 		(property "LCSC" "C915795"
-			(at 0 -69.088 0)
+			(at 0 -66.04 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -101,6 +103,17 @@
 		)
 		(property "Id" "Stepper:${SYMBOL_NAME}"
 			(at 0 -55.88 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2A"
+			(at 0 -68.58 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

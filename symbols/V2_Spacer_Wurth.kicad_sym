@@ -134,7 +134,7 @@
 			)
 		)
 		(property "Footprint" "V2_Spacer_Wurth:9774030243"
-			(at 0 -7.62 0)
+			(at 0 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -158,6 +158,61 @@
 		(property "Description" ""
 			(at 0 0 0)
 			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Spacer:${SYMBOL_NAME}"
+			(at 0 -8.89 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3mm"
+			(at 0 -21.59 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 -13.97 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "9774030243R"
+			(at 0 -16.51 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-9774030243R"
+			(at 0 -19.05 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

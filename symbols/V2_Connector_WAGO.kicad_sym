@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 0 -9.906 0)
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -182,7 +182,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 0 -13.208 0)
+			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -193,7 +193,29 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 0 -16.51 0)
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 0 -7.62 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -228,7 +250,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2601-1101"
-			(at 0 -8.128 0)
+			(at 0 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -261,7 +283,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 0 -11.43 0)
+			(at 0 -13.97 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -272,7 +294,29 @@
 			)
 		)
 		(property "Product" "2601-1101"
-			(at 0 -14.478 0)
+			(at 0 -16.51 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 0 -8.89 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "17.5A"
+			(at 0 -19.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -307,7 +351,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2604-1101"
-			(at 0 -8.382 0)
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -340,7 +384,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 0 -11.938 0)
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -351,7 +395,29 @@
 			)
 		)
 		(property "Product" "2604-1101"
-			(at 0 -15.494 0)
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 0 -10.16 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "32A"
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

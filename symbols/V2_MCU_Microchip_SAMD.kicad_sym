@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
-			(at 0 -63.5 0)
+			(at 0 -68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Mouser" "556-ATSAMD51G19AMU"
-			(at 0 -71.12 0)
+			(at 0 -76.2 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 0 -66.04 0)
+			(at 0 -71.12 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "Product" "ATSAMD51G19A-MU"
-			(at 0 -68.58 0)
+			(at 0 -73.66 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -95,7 +95,18 @@
 			)
 		)
 		(property "Id" "MCU:${SYMBOL_NAME}"
-			(at 0 -60.96 0)
+			(at 0 -66.04 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "Cortex-M4F"
+			(at 0 -78.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1109,6 +1120,17 @@
 		)
 		(property "Id" "MCU:${SYMBOL_NAME}"
 			(at 0 -63.5 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "Cortex-M4F"
+			(at 0 -81.28 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

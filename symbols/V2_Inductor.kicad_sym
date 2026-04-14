@@ -422,7 +422,7 @@
 			)
 		)
 		(property "Manufacturer" "Fair-Rite"
-			(at 0 -21.59 0)
+			(at 0 -24.13 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -433,7 +433,7 @@
 			)
 		)
 		(property "Product" "2512065007Y6"
-			(at 0 -16.51 0)
+			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -444,7 +444,7 @@
 			)
 		)
 		(property "Mouser" "623-2512065007Y6"
-			(at 0 -19.05 0)
+			(at 0 -29.21 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -455,7 +455,18 @@
 			)
 		)
 		(property "Id" "Ferrite:${SYMBOL_NAME}"
-			(at 0 -17.78 0)
+			(at 0 -21.59 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 0 -31.75 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -547,17 +558,6 @@
 			)
 		)
 		(property "Manufacturer" "Fair-Rite"
-			(at 0 -16.51 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "2743019447"
 			(at 0 -19.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -568,7 +568,7 @@
 				)
 			)
 		)
-		(property "Mouser" "623-2743019447LF"
+		(property "Product" "2743019447"
 			(at 0 -21.59 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -579,8 +579,30 @@
 				)
 			)
 		)
+		(property "Mouser" "623-2743019447LF"
+			(at 0 -24.13 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Id" "Ferrite:${SYMBOL_NAME}"
-			(at 0 -17.78 0)
+			(at 0 -16.51 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "5A"
+			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

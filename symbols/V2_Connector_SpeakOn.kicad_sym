@@ -64,7 +64,7 @@
 				)
 			)
 		)
-		(property "Id" "SpeakOn:${LIBRARY_NAME}"
+		(property "Id" "SpeakOn:${SYMBOL_NAME}"
 			(at 0 -24.13 0)
 			(show_name yes)
 			(do_not_autoplace no)

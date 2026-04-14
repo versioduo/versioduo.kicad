@@ -29,8 +29,8 @@
 			)
 		)
 		(property "Footprint" "V2_RF_Module:E62"
-			(at -0.254 -12.192 0)
-			(show_name no)
+			(at -0.254 -19.05 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -51,8 +51,52 @@
 			)
 		)
 		(property "Description" "433 MHz Wireless Module"
-			(at 0 -14.732 0)
-			(show_name no)
+			(at 0 -21.59 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "433Mhz"
+			(at 0 -29.21 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Radio:${SYMBOL_NAME}"
+			(at -1.27 -16.51 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ebyte Electronic Technology"
+			(at 0 -24.13 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "E62-433T20S"
+			(at 0 -26.67 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects

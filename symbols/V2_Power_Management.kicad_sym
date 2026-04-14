@@ -410,7 +410,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-8"
-			(at 0 -30.48 0)
+			(at 0 -33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -432,7 +432,7 @@
 			)
 		)
 		(property "Description" "Reverse Polarity Protection Controller"
-			(at 0 -33.02 0)
+			(at 0 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Mouser" "595-LM74502QDDFRQ1"
-			(at 0 -40.64 0)
+			(at 0 -43.18 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -454,7 +454,7 @@
 			)
 		)
 		(property "Product" "LM74502QDDFRQ1"
-			(at 0 -38.1 0)
+			(at 0 -40.64 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -465,7 +465,29 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 -35.56 0)
+			(at 0 -38.1 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "PolarityProtection:${SYMBOL_NAME}"
+			(at 0 -30.48 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "60uA"
+			(at 0 -45.72 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -666,7 +688,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias"
-			(at 0 -17.78 0)
+			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -699,7 +721,7 @@
 			)
 		)
 		(property "Mouser" "595-TPS2559DRCR"
-			(at 0 -25.4 0)
+			(at 0 -29.21 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -710,7 +732,7 @@
 			)
 		)
 		(property "Product" "TPS2559DRCR"
-			(at 0 -22.86 0)
+			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -721,7 +743,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 -20.32 0)
+			(at 0 -24.13 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -732,7 +754,18 @@
 			)
 		)
 		(property "Rating" "4.7A"
-			(at 0 -27.94 0)
+			(at 0 -31.75 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "PowerSwitch:${SYMBOL_NAME}"
+			(at 0 -19.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)

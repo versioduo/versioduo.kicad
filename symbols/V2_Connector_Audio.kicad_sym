@@ -612,6 +612,17 @@
 				)
 			)
 		)
+		(property "Rating" "2.5mm"
+			(at 0 -40.64 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "SJ2-25404B-SMT-TR_0_0"
 			(rectangle
 				(start -10.16 12.7)
@@ -1060,7 +1071,18 @@
 		)
 		(property "Id" "Audio:${SYMBOL_NAME}"
 			(at 0 -17.78 0)
-			(show_name no)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3.5mm"
+			(at 0 -30.48 0)
+			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
@@ -1439,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal"
-			(at 0 -25.4 0)
+			(at 0 -33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1450,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nsj12hc"
-			(at 0 -22.606 0)
+			(at 0 -30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1461,7 +1483,7 @@
 			)
 		)
 		(property "Description" "Stacking Jacks, Stereo dual jack, full nose"
-			(at 0 -27.94 0)
+			(at 0 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1472,7 +1494,7 @@
 			)
 		)
 		(property "Mouser" "568-NSJ12HC"
-			(at 0 -35.306 0)
+			(at 0 -42.926 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1483,7 +1505,7 @@
 			)
 		)
 		(property "Manufacturer" "Neutrik"
-			(at 0 -33.02 0)
+			(at 0 -40.64 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1494,7 +1516,29 @@
 			)
 		)
 		(property "Product" "NSJ12HC"
-			(at 0 -30.48 0)
+			(at 0 -38.1 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Audio:${SYMBOL_NAME}"
+			(at 0 -27.94 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6.35mm"
+			(at 0 -45.72 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
