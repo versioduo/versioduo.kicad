@@ -112,6 +112,17 @@
 				)
 			)
 		)
+		(property "Rating" "10mV/G"
+			(at 0 -36.83 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "A31010SEHALT-10_1_0"
 			(pin power_in line
 				(at 5.08 7.62 180)
