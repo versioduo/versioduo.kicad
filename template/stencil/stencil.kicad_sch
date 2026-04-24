@@ -6,8 +6,8 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "stencil")
-		(date "2026-03-21")
-		(rev "2026-03-21")
+		(date "2026-04-24")
+		(rev "2026-04-24")
 		(company "Versio Duo")
 	)
 	(lib_symbols
