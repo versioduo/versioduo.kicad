@@ -350,7 +350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_0603"
+		(property "Footprint" "V2_Diode_SMD:D_1608"
 			(at 0 -5.715 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -453,7 +453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_0603"
+		(property "Footprint" "V2_Diode_SMD:D_1608"
 			(at 0 -5.715 0)
 			(show_name no)
 			(do_not_autoplace no)

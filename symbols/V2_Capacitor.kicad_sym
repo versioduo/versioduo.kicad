@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "0603"
+	(symbol "1608"
 		(pin_numbers
 			(hide yes)
 		)
@@ -37,7 +37,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0603"
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -103,7 +103,7 @@
 				)
 			)
 		)
-		(symbol "0603_0_1"
+		(symbol "1608_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -129,7 +129,7 @@
 				)
 			)
 		)
-		(symbol "0603_1_1"
+		(symbol "1608_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 2.032)
@@ -169,7 +169,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0805"
+	(symbol "2012"
 		(pin_numbers
 			(hide yes)
 		)
@@ -204,7 +204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_0805"
+		(property "Footprint" "V2_Capacitor_SMD:C_2012"
 			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -270,7 +270,7 @@
 				)
 			)
 		)
-		(symbol "0805_0_1"
+		(symbol "2012_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -296,7 +296,7 @@
 				)
 			)
 		)
-		(symbol "0805_1_1"
+		(symbol "2012_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 2.032)
@@ -336,7 +336,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1210"
+	(symbol "3225"
 		(pin_numbers
 			(hide yes)
 		)
@@ -371,7 +371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Capacitor_SMD:C_1210"
+		(property "Footprint" "V2_Capacitor_SMD:C_3225"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -437,7 +437,7 @@
 				)
 			)
 		)
-		(symbol "1210_0_1"
+		(symbol "3225_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -463,7 +463,7 @@
 				)
 			)
 		)
-		(symbol "1210_1_1"
+		(symbol "3225_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 2.032)
@@ -681,8 +681,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_0u022"
-		(extends "0603")
+	(symbol "1608_0u022"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -817,8 +817,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_0u1"
-		(extends "0603")
+	(symbol "1608_0u1"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -942,8 +942,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_0u22"
-		(extends "0603")
+	(symbol "1608_0u22"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1078,8 +1078,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_0u47"
-		(extends "0603")
+	(symbol "1608_0u47"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1203,8 +1203,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_1000p"
-		(extends "0603")
+	(symbol "1608_1000p"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1328,8 +1328,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_10u"
-		(extends "0603")
+	(symbol "1608_10u"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1453,8 +1453,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_18p"
-		(extends "0603")
+	(symbol "1608_18p"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1578,8 +1578,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_1u"
-		(extends "0603")
+	(symbol "1608_1u"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1703,8 +1703,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_390p"
-		(extends "0603")
+	(symbol "1608_390p"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1828,8 +1828,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603_4u7"
-		(extends "0603")
+	(symbol "1608_4u7"
+		(extends "1608")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -1964,8 +1964,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0805_10u"
-		(extends "0805")
+	(symbol "2012_10u"
+		(extends "2012")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -2089,8 +2089,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1210_10u"
-		(extends "1210")
+	(symbol "3225_10u"
+		(extends "3225")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
@@ -2214,8 +2214,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1210_22u"
-		(extends "1210")
+	(symbol "3225_22u"
+		(extends "3225")
 		(property "Reference" "C"
 			(at 2.54 1.27 0)
 			(show_name no)
