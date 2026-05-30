@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "default")
-		(date "2026-04-23")
-		(rev "2026-04-23")
-		(company "Versio duo")
+		(date "2026-05-30")
+		(rev "2026-05-30")
+		(company "Versio Duo")
 	)
 	(lib_symbols)
 	(sheet_instances
