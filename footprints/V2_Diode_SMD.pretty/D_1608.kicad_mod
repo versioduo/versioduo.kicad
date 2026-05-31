@@ -1,15 +1,14 @@
-(footprint "D_0603"
+(footprint "D_1608"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "diode")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b636fcd1-93f4-43f6-9d5a-afcd7f3932d3")
+		(uuid "97b7d54f-d5a0-4281-abeb-50112b8505c1")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +20,7 @@
 		(at 0 1.43 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ea669d39-3463-46d0-8609-0900e3cd5efd")
+		(uuid "58d7db9d-4e16-48f8-aa0b-efc0d5b70831")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "230db02f-ff97-420e-a718-f89483783c24")
+		(uuid "6af5c753-7f55-49db-bc9e-dfc756cfd5b6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "296b2da7-3607-47be-9464-d29cd5203e52")
+		(uuid "193f6b88-ff11-4dc9-89fb-fecce7f54456")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1a6ce4e4-488f-4efe-ae2d-fb0e579cbe06")
+		(uuid "99f485cc-aa25-4e2b-80bb-e2ee1802fb70")
 	)
 	(fp_line
 		(start -1.5 0.7)
@@ -73,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "517f56c3-235e-4cd1-bb14-bd713621b84c")
+		(uuid "50cfab71-2470-471a-81e5-bd9fa1dbcc97")
 	)
 	(fp_line
 		(start 0.8 -0.7)
@@ -83,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bf88a4af-0ff4-4584-a5c2-6a38856a901c")
+		(uuid "b357923e-88a2-49f4-a658-703298ca0707")
 	)
 	(fp_rect
 		(start -1.5 -0.7)
@@ -94,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8695d2f1-14b4-4362-8e76-51d2dd7adf58")
+		(uuid "48b8495b-12ac-426e-93c5-72b244e12760")
 	)
 	(fp_rect
 		(start -1.5 -0.7)
@@ -105,12 +104,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d006294e-d6c3-4c1a-ab25-ed41e81294e0")
+		(uuid "fcb9b032-6c82-4b58-b43d-c96b3b04b9d9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b0e1a950-9c02-4f7b-bc40-8628d9155b01")
+		(uuid "faea00b8-0747-4a43-9298-d83223426c4d")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -125,7 +124,7 @@
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0.4)
 		(chamfer top_right bottom_right)
-		(uuid "c2f265ce-e3be-4296-aa94-91ff39774ad7")
+		(uuid "4e5538c9-3858-44ee-a448-72a9619a9c13")
 	)
 	(pad "" smd roundrect
 		(at 0.75 0)
@@ -134,24 +133,24 @@
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0.4)
 		(chamfer top_left bottom_left)
-		(uuid "1606b61f-d70e-484b-8f18-7d6a22051f8f")
+		(uuid "59f9fea1-134d-4819-9dfc-a671b6727b51")
 	)
 	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "a3e18cb2-41b0-4b72-871e-4bb797793f28")
+		(uuid "03f2554a-bf12-4474-8827-8d60c15944e5")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "022e052c-12b8-4095-9ddd-ace43b815156")
+		(uuid "b2e55474-5b1e-4df1-ba77-4c98328113c3")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_Diode_SMD.3dshapes/D_0603_1608Metric.step"
+	(model "../../3dmodels/V2_Diode_SMD.3dshapes/D_1608.step"
 		(offset
 			(xyz 0 0 0)
 		)

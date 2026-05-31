@@ -1,15 +1,14 @@
-(footprint "LED_0603"
+(footprint "LED_1608"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "LED")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "59df1685-316e-4229-993b-5aa3363ebd34")
+		(uuid "e9e98f72-c9bd-4252-a28c-57df5d793791")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +20,7 @@
 		(at 0 2.25 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2dc71025-1ab7-4352-869c-f2362d676623")
+		(uuid "604fdad2-cb71-455d-b21d-d966192d51f4")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c36e9dc4-c9ca-4210-8741-d3435e787198")
+		(uuid "2d869c9f-867b-4c59-8dec-a06ca5dd6059")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f06dfd4-7e62-4d86-9c38-681da0e617b8")
+		(uuid "600097f8-97a5-4940-a12a-368a66c3b74c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9bde609e-2d9d-409c-a68e-d9d537a7c760")
+		(uuid "7d43f494-eef4-4304-8c32-b5c4aac32151")
 	)
 	(fp_line
 		(start -1.485 0.735)
@@ -73,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "323b97ca-c844-4466-b2cc-505013f422e4")
+		(uuid "b69f441d-e7e0-4995-885b-7889e71dc7ad")
 	)
 	(fp_line
 		(start 0.8 -0.735)
@@ -83,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "036c8153-e8b3-4a20-af88-c927dd2ec1c0")
+		(uuid "16ece3cc-7193-485a-8c30-617b359e5052")
 	)
 	(fp_rect
 		(start -1.48 -0.73)
@@ -94,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a97ed1c5-2768-4cad-bb93-618eff6b3dc1")
+		(uuid "f2f5101a-252e-4a4e-a6e0-0ba32ee00dd5")
 	)
 	(fp_line
 		(start -0.8 -0.1)
@@ -104,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "68c4647c-e467-4793-8181-eceae2bfdf7d")
+		(uuid "627fb363-2405-4d49-b582-13e189b2d0f1")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -114,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5236415e-65f4-41ed-ae1f-3cdaae446d28")
+		(uuid "7bd4628c-604a-4b6b-ba2b-b00ef573577a")
 	)
 	(fp_line
 		(start -0.5 -0.4)
@@ -124,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "878b0590-9b6c-4884-845e-11952a702bf5")
+		(uuid "8fc2912c-3325-4d06-8e8c-c930ec87469c")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -134,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f864b9b8-aeb2-41e4-9f22-3069f5ab7d88")
+		(uuid "fc626973-d949-4312-9865-bfe7fda143b9")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -144,12 +143,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ba34c0fd-eeb6-4fdd-adc4-78d0e4f22b87")
+		(uuid "0c07b636-3f79-43b8-b5c5-ae7752fa4e9f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f55dc256-7743-4a64-af7b-35d0bb36b23c")
+		(uuid "6e430946-f459-4e6a-ae1d-dec2d10eb3a7")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -164,7 +163,7 @@
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0.3)
 		(chamfer top_right bottom_right)
-		(uuid "1e20487b-0209-44cb-b2e2-51370c8c9bb5")
+		(uuid "12a1cf30-b6b3-44b8-b8ba-0d5e79c315ab")
 	)
 	(pad "" smd roundrect
 		(at 0.825 0)
@@ -173,24 +172,24 @@
 		(roundrect_rratio 0.125)
 		(chamfer_ratio 0.3)
 		(chamfer top_left bottom_left)
-		(uuid "33bbeecc-c647-4295-8ece-4cc6ff06c4da")
+		(uuid "9b3baa15-38ec-4ece-ab36-79d7f32d65d8")
 	)
 	(pad "1" smd roundrect
 		(at -0.825 0)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "00876f39-8efc-4803-995c-7d51a65f2e66")
+		(uuid "a3076a5c-bfdc-43f1-b655-62c23129cd51")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
-		(uuid "dbbb58c4-d272-4b06-8756-d340baf794ab")
+		(uuid "80915faa-de45-43e5-a357-07b497a233fd")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/V2_LED_SMD.3dshapes/LED_0603_1608Metric.step"
+	(model "../../3dmodels/V2_LED_SMD.3dshapes/LED_1608.step"
 		(offset
 			(xyz 0 0 0)
 		)
