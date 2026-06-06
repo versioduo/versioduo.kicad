@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e38084a3-29cb-43bb-9dbe-23dbc0b0cec9")
+		(uuid "dc17ec18-2ea9-4547-a3c7-67ffac70b55f")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cd72ff04-3cdb-4f6c-a8ea-7722d41cb6bb")
+		(uuid "b784c2b1-3ad1-4e90-9701-620e43e1358f")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed804ccf-ed58-46b4-9ea1-ae26e8bbe1bd")
+		(uuid "f17375af-f869-4e78-94e3-51b8420c5582")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3fbb2bd-9b6a-472f-9942-56b9341878f8")
+		(uuid "546be53b-4d41-4e6b-95ff-94b7e0d4581a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,11 +57,11 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_text user "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
+	(fp_text user "${REVISION} @{if(\"${REVISION}\" !=  \"${ISSUE_DATE}\", \"(${ISSUE_DATE})\", \"\")}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6a9ba5b1-5927-44d2-bd00-f1a2947f7208")
+		(uuid "55fdda55-628f-4906-8ea2-58dd3fe46109")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -69,11 +69,11 @@
 			)
 		)
 	)
-	(fp_text user "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
+	(fp_text user "${REVISION} @{if(\"${REVISION}\" !=  \"${ISSUE_DATE}\", \"(${ISSUE_DATE})\", \"\")}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "14188950-aba6-49db-89c3-ce9af7e986ef")
+		(uuid "2ea0cd9d-7ad0-4fec-bf7f-7dc8fec089ca")
 		(effects
 			(font
 				(size 0.75 0.75)

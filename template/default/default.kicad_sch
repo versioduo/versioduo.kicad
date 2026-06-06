@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "default")
-		(date "2026-05-30")
-		(rev "2026-05-30")
+		(date "2026-06-06")
+		(rev "2026-06-06")
 		(company "Versio Duo")
 	)
 	(lib_symbols)
@@ -21,17 +21,18 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
-				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
-				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
-				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
-				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
-				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
-				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
-				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
-				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
+			(data |KLUv/WABBs0PAPaWSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARABjlVmr
+				uudFPLoZj1VmWb8lbD7pPgUABMrQX7Na1VKPYvF6Y0l96//2zbdTadZa7KqXZ43NfUUUIGCCRp74
+				hRhEBdnlpi6ppf6k++BnFcsur9lJ2mHGl/93yyvmu2/eOvyx+u/vTUr9kl/+8G5S/2uw1O/p4F2t
+				Z9zZH+k95wbVytxaGnaq6KaiClvXeHgbhuMi7guB082G4mATw0+USoSLZLaLibD3Pvf9fEM/OfjN
+				0Ce73DbOK/MKgmC1GCDwWXOsB4EKYf3StkmD0m0bhKu2o2wT6mf+SlI7NJSGZVJxKBw7WAlx1KAn
+				rMu6rVbVNkkX6aiI/e/1cNQ/X5LUoUKztIHhNNACV6ABRYOUmppZnDRrYGTm5lgHuKUBCqUheRmB
+				mtErmC2cYpdvw4QpAS+HW0x9ni3oxOjDIsfMJMoe1TEVRT9Vsuj5tcL6QokDa/DzUfliHjoPDuAp
+				yB0UltwFSGjQ8qh9YsiEAU6ZM/MH8LbEFFL4TXKm8ij9cNrJ7wlu2DKOnbAzzIEHWY4okcCT1GJg
+				bYhzrGivkMr2LxUEt7459HIzhg2rdlkB6u5W3N7YeuhB6m4vyMxrpWQtkChBv9Dfi56Y6YgbQOoB
+				pgo=|
 			)
-			(checksum "080A27BD1FADC1F81518BF82EA92C143")
+			(checksum "6080E9E16B39514519B8031C50AB7B2F")
 		)
 	)
 )

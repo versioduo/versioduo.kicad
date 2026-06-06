@@ -85,7 +85,7 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, \"(${ISSUE_DATE})\", \"\")}"
+	(tbtext "${REVISION} @{if(\"${REVISION}\" !=  \"${ISSUE_DATE}\", \"(${ISSUE_DATE})\", \"\")}"
 		(name "")
 		(pos 38.1 5.08)
 	)

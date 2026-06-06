@@ -8,8 +8,8 @@
 	)
 	(paper "User" 280 380)
 	(title_block
-		(date "2026-04-24")
-		(rev "2026-04-24")
+		(date "2026-06-06")
+		(rev "2026-06-06")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -488,7 +488,7 @@
 		(layer "F.Fab")
 		(uuid "d97f43d9-264e-439a-b76a-619bb9fcd5f7")
 	)
-	(gr_text "${REVISION} @{if(${REVISION} !=  ${ISSUE_DATE}, {dblquote}(${ISSUE_DATE}){dblquote}, {dblquote}{dblquote})}\n\n"
+	(gr_text "${REVISION} @{if({dblquote}${REVISION}{dblquote} !=  {dblquote}${ISSUE_DATE}{dblquote}, {dblquote}(${ISSUE_DATE}){dblquote}, {dblquote}{dblquote})}"
 		(at 7.75 8.25 0)
 		(layer "F.Fab")
 		(uuid "67b86c2d-59b0-436e-b1dd-a51d44409c80")

@@ -6,8 +6,8 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "stencil")
-		(date "2026-04-24")
-		(rev "2026-04-24")
+		(date "2026-06-06")
+		(rev "2026-06-06")
 		(company "Versio Duo")
 	)
 	(lib_symbols
@@ -344,18 +344,18 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WABBs0PAPaWSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARABjlVmr
+				uudFPLoZj1VmWb8lbD7pPgUABMrQX7Na1VKPYvF6Y0l96//2zbdTadZa7KqXZ43NfUUUIGCCRp74
+				hRhEBdnlpi6ppf6k++BnFcsur9lJ2mHGl/93yyvmu2/eOvyx+u/vTUr9kl/+8G5S/2uw1O/p4F2t
+				Z9zZH+k95wbVytxaGnaq6KaiClvXeHgbhuMi7guB082G4mATw0+USoSLZLaLibD3Pvf9fEM/OfjN
+				0Ce73DbOK/MKgmC1GCDwWXOsB4EKYf3StkmD0m0bhKu2o2wT6mf+SlI7NJSGZVJxKBw7WAlx1KAn
+				rMu6rVbVNkkX6aiI/e/1cNQ/X5LUoUKztIHhNNACV6ABRYOUmppZnDRrYGTm5lgHuKUBCqUheRmB
+				mtErmC2cYpdvw4QpAS+HW0x9ni3oxOjDIsfMJMoe1TEVRT9Vsuj5tcL6QokDa/DzUfliHjoPDuAp
+				yB0UltwFSGjQ8qh9YsiEAU6ZM/MH8LbEFFL4TXKm8ij9cNrJ7wlu2DKOnbAzzIEHWY4okcCT1GJg
+				bYhzrGivkMr2LxUEt7459HIzhg2rdlkB6u5W3N7YeuhB6m4vyMxrpWQtkChBv9Dfi56Y6YgbQOoB
+				pgo=|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "6080E9E16B39514519B8031C50AB7B2F")
 		)
 	)
 )
