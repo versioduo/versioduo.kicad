@@ -1271,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Mouser" "71-CRCW0603220RFKEAH"
+		(property "Mouser" "667-ERJ-PA3F2200V"
 			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1282,7 +1282,7 @@
 				)
 			)
 		)
-		(property "Product" "CRCW0603220RFKEAHP"
+		(property "Product" "ERJ-PA3F2200V"
 			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Panasonic"
 			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1304,7 +1304,7 @@
 				)
 			)
 		)
-		(property "Rating" "330mW"
+		(property "Rating" "333mW"
 			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
