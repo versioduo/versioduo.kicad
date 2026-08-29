@@ -8,8 +8,8 @@
 	)
 	(paper "User" 280 380)
 	(title_block
-		(date "2026-08-21")
-		(rev "2026-08-21")
+		(date "2026-08-29")
+		(rev "2026-08-29")
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
@@ -447,41 +447,6 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 40 30)
-		(end 240 350)
-		(radius 3)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Cmts.User")
-		(uuid "5874651f-5fad-4bb0-b34d-c7ee8ca7b348")
-	)
-	(gr_line
-		(start 140 350)
-		(end 140 30)
-		(stroke
-			(width 0.2)
-			(type dash)
-		)
-		(locked yes)
-		(layer "Cmts.User")
-		(uuid "4a373824-f57c-4ee1-b2b2-7a8c985b04c6")
-	)
-	(gr_line
-		(start 240 190)
-		(end 40 190)
-		(stroke
-			(width 0.2)
-			(type dash)
-		)
-		(locked yes)
-		(layer "Cmts.User")
-		(uuid "d97f43d9-264e-439a-b76a-619bb9fcd5f7")
-	)
-	(gr_rect
 		(start 0 0)
 		(end 280 380)
 		(stroke
@@ -492,9 +457,44 @@
 		(layer "Edge.Cuts")
 		(uuid "0989e577-1d07-4d5c-b27f-eeb0e7f4ae78")
 	)
+	(gr_rect
+		(start 40 30)
+		(end 240 350)
+		(radius 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(locked yes)
+		(layer "F.Fab")
+		(uuid "5874651f-5fad-4bb0-b34d-c7ee8ca7b348")
+	)
+	(gr_line
+		(start 140 350)
+		(end 140 30)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(locked yes)
+		(layer "F.Fab")
+		(uuid "4a373824-f57c-4ee1-b2b2-7a8c985b04c6")
+	)
+	(gr_line
+		(start 240 190)
+		(end 40 190)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(locked yes)
+		(layer "F.Fab")
+		(uuid "d97f43d9-264e-439a-b76a-619bb9fcd5f7")
+	)
 	(gr_text "${REVISION} @{if({dblquote}${REVISION}{dblquote} !=  {dblquote}${ISSUE_DATE}{dblquote}, {dblquote}(${ISSUE_DATE}){dblquote}, {dblquote}{dblquote})}"
 		(at 49 45 0)
-		(layer "Cmts.User")
+		(layer "F.Fab")
 		(uuid "67b86c2d-59b0-436e-b1dd-a51d44409c80")
 		(effects
 			(font
@@ -508,7 +508,7 @@
 	(gr_text "280 x 380 -> 200 x 320"
 		(locked yes)
 		(at 179.75 360.75 0)
-		(layer "Cmts.User")
+		(layer "F.Fab")
 		(uuid "1b1a3fb6-7fd4-4001-865e-04bad573a55a")
 		(effects
 			(font
